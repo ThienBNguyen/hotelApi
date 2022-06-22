@@ -1,0 +1,36 @@
+{
+	"name": "travel-planner-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon app.js",
+		"serve": "nodemon app.js",
+		"client": "cd client && npm start"
+	},
+	"keywords": [],
+	"author": "Thien Nguyen",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.27.2",
+		"bcrypt": "^5.0.1",
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.20.0",
+		"cookie-parser": "^1.4.6",
+		"cor": "0.0.0",
+		"cors": "^2.8.5",
+		"dotenv": "^8.6.0",
+		"express": "^4.18.1",
+		"joi": "^17.6.0",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.13.14",
+		"morgan": "^1.10.0",
+		"react-alice-carousel": "^2.6.1",
+		"unirest": "^0.6.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.16"
+	}
+}
