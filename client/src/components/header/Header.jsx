@@ -16,7 +16,9 @@ import {
     faTaxi,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const Header = () => {
+    const [destination, setDestination] = useState("")
     const [dates, setDates] = useState([
         {
             startDate: new Date(),
@@ -41,7 +43,11 @@ const Header = () => {
         })
     }
     const handleSearch = () => {
-        console.log("work")
+        navigate("/hotels", {
+            state: {
+                destination, dates, options
+            }
+        })
     }
     return (
         <div className="header">
@@ -79,7 +85,7 @@ const Header = () => {
                 <div className="headerSearch">
                     <div className="headerSearchItem">
                         <FontAwesomeIcon icon={faBed} className="headerIcon" />
-                        <input type="text" placeholder="where are you going?" className="headerSearchInput" />
+                        <input type="text" placeholder="where are you going?" onChange={(e) => setDestination(e.target.value)} className="headerSearchInput" />
                     </div>
                     <div className="headerSearchItem"
                         onClick={() => setOpenDate(!openDate)}
