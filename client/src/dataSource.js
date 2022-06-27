@@ -1,4 +1,4 @@
-export const hotelSources = {
+export const Austin = {
 	result: 'OK',
 	data: {
 		body: {
@@ -3037,6 +3037,5167 @@ export const hotelSources = {
 					's.prop36':
 						'|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|',
 					's.eVar93': 'aws.us-east-1.unknown',
+					's.prop2': 'Price - low to high'
+				}
+			}
+		}
+	}
+};
+export const Dallas = {
+	result: 'OK',
+	data: {
+		body: {
+			header: 'Dallas, Texas, United States of America',
+			query: {
+				destination: {
+					id: '1486134',
+					value: 'Dallas, Texas, United States of America',
+					resolvedLocation: 'CITY:1486134:UNKNOWN:UNKNOWN'
+				}
+			},
+			searchResults: {
+				totalCount: 3751,
+				results: [
+					{
+						id: 431467,
+						name: 'Days Inn & Suites by Wyndham Arlington Near Six Flags',
+						starRating: 2.5,
+						urls: {},
+						address: {
+							streetAddress: '2626 E Randol Mill Rd',
+							extendedAddress: '',
+							locality: 'Arlington',
+							postalCode: '76011',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 6.2,
+							rating: '6.2',
+							total: 1024,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '16 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '16 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$42',
+								exactCurrent: 41.65
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'East Arlington',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|TESCO',
+						coordinate: {
+							lat: 32.74856,
+							lon: -97.06152
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 996186,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/1000000/996200/996186/7d689ccb_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 201864,
+						name: 'Super 8 by Wyndham Garland North Dallas Area',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '11421 Lbj Fwy',
+							extendedAddress: '',
+							locality: 'Garland',
+							postalCode: '75041',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 4.4,
+							rating: '4.4',
+							total: 486,
+							scale: 10
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '9.3 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '8.8 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$42',
+								exactCurrent: 42.49
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Garland',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|TESCO',
+						coordinate: {
+							lat: 32.874649,
+							lon: -96.682064
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 856119,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/860000/856200/856119/2c4149cf_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 209072,
+						name: 'Rodeway Inn',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '3501 East Division Street',
+							extendedAddress: '',
+							locality: 'Arlington',
+							postalCode: '76011',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 4.6,
+							rating: '4.6',
+							total: 557,
+							scale: 10
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '15 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '15 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$46',
+								exactCurrent: 45.89
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'East Arlington',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|TESCO',
+						coordinate: {
+							lat: 32.739929,
+							lon: -97.047904
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 26972,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/30000/27000/26972/9eefe11b_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 113695,
+						name: '817 Hotel Days Inn by Wyndham ATT Stadium/Texas Live',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '910 North Collins/I-30',
+							extendedAddress: 'Hwy 157 and Randol Mill Road',
+							locality: 'Arlington',
+							postalCode: '76011',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 5,
+							rating: '5.0',
+							total: 583,
+							scale: 10
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '18 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '18 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$50',
+								exactCurrent: 50.15
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Central Arlington',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|HRW|TESCO',
+						coordinate: {
+							lat: 32.749048,
+							lon: -97.097364
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 20202,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/30000/20300/20202/66f87c9a_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 150551,
+						name: 'HomeTowne Studios by Red Roof Dallas - Mesquite',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '2544 Highway 67',
+							extendedAddress: '',
+							locality: 'Mesquite',
+							postalCode: '75150',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 5.8,
+							rating: '5.8',
+							total: 607,
+							scale: 10
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '9.7 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '9.7 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$52',
+								exactCurrent: 51.99
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Mesquite',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|TESCO',
+						coordinate: {
+							lat: 32.818579,
+							lon: -96.636601
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 158944,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/160000/159000/158944/4d975368_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 113253,
+						name: 'Motel 6 Euless, TX - DFW West',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '1001 West Airport Freeway',
+							extendedAddress: '',
+							locality: 'Euless',
+							postalCode: '76040',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 5.8,
+							rating: '5.8',
+							total: 470,
+							scale: 10
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '18 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '17 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$52',
+								exactCurrent: 51.99
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Euless',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|TESCO',
+						coordinate: {
+							lat: 32.837095,
+							lon: -97.097437
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 13763,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/20000/13800/13763/437d9d03_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 368521,
+						name: 'Tropicana Inn and Suites',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '10584 Luna Rd',
+							extendedAddress: '',
+							locality: 'Dallas',
+							postalCode: '75220',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 6.4,
+							rating: '6.4',
+							total: 1025,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '9.3 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '8.5 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$52',
+								exactCurrent: 52
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Northwest Dallas',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|TESCO',
+						coordinate: {
+							lat: 32.870394,
+							lon: -96.91934
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 4071694,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/5000000/4080000/4071700/4071694/w2893h2167x0y3-4b1a4aa7_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 177213,
+						name: 'OYO Hotel Mesquite TX, Hwy 80',
+						starRating: 2.5,
+						urls: {},
+						address: {
+							streetAddress: '317 Highway 80 East',
+							extendedAddress: '',
+							locality: 'Mesquite',
+							postalCode: '75150',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 5.4,
+							rating: '5.4',
+							total: 484,
+							scale: 10
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '12 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '12 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$52',
+								exactCurrent: 52.03,
+								old: '$76'
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Mesquite',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|TESCO',
+						coordinate: {
+							lat: 32.79236,
+							lon: -96.59976
+						},
+						providerType: 'LOCAL',
+						supplierHotelId: 523079,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/530000/523100/523079/w2990h1922x0y0-ace72cbf_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 192597,
+						name: 'Motel 6 Dallas, TX - Fair Park',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '8510 E Rl Thornton Blvd',
+							extendedAddress: '',
+							locality: 'Dallas',
+							postalCode: '75228',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 5.6,
+							rating: '5.6',
+							total: 229,
+							scale: 10
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '6.0 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '6.2 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$53',
+								exactCurrent: 52.99
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Buckner Terrace - Everglade Park',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'newhotel|DoubleStamps|D13',
+						coordinate: {
+							lat: 32.793487,
+							lon: -96.695798
+						},
+						providerType: 'LOCAL',
+						supplierHotelId: 19317,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/20000/19400/19317/dcd389e4_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 186581,
+						name: 'Arya Inn & Suites',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '3232 W Irving Blvd',
+							extendedAddress: '',
+							locality: 'Irving',
+							postalCode: '75061',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 6.4,
+							rating: '6.4',
+							total: 281,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '12 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '11 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$53',
+								exactCurrent: 53,
+								old: '$59'
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Irving',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|MESOTESTUS|D13|TESCO',
+						coordinate: {
+							lat: 32.834302,
+							lon: -96.992248
+						},
+						providerType: 'LOCAL',
+						supplierHotelId: 202124,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/210000/202200/202124/3a088c6f_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 107450,
+						name: 'Americas Best Value Inn Garland Dallas',
+						starRating: 2.5,
+						urls: {},
+						address: {
+							streetAddress: '6222 Broadway Blvd',
+							extendedAddress: '',
+							locality: 'Garland',
+							postalCode: '75043',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 5.4,
+							rating: '5.4',
+							total: 1026,
+							scale: 10
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '12 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '12 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$54',
+								exactCurrent: 54
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Garland',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|TESCO',
+						coordinate: {
+							lat: 32.83919,
+							lon: -96.59548
+						},
+						providerType: 'LOCAL',
+						supplierHotelId: 19382,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/20000/19400/19382/047f8f1b_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 469439296,
+						name: 'Red Roof Inn Plano',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '1820 North Central Expressway, Highway',
+							extendedAddress: '75074-5606, Dallas, United States -',
+							locality: 'Plano',
+							postalCode: '75074',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 5.4,
+							rating: '5.4',
+							total: 674,
+							scale: 10
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '18 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '17 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$55',
+								exactCurrent: 54.99
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Plano',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|TESCO',
+						coordinate: {
+							lat: 33.02545,
+							lon: -96.70917
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 14638728,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/15000000/14640000/14638800/14638728/03079bae_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 237349,
+						name: 'Econo Lodge Inn & Suites Lewisville I-35',
+						starRating: 2.5,
+						urls: {},
+						address: {
+							streetAddress: '881 S Stemmons Fwy',
+							extendedAddress: '',
+							locality: 'Lewisville',
+							postalCode: '75067',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 4.6,
+							rating: '4.6',
+							total: 405,
+							scale: 10
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '21 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '20 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$55',
+								exactCurrent: 55.24
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Lewisville',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|TESCO',
+						coordinate: {
+							lat: 33.035972,
+							lon: -97.002519
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 151416,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/160000/151500/151416/76ac8995_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 227142,
+						name: 'Super 8 by Wyndham Garland/Rowlett/East Dallas area',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '252 W Interstate 30',
+							extendedAddress: '',
+							locality: 'Garland',
+							postalCode: '75043',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 7.8,
+							rating: '7.8',
+							total: 545,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '13 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '13 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$55',
+								exactCurrent: 55.25
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Garland',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|TESCO',
+						coordinate: {
+							lat: 32.8431,
+							lon: -96.587106
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 1172583,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/2000000/1180000/1172600/1172583/33431e27_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 202341,
+						name: 'Stay Express Inn Dallas - Fair Park / Downtown',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '8303 East R L Thornton Freeway',
+							extendedAddress: '',
+							locality: 'Dallas',
+							postalCode: '75228',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 5.8,
+							rating: '5.8',
+							total: 644,
+							scale: 10
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '5.9 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '6.0 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$56',
+								exactCurrent: 55.63
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'White Rock Hills',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|priceRangeUS|D13|XMPV2|TESCO',
+						coordinate: {
+							lat: 32.794535,
+							lon: -96.698535
+						},
+						providerType: 'LOCAL',
+						supplierHotelId: 13187,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/20000/13200/13187/a82caf82_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 455130,
+						name: 'Motel 6 Euless, TX - Dallas',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '110 Airport Fwy',
+							extendedAddress: '',
+							locality: 'Euless',
+							postalCode: '76039',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 6.8,
+							rating: '6.8',
+							total: 865,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '17 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '17 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$56',
+								exactCurrent: 55.99
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Euless',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|showFrequentlyAskedQuestionsenUS|TESCO',
+						coordinate: {
+							lat: 32.839181,
+							lon: -97.083668
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 1029884,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/2000000/1030000/1029900/1029884/a2673881_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 142390,
+						name: 'Super 8 by Wyndham McKinney/Plano Area',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '910 N Central Expy',
+							extendedAddress: '',
+							locality: 'McKinney',
+							postalCode: '75070',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 6,
+							rating: '6.0',
+							total: 559,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '31 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '30 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$56',
+								exactCurrent: 56.09
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'McKinney',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|TESCO',
+						coordinate: {
+							lat: 33.206372,
+							lon: -96.638001
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 123118,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/130000/123200/123118/ccf00175_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 241677,
+						name: 'Motel 6 Arlington, TX - UTA',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '703 Benge Dr',
+							extendedAddress: '',
+							locality: 'Arlington',
+							postalCode: '76013',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 6.8,
+							rating: '6.8',
+							total: 362,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '19 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '19 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$56',
+								exactCurrent: 56.49
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Central Arlington',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|TESCO',
+						coordinate: {
+							lat: 32.724423,
+							lon: -97.115468
+						},
+						providerType: 'LOCAL',
+						supplierHotelId: 21041,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/30000/21100/21041/78329f00_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 113255,
+						name: 'Motel 6 Garland, TX - Garland - Northwest Hwy',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '12721 I-635',
+							extendedAddress: '',
+							locality: 'Garland',
+							postalCode: '75041',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 5.6,
+							rating: '5.6',
+							total: 672,
+							scale: 10
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '9.8 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '9.4 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$57',
+								exactCurrent: 56.63
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Garland',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|XMPV2|TESCO',
+						coordinate: {
+							lat: 32.86498,
+							lon: -96.6616
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 7312,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/10000/7400/7312/ee485b21_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 202345,
+						name: 'Motel 6 Grand Prairie, TX - Interstate 30',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '1410 N State Highway 161',
+							extendedAddress: '',
+							locality: 'Grand Prairie',
+							postalCode: '75050',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 5.2,
+							rating: '5.2',
+							total: 1386,
+							scale: 10
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '14 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '13 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$57',
+								exactCurrent: 56.99
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Grand Prairie',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|XMPV2|TESCO',
+						coordinate: {
+							lat: 32.758588,
+							lon: -97.028355
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 9980,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/10000/10000/9980/109a912f_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 510943,
+						name: 'BudgetStay Suites',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '1220 West Division St.',
+							extendedAddress: '',
+							locality: 'Arlington',
+							postalCode: '76012',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 5.6,
+							rating: '5.6',
+							total: 60,
+							scale: 10
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '19 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '19 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$57',
+								exactCurrent: 57
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Central Arlington',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|TESCO',
+						coordinate: {
+							lat: 32.738614,
+							lon: -97.124474
+						},
+						providerType: 'LOCAL',
+						supplierHotelId: 10562047,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/11000000/10570000/10562100/10562047/861e74b6_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 207392,
+						name: 'Quality Inn & Suites Garland - East Dallas',
+						starRating: 2.5,
+						urls: {},
+						address: {
+							streetAddress: '1635 I-30 East at Bass Pro Drive',
+							extendedAddress: '',
+							locality: 'Garland',
+							postalCode: '75043',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 7.4,
+							rating: '7.4',
+							total: 477,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '16 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '16 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$57',
+								exactCurrent: 57.38
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Garland',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|TESCO',
+						coordinate: {
+							lat: 32.865607,
+							lon: -96.543142
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 28294,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/30000/28300/28294/d4559e46_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 459649,
+						name: 'Motel 6 Dallas, TX - Northeast',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '10921 Estate Ln',
+							extendedAddress: '',
+							locality: 'Dallas',
+							postalCode: '75238',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 5.2,
+							rating: '5.2',
+							total: 401,
+							scale: 10
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '9.1 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '8.5 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$58',
+								exactCurrent: 57.99
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Lake Highlands',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|TESCO',
+						coordinate: {
+							lat: 32.882997,
+							lon: -96.696706
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 73785,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/80000/73800/73785/9575ab5b_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 492647,
+						name: 'Motel 6 Dallas, TX - South',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '4610 S RL Thornton Fwy',
+							extendedAddress: '',
+							locality: 'Dallas',
+							postalCode: '75224',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 6.2,
+							rating: '6.2',
+							total: 348,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '6.7 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '7.7 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$58',
+								exactCurrent: 57.99
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Cedar Crest',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|showFrequentlyAskedQuestionsenUS|TESCO',
+						coordinate: {
+							lat: 32.687207,
+							lon: -96.820994
+						},
+						providerType: 'LOCAL',
+						supplierHotelId: 74641,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/80000/74700/74641/999ff970_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 461196,
+						name: 'Motel 6 Garland, TX - Dallas',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '436 W I-30',
+							extendedAddress: '',
+							locality: 'Garland',
+							postalCode: '75043',
+							region: 'TX',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 6.6,
+							rating: '6.6',
+							total: 432,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '13 miles'
+							},
+							{
+								label: 'McKinney Avenue',
+								distance: '13 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$58',
+								exactCurrent: 57.99
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Garland',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|TESCO',
+						coordinate: {
+							lat: 32.840729,
+							lon: -96.592756
+						},
+						providerType: 'LOCAL',
+						supplierHotelId: 1037763,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/2000000/1040000/1037800/1037763/b8f12ce7_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					}
+				],
+				pagination: {
+					currentPage: 1,
+					pageGroup: 'EXPEDIA_IN_POLYGON',
+					nextPageStartIndex: 25,
+					nextPageNumber: 2,
+					nextPageGroup: 'EXPEDIA_IN_POLYGON'
+				}
+			},
+			sortResults: {
+				options: [
+					{
+						label: 'Star rating',
+						itemMeta: 'star',
+						choices: [
+							{
+								label: 'Stars (high to low)',
+								value: 'STAR_RATING_HIGHEST_FIRST',
+								selected: false
+							},
+							{
+								label: 'Stars (low to high)',
+								value: 'STAR_RATING_LOWEST_FIRST',
+								selected: false
+							}
+						],
+						enhancedChoices: []
+					},
+					{
+						label: 'Distance',
+						itemMeta: 'distance',
+						choices: [
+							{
+								label: 'Distance to city center',
+								value: 'DISTANCE_FROM_LANDMARK',
+								selected: false
+							}
+						],
+						enhancedChoices: [
+							{
+								label: 'Landmarks',
+								itemMeta: 'landmarks',
+								choices: [
+									{
+										label: 'City center',
+										id: 1486134
+									},
+									{
+										label: 'American Airlines Center',
+										id: 296
+									},
+									{
+										label: 'AT&T Stadium',
+										id: 1687200
+									},
+									{
+										label: 'Choctaw Stadium',
+										id: 1632932
+									},
+									{
+										label: 'Cotton Bowl',
+										id: 1539
+									},
+									{
+										label: 'Dallas Market Center',
+										id: 1659066
+									},
+									{
+										label: 'Dallas World Aquarium',
+										id: 1659064
+									},
+									{
+										label: 'Ford Center at The Star',
+										id: 10793367
+									},
+									{
+										label: 'Galleria Dallas',
+										id: 1454896
+									},
+									{
+										label: 'Gaylord Texan Convention Center',
+										id: 10831070
+									},
+									{
+										label: 'Grapevine Mills Mall',
+										id: 1634194
+									},
+									{
+										label: 'Kay Bailey Hutchison Convention Center',
+										id: 1398
+									},
+									{
+										label: 'McKinney Avenue',
+										id: 1792542
+									},
+									{
+										label: 'NorthPark Center',
+										id: 1659111
+									},
+									{
+										label: 'Reunion Tower',
+										id: 1659089
+									},
+									{
+										label: 'Six Flags Over Texas',
+										id: 1633646
+									},
+									{
+										label: 'Southern Methodist University',
+										id: 1133
+									},
+									{
+										label: 'Texas Trust CU Theatre',
+										id: 1775711
+									},
+									{
+										label: 'The Shops at Legacy',
+										id: 1751064
+									},
+									{
+										label: 'Toyota Stadium',
+										id: 1659106
+									}
+								]
+							},
+							{
+								label: 'Train stations',
+								itemMeta: 'stations',
+								choices: [
+									{
+										label: 'Akard Station',
+										id: 1743912
+									},
+									{
+										label: 'Convention Center Station',
+										id: 1743915
+									},
+									{
+										label: 'Dallas Medical-Market Center Station',
+										id: 1744032
+									},
+									{
+										label: 'Dallas Union Station',
+										id: 1734559
+									},
+									{
+										label: 'Downtown Garland Station',
+										id: 1743916
+									},
+									{
+										label: 'Downtown Plano Station',
+										id: 1744035
+									},
+									{
+										label: 'Forest Lane Station',
+										id: 1743918
+									},
+									{
+										label: 'Inwood-Love Field Station',
+										id: 1744044
+									},
+									{
+										label: 'Irving Convention Center Station',
+										id: 1746247
+									},
+									{
+										label: 'Las Colinas Urban Center Station',
+										id: 1746248
+									},
+									{
+										label: 'LBJ - Skillman Station',
+										id: 1743924
+									},
+									{
+										label: 'Lovers Lane Station',
+										id: 1743926
+									},
+									{
+										label: 'Market Center Station',
+										id: 1746249
+									},
+									{
+										label: 'Mockingbird Station',
+										id: 1743927
+									},
+									{
+										label: 'Park Lane Station',
+										id: 1743929
+									},
+									{
+										label: 'Parker Road Station',
+										id: 1744049
+									},
+									{
+										label: 'Royal Lane Station',
+										id: 1744051
+									},
+									{
+										label: 'Southwest Medical District-Parkland Station',
+										id: 1744052
+									},
+									{
+										label: 'VA Medical Center Station',
+										id: 1743933
+									},
+									{
+										label: 'Walnut Hill Station',
+										id: 1743934
+									}
+								]
+							},
+							{
+								label: 'Airports',
+								itemMeta: 'airports',
+								choices: [
+									{
+										label: 'Dallas-Fort Worth International Airport (DFW)',
+										id: 1649342
+									},
+									{
+										label: 'Love Field Airport (DAL)',
+										id: 1475912
+									}
+								]
+							}
+						]
+					},
+					{
+						label: 'Guest rating',
+						itemMeta: 'rating',
+						choices: [
+							{
+								label: 'Guest rating',
+								value: 'GUEST_RATING',
+								selected: false
+							}
+						],
+						enhancedChoices: []
+					},
+					{
+						label: 'Price',
+						itemMeta: 'price',
+						selectedChoiceLabel: 'Price (low to high)',
+						choices: [
+							{
+								label: 'Price (high to low)',
+								value: 'PRICE_HIGHEST_FIRST',
+								selected: false
+							},
+							{
+								label: 'Price (low to high)',
+								value: 'PRICE',
+								selected: true
+							}
+						],
+						enhancedChoices: []
+					}
+				],
+				distanceOptionLandmarkId: 1486134
+			},
+			filters: {
+				applied: false,
+				name: {
+					item: {
+						value: ''
+					},
+					autosuggest: {
+						additionalUrlParams: {
+							'resolved-location': 'CITY:1486134:UNKNOWN:UNKNOWN',
+							'q-destination': 'Dallas, Texas, United States of America',
+							'destination-id': '1486134'
+						}
+					}
+				},
+				starRating: {
+					applied: false,
+					items: [
+						{
+							value: 5
+						},
+						{
+							value: 4
+						},
+						{
+							value: 3
+						},
+						{
+							value: 2
+						},
+						{
+							value: 1,
+							disabled: true
+						}
+					]
+				},
+				guestRating: {
+					range: {
+						min: {
+							defaultValue: 0
+						},
+						max: {
+							defaultValue: 10
+						}
+					}
+				},
+				landmarks: {
+					selectedOrder: [],
+					items: [
+						{
+							label: 'City center',
+							value: '1486134'
+						},
+						{
+							label: 'McKinney Avenue',
+							value: '1792542'
+						},
+						{
+							label: 'AT&T Stadium',
+							value: '1687200'
+						},
+						{
+							label: 'Dallas-Fort Worth International Airport (DFW)',
+							value: '1649342'
+						},
+						{
+							label: 'Kay Bailey Hutchison Convention Center',
+							value: '1398'
+						},
+						{
+							label: 'Cotton Bowl',
+							value: '1539'
+						},
+						{
+							label: 'American Airlines Center',
+							value: '296'
+						},
+						{
+							label: 'Love Field Airport (DAL)',
+							value: '1475912'
+						},
+						{
+							label: 'Dallas Market Center',
+							value: '1659066'
+						},
+						{
+							label: 'Six Flags Over Texas',
+							value: '1633646'
+						},
+						{
+							label: 'Choctaw Stadium',
+							value: '1632932'
+						},
+						{
+							label: 'Gaylord Texan Convention Center',
+							value: '10831070'
+						},
+						{
+							label: 'Galleria Dallas',
+							value: '1454896'
+						},
+						{
+							label: 'Texas Trust CU Theatre',
+							value: '1775711'
+						},
+						{
+							label: 'Ford Center at The Star',
+							value: '10793367'
+						},
+						{
+							label: 'Grapevine Mills Mall',
+							value: '1634194'
+						},
+						{
+							label: 'The Shops at Legacy',
+							value: '1751064'
+						},
+						{
+							label: 'Toyota Stadium',
+							value: '1659106'
+						},
+						{
+							label: 'Southern Methodist University',
+							value: '1133'
+						},
+						{
+							label: 'Reunion Tower',
+							value: '1659089'
+						}
+					],
+					distance: []
+				},
+				neighbourhood: {
+					applied: false,
+					items: [
+						{
+							label: 'Downtown Dallas',
+							value: '1327'
+						},
+						{
+							label: 'Las Colinas',
+							value: '1777119'
+						},
+						{
+							label: 'Main Street District',
+							value: '1747227'
+						},
+						{
+							label: 'Far North Dallas',
+							value: '11047393'
+						},
+						{
+							label: 'Uptown',
+							value: '1732896'
+						},
+						{
+							label: 'Deep Ellum',
+							value: '1732881'
+						},
+						{
+							label: 'University Park',
+							value: '1690424'
+						},
+						{
+							label: 'South Dallas',
+							value: '11047323'
+						},
+						{
+							label: 'West End Historic District',
+							value: '1732897'
+						},
+						{
+							label: 'Dallas Arts District',
+							value: '1747229'
+						},
+						{
+							label: 'Park Central',
+							value: '1686137'
+						},
+						{
+							label: 'Oak Lawn',
+							value: '1649314'
+						},
+						{
+							label: 'Park Cities',
+							value: '1649316'
+						},
+						{
+							label: 'Dallas Design District',
+							value: '1732882'
+						},
+						{
+							label: 'Oak Cliff',
+							value: '11047363'
+						},
+						{
+							label: 'Lower Greenville',
+							value: '1732884'
+						},
+						{
+							label: 'Legacy Park',
+							value: '10819042'
+						},
+						{
+							label: 'Dalworthington Gardens',
+							value: '1473300'
+						},
+						{
+							label: 'Highland Park',
+							value: '1690417'
+						},
+						{
+							label: 'Victory Park',
+							value: '1732898'
+						},
+						{
+							label: 'Historic Downtown Grapevine',
+							value: '1693112'
+						},
+						{
+							label: 'Cowley',
+							value: '1479634'
+						},
+						{
+							label: 'Frisco Square',
+							value: '1732878'
+						},
+						{
+							label: 'Swiss Ave Historic District',
+							value: '1756148'
+						},
+						{
+							label: 'Eagle Ford',
+							value: '1690413'
+						},
+						{
+							label: 'Cedars',
+							value: '1742732'
+						},
+						{
+							label: 'Buckingham',
+							value: '1438432'
+						},
+						{
+							label: 'Renner',
+							value: '1690423'
+						},
+						{
+							label: 'Starwood Village',
+							value: '12518113'
+						},
+						{
+							label: 'Buckner Terrace - Everglade Park',
+							value: '12508317'
+						},
+						{
+							label: 'Southwest Carrollton',
+							value: '12536581'
+						},
+						{
+							label: 'Old Lake Highlands',
+							value: '12517988'
+						},
+						{
+							label: 'White Rock Hills',
+							value: '12507495'
+						},
+						{
+							label: 'Old East Dallas',
+							value: '12503108'
+						},
+						{
+							label: 'Lochwood',
+							value: '12512854'
+						},
+						{
+							label: 'Junius Heights',
+							value: '12522211'
+						},
+						{
+							label: 'Northeast Dallas',
+							value: '12505285'
+						},
+						{
+							label: 'Northwest Dallas',
+							value: '12505290'
+						},
+						{
+							label: 'Kessler',
+							value: '12526569'
+						},
+						{
+							label: 'Cityplace',
+							value: '12539953'
+						},
+						{
+							label: 'Greenland Hills',
+							value: '12521745'
+						},
+						{
+							label: 'Cross Creek East',
+							value: '12526703'
+						},
+						{
+							label: 'Lakewood Hills',
+							value: '12503596'
+						},
+						{
+							label: 'Legacy Town Center North',
+							value: '12526735'
+						},
+						{
+							label: 'Southeast Arlington',
+							value: '12529707'
+						},
+						{
+							label: 'North Dallas',
+							value: '12518080'
+						},
+						{
+							label: 'Pasquinellis Parker Estates',
+							value: '12502838'
+						},
+						{
+							label: 'Valley Ranch',
+							value: '12522967'
+						},
+						{
+							label: 'Parkway Central',
+							value: '12526704'
+						},
+						{
+							label: 'Hunters Glen',
+							value: '12536695'
+						},
+						{
+							label: 'Northwest Carrollton',
+							value: '12522169'
+						},
+						{
+							label: 'Bluffview',
+							value: '12535852'
+						},
+						{
+							label: 'Cedar Crest',
+							value: '12521345'
+						},
+						{
+							label: 'Glencoe',
+							value: '12512723'
+						},
+						{
+							label: 'Knox - Henderson',
+							value: '12549943'
+						},
+						{
+							label: 'North Central Carrollton',
+							value: '12529764'
+						},
+						{
+							label: "Peak's Suburban Addition",
+							value: '12526032'
+						},
+						{
+							label: 'Vickery Meadow',
+							value: '12512264'
+						},
+						{
+							label: 'Turtle Creek',
+							value: '12539001'
+						},
+						{
+							label: 'Frisco Original Donation',
+							value: '12503201'
+						},
+						{
+							label: 'Castle Hills',
+							value: '12518085'
+						},
+						{
+							label: 'Northeast Carrollton',
+							value: '12526295'
+						},
+						{
+							label: 'Lake Highlands',
+							value: '12503579'
+						},
+						{
+							label: 'Vickery Place',
+							value: '12512757'
+						},
+						{
+							label: 'Carriage Hill',
+							value: '12526221'
+						},
+						{
+							label: 'Southwest Arlington',
+							value: '12535843'
+						},
+						{
+							label: 'Original Town',
+							value: '12521453'
+						},
+						{
+							label: 'Prestmont',
+							value: '12507501'
+						},
+						{
+							label: 'West Dallas',
+							value: '12546792'
+						},
+						{
+							label: 'Lakewood',
+							value: '12533332'
+						},
+						{
+							label: 'Preston Hollow',
+							value: '12503465'
+						},
+						{
+							label: 'The Peninsula',
+							value: '12503020'
+						},
+						{
+							label: 'West Arlington',
+							value: '12545150'
+						},
+						{
+							label: 'Panther Creek Estates',
+							value: '12529493'
+						},
+						{
+							label: 'Bryan Place',
+							value: '12526686'
+						},
+						{
+							label: 'Central Arlington',
+							value: '12517560'
+						},
+						{
+							label: 'South Arlington',
+							value: '12526970'
+						},
+						{
+							label: 'Frankford Estates',
+							value: '12507868'
+						},
+						{
+							label: 'Cookes Meadow',
+							value: '12541923'
+						},
+						{
+							label: 'Cross Creek',
+							value: '12521429'
+						},
+						{
+							label: 'Little Forest Hills',
+							value: '12536013'
+						},
+						{
+							label: 'Hollow Hills',
+							value: '12521834'
+						},
+						{
+							label: 'North Arlington',
+							value: '12522072'
+						},
+						{
+							label: 'Asian Trade District',
+							value: '719753332921741312'
+						},
+						{
+							label: 'East Arlington',
+							value: '11047276'
+						}
+					]
+				},
+				accommodationType: {
+					applied: false,
+					items: [
+						{
+							label: 'Agritourism',
+							value: '40'
+						},
+						{
+							label: 'Apart-hotels',
+							value: '20'
+						},
+						{
+							label: 'Apartments',
+							value: '15'
+						},
+						{
+							label: 'B&Bs',
+							value: '5'
+						},
+						{
+							label: 'Cabins and lodges',
+							value: '9'
+						},
+						{
+							label: 'Caravan parks',
+							value: '21'
+						},
+						{
+							label: 'Cottages',
+							value: '11'
+						},
+						{
+							label: 'Guest houses',
+							value: '30'
+						},
+						{
+							label: 'Hostels',
+							value: '12'
+						},
+						{
+							label: 'Hotels',
+							value: '1'
+						},
+						{
+							label: 'Inns',
+							value: '8'
+						},
+						{
+							label: 'Motels',
+							value: '7'
+						},
+						{
+							label: 'Resorts',
+							value: '3'
+						},
+						{
+							label: 'Vacation homes',
+							value: '4'
+						},
+						{
+							label: 'Villas',
+							value: '14'
+						}
+					]
+				},
+				facilities: {
+					applied: false,
+					items: [
+						{
+							label: '24-hour front desk',
+							value: '2063'
+						},
+						{
+							label: 'Airport transfers',
+							value: '513'
+						},
+						{
+							label: 'Bar',
+							value: '515'
+						},
+						{
+							label: 'Bathtub in room',
+							value: '517'
+						},
+						{
+							label: 'Breakfast included',
+							value: '2048'
+						},
+						{
+							label: 'Business facilities',
+							value: '519'
+						},
+						{
+							label: 'Childcare',
+							value: '521'
+						},
+						{
+							label: 'Connecting rooms available',
+							value: '523'
+						},
+						{
+							label: 'Cribs available',
+							value: '525'
+						},
+						{
+							label: 'Electric vehicle charging point',
+							value: '1073743315'
+						},
+						{
+							label: 'Gym',
+							value: '2'
+						},
+						{
+							label: 'Internet Access',
+							value: '8'
+						},
+						{
+							label: 'Kitchen',
+							value: '32'
+						},
+						{
+							label: 'Meeting Facilities',
+							value: '1'
+						},
+						{
+							label: 'Non-smoking',
+							value: '529'
+						},
+						{
+							label: 'Parking',
+							value: '134234112'
+						},
+						{
+							label: 'Pet Friendly',
+							value: '64'
+						},
+						{
+							label: 'Pool',
+							value: '128'
+						},
+						{
+							label: 'Restaurant',
+							value: '256'
+						},
+						{
+							label: 'Ski-in/ski-out',
+							value: '535'
+						},
+						{
+							label: 'Smoking areas',
+							value: '537'
+						},
+						{
+							label: 'Spa',
+							value: '539'
+						},
+						{
+							label: 'WiFi included',
+							value: '527'
+						}
+					]
+				},
+				accessibility: {
+					applied: false,
+					items: [
+						{
+							label: 'Accessibility equipment for the deaf',
+							value: '2097152'
+						},
+						{
+							label: 'Accessible bathroom',
+							value: '131072'
+						},
+						{
+							label: 'Accessible parking',
+							value: '524288'
+						},
+						{
+							label: 'Accessible path of travel',
+							value: '65536'
+						},
+						{
+							label: 'Braille or raised signage',
+							value: '4194304'
+						},
+						{
+							label: 'In-room accessibility',
+							value: '1048576'
+						},
+						{
+							label: 'Roll-in shower',
+							value: '262144'
+						},
+						{
+							label: 'Wheelchair accessible rooms',
+							value: '541'
+						}
+					]
+				},
+				themesAndTypes: {
+					applied: false,
+					items: [
+						{
+							label: 'Adventure',
+							value: '18'
+						},
+						{
+							label: 'Beach',
+							value: '6'
+						},
+						{
+							label: 'Boutique',
+							value: '4'
+						},
+						{
+							label: 'Business',
+							value: '14'
+						},
+						{
+							label: 'Family-friendly',
+							value: '25'
+						},
+						{
+							label: 'Golf',
+							value: '26'
+						},
+						{
+							label: 'Historic',
+							value: '2'
+						},
+						{
+							label: 'LGBTQ Welcoming',
+							value: '21'
+						},
+						{
+							label: 'Luxury',
+							value: '15'
+						},
+						{
+							label: 'Romantic',
+							value: '1'
+						},
+						{
+							label: 'Shopping',
+							value: '17'
+						},
+						{
+							label: 'Ski',
+							value: '28'
+						},
+						{
+							label: 'Spa Hotel',
+							value: '27'
+						}
+					]
+				},
+				price: {
+					label: 'Nightly Price',
+					range: {
+						min: {
+							defaultValue: 0
+						},
+						max: {
+							defaultValue: 500
+						},
+						increments: 5
+					},
+					multiplier: 1
+				},
+				paymentPreference: {
+					items: [
+						{
+							label: 'Pay with Hotels.com gift card',
+							value: 'gc'
+						}
+					]
+				},
+				welcomeRewards: {
+					label: 'Hotels.com® Rewards',
+					items: [
+						{
+							label: 'Collect stamps',
+							value: 'collect'
+						},
+						{
+							label: 'Redeem reward* nights',
+							value: 'redeem'
+						}
+					]
+				}
+			},
+			pointOfSale: {
+				currency: {
+					code: 'USD',
+					symbol: '$',
+					separators: ',.',
+					format: '${0}'
+				}
+			},
+			miscellaneous: {
+				pageViewBeaconUrl:
+					'/taps/v1/PageView?deviceType=App-Phone&sort-order=PRICE&rooms=1&destRegionID=1486134&hotelIds=431467,201864,209072,113695,150551,113253,368521,177213,192597,186581,107450,469439296,237349,227142,202341,455130,142390,241677,113255,202345,510943,207392,459649,492647,461196&adults=1&userAgent=Hotels.com/Android%2080.0.1.9.release-80_0%20(80000660)&userGuid=104e2f3e-0722-4ba9-9906-7d5a56b9e1ff&pageName=Hotel-Search&slots=HSR_A,HSR_B,HSR_C,HSR_D,HSR_E,HSR_F,HSR_G,HSR_H,HSR_I,HSR_J&children=0&culture=en_US&testVersionOverride=4961.0,904.0,7561.0,7215.0,8218.0,8711.0,8928.1,9008.0,8347.2,9004.0,8952.0,7992.2,8915.0,9729.0,9864.0,10155.0,10185.0,10473.0,10320.0,10361.0&domain=www.hotels.com&userIP=127.0.0.1&action=pageview&publisher=expedia&programId=1',
+				showLegalInfoForStrikethroughPrices: true,
+				legalInfoForStrikethroughPrices:
+					'The struck-out price is based on the property’s standard rate on our app, as determined and supplied by the property.'
+			},
+			pageInfo: {
+				pageType: 'dateless'
+			}
+		},
+		common: {
+			pointOfSale: {
+				numberSeparators: ',.',
+				brandName: 'Hotels.com'
+			},
+			tracking: {
+				omniture: {
+					's.prop33': 'D=v33',
+					's.prop32': 'D=v43',
+					's.prop74': 'search result without dates | ms shown | N',
+					's.products': 'MULTISOURCE;996186,MULTISOURCE;856119,MULTISOURCE;26972',
+					's.eVar16': 'Mob :: aApp',
+					's.eVar40': 'D=v0',
+					's.eVar41': 'USD',
+					's.eVar63': 'c852d8cf-fd08-4adf-a6b9-d40e017382b0',
+					's.eVar42': 'dateless',
+					's.eVar4':
+						'|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|',
+					's.eVar43': 'en_US|HCOM_US|www.hotels.com',
+					's.eVar2': 'Dallas, Texas, United States of America',
+					's.eVar24': 'MCTC=20;TU=NA;PDID=NULL;MVT=',
+					's.eVar7': '',
+					's.server': 'www.hotels.com',
+					's.eVar6': '1486134',
+					's.prop29': 'D=v42',
+					's.prop27': '104e2f3e-0722-4ba9-9906-7d5a56b9e1ff',
+					's.eVar9': 'Price - low to high',
+					's.eVar69': 'Mob :: aApp',
+					's.currencyCode': 'USD',
+					's.eVar26': 'US:TX:PEARLAND:618',
+					's.eVar29': 'Mob :: aApp',
+					's.prop9': '3751',
+					's.eVar95': 'Unknown',
+					's.prop7': '922',
+					's.eVar31': 'D=v0',
+					's.eVar32': 'D=v0',
+					's.eVar33': 'search result without dates',
+					's.eVar34':
+						'H1871:007.002,M904:000.000,M3736:000.000,M4440.2,M4869:001.000,M4952:050.001,M4961:001.000,M5184:001.000,M5342:000.000,M5663:000.000,M6388:000.000,M6775:000.000,M6779:000.000,M7015.1,M7192:000.000,M7215:000.000,M7296:000.000,M7305:000.000,M7353:000.000,M7362.1,M7552:023.001,M7870:000.000,M8130:000.001,M8336:000.000,M8347:019.002,M8692:000.000,M8698:000.000,M8718:000.000,M8915:000.000,M8928:019.001,M8952:000.000,M8976:000.000,M8992:000.000,M9035:000.000,M9220:000.000,M9297:000.000,M9351:000.000,M9431:000.000,M9434:000.000,M9469:000.000,M9549:000.000,M9729:000.000,M9752:000.000,M9864:000.000,M9924:000.000,M9961:000.000,M9971:000.000,M10001:000.000,M10007:000.000,M10013:002.001,M10121:000.000,M10137:000.000,M10155:000.000,M10185:000.000,M10248:000.000,M10259:000.000,M10268:000.000,M10282:000.000,M10300:000.000,M10320:000.000,M10361:000.000,M10473:000.000,M9215:001.000',
+					's.eVar13': '389367',
+					's.events': 'event324,event320',
+					's.prop18': 'D=v6',
+					's.prop5': '389367',
+					's.prop15': '',
+					's.prop3': 'Dallas, Texas, United States of America',
+					's.prop14': 'D=v7',
+					's.prop36':
+						'|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|',
+					's.eVar93': 'aws.us-west-2.unknown',
+					's.prop2': 'Price - low to high'
+				}
+			}
+		}
+	}
+};
+export const Chicago = {
+	result: 'OK',
+	data: {
+		body: {
+			header: 'Chicago, Illinois, United States of America',
+			query: {
+				destination: {
+					id: '1497539',
+					value: 'Chicago, Illinois, United States of America',
+					resolvedLocation: 'CITY:1497539:UNKNOWN:UNKNOWN'
+				}
+			},
+			searchResults: {
+				totalCount: 650,
+				results: [
+					{
+						id: 122381,
+						name: 'Motel 6 Prospect Heights, IL',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '540 N Milwaukee Ave',
+							extendedAddress: '',
+							locality: 'Prospect Heights',
+							postalCode: '60070',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 7.6,
+							rating: '7.6',
+							total: 1063,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '21 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '8.9 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$50',
+								exactCurrent: 49.99
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Prospect Heights',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|TESCO',
+						coordinate: {
+							lat: 42.105007,
+							lon: -87.888096
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 5571,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/10000/5600/5571/8f51ddc1_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 122380,
+						name: 'Motel 6 Elk Grove Village, IL',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '1000 W Devon Ave',
+							extendedAddress: '',
+							locality: 'Elk Grove Village',
+							postalCode: '60007',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 7.2,
+							rating: '7.2',
+							total: 1078,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '22 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '6.3 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$50',
+								exactCurrent: 49.99
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Elk Grove Village',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|MESOTESTUS|D13|HRW|TESCO',
+						coordinate: {
+							lat: 41.992845,
+							lon: -88.02572
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 21109,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/30000/21200/21109/0813baa8_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 726468992,
+						name: 'Mccormick Place Guest House',
+						starRating: 3,
+						urls: {},
+						address: {
+							streetAddress: '3643 South Indiana Avenue',
+							extendedAddress: '',
+							locality: 'Chicago',
+							postalCode: '60653',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 8,
+							rating: '8.0',
+							total: 241,
+							scale: 10,
+							badge: 'very-good',
+							badgeText: 'Very Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '3.6 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '18 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$50',
+								exactCurrent: 50
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Bronzeville',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|HRW|TESCO',
+						coordinate: {
+							lat: 41.82836,
+							lon: -87.62138
+						},
+						providerType: 'LOCAL',
+						supplierHotelId: 22670906,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/23000000/22680000/22671000/22670906/dd56907b_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 228761,
+						name: 'Super 8 by Wyndham Hammond/North',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '4111 Calumet Ave',
+							extendedAddress: '',
+							locality: 'Hammond',
+							postalCode: '46320',
+							region: 'IN',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 5.8,
+							rating: '5.8',
+							total: 330,
+							scale: 10
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '18 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '31 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$53',
+								exactCurrent: 52.7
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Hammond',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|TESCO',
+						coordinate: {
+							lat: 41.63903,
+							lon: -87.50873
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 897845,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/900000/897900/897845/f9d68b0d_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 379738,
+						name: 'Econo Lodge',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '17301 S Halsted St, Building B',
+							extendedAddress: '',
+							locality: 'South Holland',
+							postalCode: '60473',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 4.6,
+							rating: '4.6',
+							total: 280,
+							scale: 10
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '21 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '31 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$55',
+								exactCurrent: 55.25
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'South Holland',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|TESCO',
+						coordinate: {
+							lat: 41.580752,
+							lon: -87.635848
+						},
+						providerType: 'LOCAL',
+						supplierHotelId: 3986,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/10000/4000/3986/bc139f7f_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 135312,
+						name: 'Rodeway Inn & Suites',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '2850 W 159th St',
+							extendedAddress: '',
+							locality: 'Markham',
+							postalCode: '60428',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 5.8,
+							rating: '5.8',
+							total: 149,
+							scale: 10
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '20 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '28 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$56',
+								exactCurrent: 56.41
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Markham',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|TESCO',
+						coordinate: {
+							lat: 41.601183,
+							lon: -87.68693
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 7318604,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/8000000/7320000/7318700/7318604/2b7534af_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 2178958528,
+						name: 'Hotel O Markham IL near Harvey/Tinley Park',
+						starRating: 2.5,
+						urls: {},
+						address: {
+							streetAddress: '3524 West 159th Street',
+							extendedAddress: '',
+							locality: 'Markham',
+							postalCode: '60428',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 5.2,
+							rating: '5.2',
+							total: 43,
+							scale: 10
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '20 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '28 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$58',
+								exactCurrent: 58,
+								old: '$73'
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Markham',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'D13|HRW',
+						coordinate: {
+							lat: 41.601043,
+							lon: -87.702885
+						},
+						providerType: 'LOCAL',
+						supplierHotelId: 68061204,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/69000000/68070000/68061300/68061204/b9607efd_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 454705,
+						name: "Motel 6 Schiller Park, IL - Chicago O'Hare",
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '9408 Lawrence Avenue',
+							extendedAddress: 'I-90 at Kennedy Expwy, Exit 79-A S.',
+							locality: 'Schiller Park',
+							postalCode: '60176',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 6.2,
+							rating: '6.2',
+							total: 1360,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '13 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '2.3 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$60',
+								exactCurrent: 59.99
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Schiller Park',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|TESCO',
+						coordinate: {
+							lat: 41.966086,
+							lon: -87.862958
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 983642,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/990000/983700/983642/38b80c49_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 122465,
+						name: "Motel 6 Elk Grove Village, IL - O'Hare",
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '2881 Touhy Ave',
+							extendedAddress: '',
+							locality: 'Elk Grove Village',
+							postalCode: '60007',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 7.8,
+							rating: '7.8',
+							total: 1073,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '18 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '2.8 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$60',
+								exactCurrent: 59.99
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Elk Grove Village',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|MESOTESTUS|D13|TESCO',
+						coordinate: {
+							lat: 42.00803,
+							lon: -87.938246
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 15126,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/20000/15200/15126/w3840h2559x0y0-e0bc71b0_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 1138351968,
+						name: 'Villa Dubois Guest House',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '3722 S Calumet Ave',
+							extendedAddress: '',
+							locality: 'Chicago',
+							postalCode: '60653',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 7.2,
+							rating: '7.2',
+							total: 114,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '3.8 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '18 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$60',
+								exactCurrent: 60
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Bronzeville',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|TESCO',
+						coordinate: {
+							lat: 41.826723,
+							lon: -87.618348
+						},
+						providerType: 'LOCAL',
+						supplierHotelId: 35542249,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/36000000/35550000/35542300/35542249/fa2efefb_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 454706,
+						name: 'Motel 6 Glenview, IL - Chicago North',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '1535 Milwaukee Ave',
+							extendedAddress: '',
+							locality: 'Glenview',
+							postalCode: '60025',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 6.6,
+							rating: '6.6',
+							total: 785,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '19 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '7.7 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$62',
+								exactCurrent: 61.99
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Glenview',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|TESCO',
+						coordinate: {
+							lat: 42.084428,
+							lon: -87.867615
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 987538,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/990000/987600/987538/0f063a91_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 137804,
+						name: 'Quality Inn & Suites',
+						starRating: 2.5,
+						urls: {},
+						address: {
+							streetAddress: '16920 Halsted Street',
+							extendedAddress: '',
+							locality: 'Harvey',
+							postalCode: '60426',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 6.4,
+							rating: '6.4',
+							total: 637,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '21 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '31 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$62',
+								exactCurrent: 62.1
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Harvey',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|TESCO',
+						coordinate: {
+							lat: 41.58343,
+							lon: -87.63643
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 119110,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/120000/119200/119110/02bad0d0_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 127398,
+						name: "Red Roof Inn Chicago - O'Hare Airport/Arlington Heights",
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '22 West Algonquin Road',
+							extendedAddress: '',
+							locality: 'Arlington Heights',
+							postalCode: '60005',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 6.6,
+							rating: '6.6',
+							total: 1373,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '22 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '6.2 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$62',
+								exactCurrent: 62.49
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Arlington Heights',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|TESCO',
+						coordinate: {
+							lat: 42.044864,
+							lon: -87.984324
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 2014,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/10000/2100/2014/05917040_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 454916,
+						name: 'Motel 6 Arlington Heights, IL - Chicago North Central',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '441 W Algonquin Rd',
+							extendedAddress: '',
+							locality: 'Arlington Heights',
+							postalCode: '60005',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 7.4,
+							rating: '7.4',
+							total: 938,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '22 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '6.4 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$63',
+								exactCurrent: 63
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Arlington Heights',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|TESCO',
+						coordinate: {
+							lat: 42.046556,
+							lon: -87.988459
+						},
+						providerType: 'LOCAL',
+						supplierHotelId: 50834,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/60000/50900/50834/7437f8cd_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 234956,
+						name: 'Super 8 by Wyndham Bridgeview/Chicago Area',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '7887 W 79th St',
+							extendedAddress: '',
+							locality: 'Bridgeview',
+							postalCode: '60455',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 7.2,
+							rating: '7.2',
+							total: 1030,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '13 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '17 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$64',
+								exactCurrent: 63.65
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Bridgeview',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|TESCO',
+						coordinate: {
+							lat: 41.747632,
+							lon: -87.817543
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 50205,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/60000/50300/50205/59d0dff1_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 455118,
+						name: 'Motel 6 Villa Park, IL - Chicago West',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '10 W Roosevelt Rd',
+							extendedAddress: '',
+							locality: 'Villa Park',
+							postalCode: '60181',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 6.8,
+							rating: '6.8',
+							total: 688,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '18 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '8.9 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$65',
+								exactCurrent: 64.99
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Villa Park',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|HRW|TESCO',
+						coordinate: {
+							lat: 41.86047,
+							lon: -87.97863
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 1029870,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/2000000/1030000/1029900/1029870/4ee303be_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 122392,
+						name: 'Motel 6 Bridgeview, IL',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '9625 S 76th Ave',
+							extendedAddress: '',
+							locality: 'Bridgeview',
+							postalCode: '60455',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 7.2,
+							rating: '7.2',
+							total: 1063,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '15 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '19 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$65',
+								exactCurrent: 64.99
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Bridgeview',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|MESOTESTUS|D13|TESCO',
+						coordinate: {
+							lat: 41.716151,
+							lon: -87.808505
+						},
+						providerType: 'LOCAL',
+						supplierHotelId: 7646,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/10000/7700/7646/9be5c476_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 164428,
+						name: 'MainStay Suites Northbrook Wheeling',
+						starRating: 2.5,
+						urls: {},
+						address: {
+							streetAddress: '8000 Capitol Drive',
+							extendedAddress: '',
+							locality: 'Wheeling',
+							postalCode: '60090',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 7.8,
+							rating: '7.8',
+							total: 664,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '22 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '9.3 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$67',
+								exactCurrent: 67.15
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Wheeling',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|MESOTESTUS|TESCO',
+						coordinate: {
+							lat: 42.110717,
+							lon: -87.911582
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 487676,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/490000/487700/487676/df2057d1_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 6477696,
+						name: 'Ramada Plaza by Wyndham Chicago North Shore',
+						starRating: 3,
+						urls: {},
+						address: {
+							streetAddress: '1090 South Milwaukee Avenue',
+							extendedAddress: '',
+							locality: 'Wheeling',
+							postalCode: '60090',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 6.8,
+							rating: '6.8',
+							total: 1034,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '21 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '9.5 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$68',
+								exactCurrent: 67.57
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Wheeling',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|priceRangeCA|MESOTESTUS|TESCO',
+						coordinate: {
+							lat: 42.114645,
+							lon: -87.893777
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 171178,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/180000/171200/171178/8f3d596d_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 123917,
+						name: 'Econo Lodge',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '820 West 79th Street',
+							extendedAddress: 'Rt 83 - Kingery Rd & I-55',
+							locality: 'Willowbrook',
+							postalCode: '60527',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 5.6,
+							rating: '5.6',
+							total: 314,
+							scale: 10
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '19 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '16 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$68',
+								exactCurrent: 68
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Willowbrook',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|TESCO|showGoldContentDescriptionHCOMUSenUS',
+						coordinate: {
+							lat: 41.745155,
+							lon: -87.942233
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 26642,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/30000/26700/26642/5875a510_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 174009,
+						name: 'Red Roof Inn Morton Grove',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '9424 Waukegan Rd',
+							extendedAddress: '',
+							locality: 'Morton Grove',
+							postalCode: '60053',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 6.8,
+							rating: '6.8',
+							total: 912,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '15 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '7.5 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$69',
+								exactCurrent: 68.99
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Morton Grove',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|HRW|TESCO',
+						coordinate: {
+							lat: 42.052789,
+							lon: -87.799667
+						},
+						providerType: 'MULTISOURCE',
+						supplierHotelId: 542112,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/1000000/550000/542200/542112/29b8380d_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 1248996000,
+						name: 'Des Plaines Motel',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '1322 Rand Rd',
+							extendedAddress: '',
+							locality: 'Des Plaines',
+							postalCode: '60016',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 5,
+							rating: '5.0',
+							total: 10,
+							scale: 10
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '18 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '5.2 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$69',
+								exactCurrent: 69
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Des Plaines',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13|TESCO',
+						coordinate: {
+							lat: 42.051093,
+							lon: -87.890527
+						},
+						providerType: 'LOCAL',
+						supplierHotelId: 38999875,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/39000000/39000000/38999900/38999875/5c1389a8_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 1490570688,
+						name: 'Welcome Inn & Suites - Lyons',
+						starRating: 0,
+						urls: {},
+						address: {
+							streetAddress: '3922 S Harlem Ave',
+							extendedAddress: '',
+							locality: 'Lyons',
+							postalCode: '60534',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 5.6,
+							rating: '5.6',
+							total: 26,
+							scale: 10
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '9.9 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '12 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$69',
+								exactCurrent: 69
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Lyons',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps',
+						coordinate: {
+							lat: 41.8204,
+							lon: -87.803344
+						},
+						providerType: 'LOCAL',
+						supplierHotelId: 46549084,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/47000000/46550000/46549100/46549084/ed248bf9_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 1463021792,
+						name: 'Edgebrook Motel',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '6401 W Touhy Ave',
+							extendedAddress: '',
+							locality: 'Chicago',
+							postalCode: '60646',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 5.2,
+							rating: '5.2',
+							total: 31,
+							scale: 10
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '12 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '6.5 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$70',
+								exactCurrent: 69.99
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Wildwood',
+						deals: {},
+						messaging: {},
+						badging: {},
+						pimmsAttributes: 'DoubleStamps|D13',
+						coordinate: {
+							lat: 42.01165,
+							lon: -87.787209
+						},
+						providerType: 'LOCAL',
+						supplierHotelId: 45688181,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/46000000/45690000/45688200/45688181/aa874e1f_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					},
+					{
+						id: 642237,
+						name: 'Colony Motel',
+						starRating: 2,
+						urls: {},
+						address: {
+							streetAddress: '9232 West Ogden Ave',
+							extendedAddress: '',
+							locality: 'Brookfield',
+							postalCode: '60513',
+							region: 'IL',
+							countryName: 'United States',
+							countryCode: 'us',
+							obfuscate: false
+						},
+						guestReviews: {
+							unformattedRating: 7,
+							rating: '7.0',
+							total: 104,
+							scale: 10,
+							badge: 'good',
+							badgeText: 'Good'
+						},
+						landmarks: [
+							{
+								label: 'City center',
+								distance: '12 miles'
+							},
+							{
+								label: "Chicago O'Hare International Airport (ORD)",
+								distance: '11 miles'
+							}
+						],
+						geoBullets: [],
+						ratePlan: {
+							price: {
+								current: '$70',
+								exactCurrent: 70
+							},
+							features: {
+								paymentPreference: false,
+								noCCRequired: false
+							}
+						},
+						neighbourhood: 'Brookfield',
+						deals: {},
+						messaging: {},
+						badging: {},
+						coordinate: {
+							lat: 41.81735,
+							lon: -87.85348
+						},
+						providerType: 'LOCAL',
+						supplierHotelId: 13278969,
+						isAlternative: false,
+						optimizedThumbUrls: {
+							srpDesktop:
+								'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279000/13278969/5dd56094_z.jpg?impolicy=fcrop&w=250&h=140&q=high'
+						}
+					}
+				],
+				pagination: {
+					currentPage: 1,
+					pageGroup: 'EXPEDIA_IN_POLYGON',
+					nextPageStartIndex: 25,
+					nextPageNumber: 2,
+					nextPageGroup: 'EXPEDIA_IN_POLYGON'
+				}
+			},
+			sortResults: {
+				options: [
+					{
+						label: 'Star rating',
+						itemMeta: 'star',
+						choices: [
+							{
+								label: 'Stars (high to low)',
+								value: 'STAR_RATING_HIGHEST_FIRST',
+								selected: false
+							},
+							{
+								label: 'Stars (low to high)',
+								value: 'STAR_RATING_LOWEST_FIRST',
+								selected: false
+							}
+						],
+						enhancedChoices: []
+					},
+					{
+						label: 'Distance',
+						itemMeta: 'distance',
+						choices: [
+							{
+								label: 'Distance to city center',
+								value: 'DISTANCE_FROM_LANDMARK',
+								selected: false
+							}
+						],
+						enhancedChoices: [
+							{
+								label: 'Landmarks',
+								itemMeta: 'landmarks',
+								choices: [
+									{
+										label: 'City center',
+										id: 1497539
+									},
+									{
+										label: 'Allstate Arena',
+										id: 1633070
+									},
+									{
+										label: 'Chicago Riverwalk',
+										id: 10881938
+									},
+									{
+										label: 'Chicago Theatre',
+										id: 1652838
+									},
+									{
+										label: 'Chicago Water Tower',
+										id: 1652841
+									},
+									{
+										label: 'Donald E. Stephens Convention Center',
+										id: 1636726
+									},
+									{
+										label: 'Grant Park',
+										id: 905
+									},
+									{
+										label: 'House of Blues Chicago',
+										id: 1750657
+									},
+									{
+										label: 'John G. Shedd Aquarium',
+										id: 1636116
+									},
+									{
+										label: 'McCormick Place',
+										id: 1513800
+									},
+									{
+										label: 'Michigan Avenue',
+										id: 1708604
+									},
+									{
+										label: 'Millennium Park',
+										id: 1635496
+									},
+									{
+										label: 'Navy Pier',
+										id: 177
+									},
+									{
+										label: 'Soldier Field',
+										id: 1639
+									},
+									{
+										label: 'United Center',
+										id: 1255
+									},
+									{
+										label: 'Water Tower Place',
+										id: 498
+									},
+									{
+										label: 'Willis Tower',
+										id: 723
+									},
+									{
+										label: 'Wintrust Arena',
+										id: 10902004
+									},
+									{
+										label: 'Woodfield Mall',
+										id: 1633069
+									},
+									{
+										label: 'Wrigley Field',
+										id: 1409861
+									}
+								]
+							},
+							{
+								label: 'Train stations',
+								itemMeta: 'stations',
+								choices: [
+									{
+										label: 'Chicago Halsted Station',
+										id: 1743208
+									},
+									{
+										label: 'Chicago McCormick Place Station',
+										id: 1742870
+									},
+									{
+										label: 'Chicago Station (Blue Line)',
+										id: 1732134
+									},
+									{
+										label: 'Chicago Station (Red Line)',
+										id: 1732125
+									},
+									{
+										label: 'Chicago Union Station',
+										id: 1235
+									},
+									{
+										label: 'Chicago Van Buren Street Station',
+										id: 1742872
+									},
+									{
+										label: 'Cumberland Station',
+										id: 1741592
+									},
+									{
+										label: 'Deerfield Lake Cook Road Station',
+										id: 1743865
+									},
+									{
+										label: 'Des Plaines Station',
+										id: 1743546
+									},
+									{
+										label: 'Harrison Station',
+										id: 1741937
+									},
+									{
+										label: 'Illinois Medical District Station',
+										id: 1741938
+									},
+									{
+										label: 'LaSalle Street Station',
+										id: 1689089
+									},
+									{
+										label: 'Madison-Wabash Station',
+										id: 1741604
+									},
+									{
+										label: 'Midway Station',
+										id: 1741963
+									},
+									{
+										label: 'Millennium Station',
+										id: 1689088
+									},
+									{
+										label: "O'Hare Station",
+										id: 1741598
+									},
+									{
+										label: 'Oak Lawn Station',
+										id: 1743216
+									},
+									{
+										label: 'Ogilvie Transportation Center',
+										id: 1689090
+									},
+									{
+										label: 'Randolph-Wabash Station',
+										id: 1741599
+									},
+									{
+										label: 'Rosemont Station',
+										id: 1741597
+									}
+								]
+							},
+							{
+								label: 'Airports',
+								itemMeta: 'airports',
+								choices: [
+									{
+										label: 'Chicago Midway Airport (MDW)',
+										id: 1521758
+									},
+									{
+										label: "Chicago O'Hare International Airport (ORD)",
+										id: 1634290
+									},
+									{
+										label: 'Chicago, IL (PWK-Chicago Executive)',
+										id: 1664814
+									}
+								]
+							}
+						]
+					},
+					{
+						label: 'Guest rating',
+						itemMeta: 'rating',
+						choices: [
+							{
+								label: 'Guest rating',
+								value: 'GUEST_RATING',
+								selected: false
+							}
+						],
+						enhancedChoices: []
+					},
+					{
+						label: 'Price',
+						itemMeta: 'price',
+						selectedChoiceLabel: 'Price (low to high)',
+						choices: [
+							{
+								label: 'Price (high to low)',
+								value: 'PRICE_HIGHEST_FIRST',
+								selected: false
+							},
+							{
+								label: 'Price (low to high)',
+								value: 'PRICE',
+								selected: true
+							}
+						],
+						enhancedChoices: []
+					}
+				],
+				distanceOptionLandmarkId: 1497539
+			},
+			filters: {
+				applied: false,
+				name: {
+					item: {
+						value: ''
+					},
+					autosuggest: {
+						additionalUrlParams: {
+							'resolved-location': 'CITY:1497539:UNKNOWN:UNKNOWN',
+							'q-destination': 'Chicago, Illinois, United States of America',
+							'destination-id': '1497539'
+						}
+					}
+				},
+				starRating: {
+					applied: false,
+					items: [
+						{
+							value: 5
+						},
+						{
+							value: 4
+						},
+						{
+							value: 3
+						},
+						{
+							value: 2
+						},
+						{
+							value: 1
+						}
+					]
+				},
+				guestRating: {
+					range: {
+						min: {
+							defaultValue: 0
+						},
+						max: {
+							defaultValue: 10
+						}
+					}
+				},
+				landmarks: {
+					selectedOrder: [],
+					items: [
+						{
+							label: 'City center',
+							value: '1497539'
+						},
+						{
+							label: "Chicago O'Hare International Airport (ORD)",
+							value: '1634290'
+						},
+						{
+							label: 'McCormick Place',
+							value: '1513800'
+						},
+						{
+							label: 'Navy Pier',
+							value: '177'
+						},
+						{
+							label: 'Soldier Field',
+							value: '1639'
+						},
+						{
+							label: 'Chicago Midway Airport (MDW)',
+							value: '1521758'
+						},
+						{
+							label: 'United Center',
+							value: '1255'
+						},
+						{
+							label: 'Michigan Avenue',
+							value: '1708604'
+						},
+						{
+							label: 'Millennium Park',
+							value: '1635496'
+						},
+						{
+							label: 'Wrigley Field',
+							value: '1409861'
+						},
+						{
+							label: 'Chicago Theatre',
+							value: '1652838'
+						},
+						{
+							label: 'Chicago Riverwalk',
+							value: '10881938'
+						},
+						{
+							label: 'Grant Park',
+							value: '905'
+						},
+						{
+							label: "O'Hare Station",
+							value: '1741598'
+						},
+						{
+							label: 'Chicago Water Tower',
+							value: '1652841'
+						},
+						{
+							label: 'Wintrust Arena',
+							value: '10902004'
+						},
+						{
+							label: 'Chicago Union Station',
+							value: '1235'
+						},
+						{
+							label: 'Allstate Arena',
+							value: '1633070'
+						},
+						{
+							label: 'Donald E. Stephens Convention Center',
+							value: '1636726'
+						},
+						{
+							label: 'John G. Shedd Aquarium',
+							value: '1636116'
+						}
+					],
+					distance: []
+				},
+				neighbourhood: {
+					applied: false,
+					items: [
+						{
+							label: 'Downtown Chicago',
+							value: '1902007'
+						},
+						{
+							label: 'The Loop',
+							value: '1664787'
+						},
+						{
+							label: 'Magnificent Mile',
+							value: '1664788'
+						},
+						{
+							label: 'River North',
+							value: '1902003'
+						},
+						{
+							label: 'Lincoln Park',
+							value: '878'
+						},
+						{
+							label: 'Wrigleyville',
+							value: '1807455'
+						},
+						{
+							label: 'West Loop',
+							value: '10889680'
+						},
+						{
+							label: "O'Hare",
+							value: '11047359'
+						},
+						{
+							label: 'South Loop',
+							value: '1689163'
+						},
+						{
+							label: 'Wicker Park',
+							value: '1750601'
+						},
+						{
+							label: 'Gold Coast',
+							value: '1282'
+						},
+						{
+							label: 'Northalsted',
+							value: '1724893'
+						},
+						{
+							label: 'Streeterville',
+							value: '1689164'
+						},
+						{
+							label: 'Norridge',
+							value: '1533322'
+						},
+						{
+							label: 'Old Town Chicago',
+							value: '1903105'
+						},
+						{
+							label: 'Bucktown',
+							value: '10542968'
+						},
+						{
+							label: 'Hyde Park',
+							value: '1689540'
+						},
+						{
+							label: 'Edgewater',
+							value: '1690719'
+						},
+						{
+							label: 'Lakeview',
+							value: '1689541'
+						},
+						{
+							label: 'Near East Side',
+							value: '10819046'
+						},
+						{
+							label: 'Greektown',
+							value: '11425036'
+						},
+						{
+							label: 'Chinatown',
+							value: '1689092'
+						},
+						{
+							label: 'Uptown',
+							value: '1690718'
+						},
+						{
+							label: 'Near North Side',
+							value: '1689073'
+						},
+						{
+							label: 'Bedford Park',
+							value: '1690148'
+						},
+						{
+							label: 'Near South Side',
+							value: '1690635'
+						},
+						{
+							label: 'Rogers Park',
+							value: '1690558'
+						},
+						{
+							label: 'Near West Side',
+							value: '1690709'
+						},
+						{
+							label: 'Ravenswood',
+							value: '1690484'
+						},
+						{
+							label: 'West Town',
+							value: '1690714'
+						},
+						{
+							label: 'Bronzeville',
+							value: '1690526'
+						},
+						{
+							label: 'North Park',
+							value: '1690722'
+						},
+						{
+							label: 'Grand Boulevard',
+							value: '1690566'
+						},
+						{
+							label: 'South Evanston',
+							value: '1690588'
+						},
+						{
+							label: 'West Ridge',
+							value: '1690717'
+						},
+						{
+							label: 'Kenwood',
+							value: '1690583'
+						},
+						{
+							label: 'Archer Heights',
+							value: '1690586'
+						},
+						{
+							label: 'Garfield Ridge',
+							value: '1690590'
+						},
+						{
+							label: 'Douglas',
+							value: '1690611'
+						},
+						{
+							label: 'Clearing',
+							value: '1461136'
+						},
+						{
+							label: 'Lakeshore East',
+							value: '12526655'
+						},
+						{
+							label: 'Ellsworth',
+							value: '1690614'
+						},
+						{
+							label: 'Ickes Praire Homes',
+							value: '12521861'
+						},
+						{
+							label: 'Sheffield Neighbors',
+							value: '12529698'
+						},
+						{
+							label: 'East Hyde Park',
+							value: '12514305'
+						},
+						{
+							label: 'Peterson Park',
+							value: '12512355'
+						},
+						{
+							label: 'East Village',
+							value: '11423952'
+						},
+						{
+							label: 'Norwood Park',
+							value: '12508690'
+						},
+						{
+							label: 'River West',
+							value: '12535905'
+						},
+						{
+							label: 'Rush and Division',
+							value: '12521841'
+						},
+						{
+							label: 'Lake View East',
+							value: '12502874'
+						},
+						{
+							label: 'Old Town Triangle',
+							value: '12521708'
+						},
+						{
+							label: 'Ashburn',
+							value: '1690594'
+						},
+						{
+							label: 'Killgubbin',
+							value: '12531255'
+						},
+						{
+							label: 'Forest Glen',
+							value: '12527724'
+						},
+						{
+							label: 'Highland Hills',
+							value: '1690520'
+						},
+						{
+							label: 'Pulaski Park',
+							value: '12526869'
+						},
+						{
+							label: 'Indian Village',
+							value: '12528293'
+						},
+						{
+							label: 'Wildwood',
+							value: '12546982'
+						},
+						{
+							label: 'West Loop Gate',
+							value: '12529466'
+						},
+						{
+							label: 'Fulton Market',
+							value: '12509572'
+						},
+						{
+							label: 'West Bucktown',
+							value: '12512562'
+						},
+						{
+							label: 'Park West',
+							value: '12521380'
+						},
+						{
+							label: 'Sheffield and DePaul',
+							value: '12512376'
+						},
+						{
+							label: 'Illinois Medical District',
+							value: '12540957'
+						},
+						{
+							label: 'Magnolia Glen',
+							value: '12503337'
+						},
+						{
+							label: 'University Village / Little Italy',
+							value: '12544543'
+						},
+						{
+							label: 'Theatre District',
+							value: '651190586167894016'
+						},
+						{
+							label: 'United Center',
+							value: '643562035333914624'
+						}
+					]
+				},
+				accommodationType: {
+					applied: false,
+					items: [
+						{
+							label: 'Apart-hotels',
+							value: '20'
+						},
+						{
+							label: 'Apartments',
+							value: '15'
+						},
+						{
+							label: 'B&Bs',
+							value: '5'
+						},
+						{
+							label: 'Cabins and lodges',
+							value: '9'
+						},
+						{
+							label: 'Guest houses',
+							value: '30'
+						},
+						{
+							label: 'Hostels',
+							value: '12'
+						},
+						{
+							label: 'Hotels',
+							value: '1'
+						},
+						{
+							label: 'Motels',
+							value: '7'
+						},
+						{
+							label: 'Resorts',
+							value: '3'
+						},
+						{
+							label: 'Vacation homes',
+							value: '4'
+						}
+					]
+				},
+				facilities: {
+					applied: false,
+					items: [
+						{
+							label: '24-hour front desk',
+							value: '2063'
+						},
+						{
+							label: 'Airport transfers',
+							value: '513'
+						},
+						{
+							label: 'Bar',
+							value: '515'
+						},
+						{
+							label: 'Bathtub in room',
+							value: '517'
+						},
+						{
+							label: 'Breakfast included',
+							value: '2048'
+						},
+						{
+							label: 'Business facilities',
+							value: '519'
+						},
+						{
+							label: 'Casino',
+							value: '2112'
+						},
+						{
+							label: 'Childcare',
+							value: '521'
+						},
+						{
+							label: 'Connecting rooms available',
+							value: '523'
+						},
+						{
+							label: 'Cribs available',
+							value: '525'
+						},
+						{
+							label: 'Electric vehicle charging point',
+							value: '1073743315'
+						},
+						{
+							label: 'Gym',
+							value: '2'
+						},
+						{
+							label: 'Internet Access',
+							value: '8'
+						},
+						{
+							label: 'Kitchen',
+							value: '32'
+						},
+						{
+							label: 'Meeting Facilities',
+							value: '1'
+						},
+						{
+							label: 'Non-smoking',
+							value: '529'
+						},
+						{
+							label: 'Parking',
+							value: '134234112'
+						},
+						{
+							label: 'Pet Friendly',
+							value: '64'
+						},
+						{
+							label: 'Pool',
+							value: '128'
+						},
+						{
+							label: 'Restaurant',
+							value: '256'
+						},
+						{
+							label: 'Smoking areas',
+							value: '537'
+						},
+						{
+							label: 'Spa',
+							value: '539'
+						},
+						{
+							label: 'WiFi included',
+							value: '527'
+						}
+					]
+				},
+				accessibility: {
+					applied: false,
+					items: [
+						{
+							label: 'Accessibility equipment for the deaf',
+							value: '2097152'
+						},
+						{
+							label: 'Accessible bathroom',
+							value: '131072'
+						},
+						{
+							label: 'Accessible parking',
+							value: '524288'
+						},
+						{
+							label: 'Accessible path of travel',
+							value: '65536'
+						},
+						{
+							label: 'Braille or raised signage',
+							value: '4194304'
+						},
+						{
+							label: 'In-room accessibility',
+							value: '1048576'
+						},
+						{
+							label: 'Roll-in shower',
+							value: '262144'
+						},
+						{
+							label: 'Wheelchair accessible rooms',
+							value: '541'
+						}
+					]
+				},
+				themesAndTypes: {
+					applied: false,
+					items: [
+						{
+							label: 'Adventure',
+							value: '18'
+						},
+						{
+							label: 'Beach',
+							value: '6'
+						},
+						{
+							label: 'Boutique',
+							value: '4'
+						},
+						{
+							label: 'Business',
+							value: '14'
+						},
+						{
+							label: 'Casino',
+							value: '8'
+						},
+						{
+							label: 'Family-friendly',
+							value: '25'
+						},
+						{
+							label: 'Golf',
+							value: '26'
+						},
+						{
+							label: 'Historic',
+							value: '2'
+						},
+						{
+							label: 'LGBTQ Welcoming',
+							value: '21'
+						},
+						{
+							label: 'Luxury',
+							value: '15'
+						},
+						{
+							label: 'Romantic',
+							value: '1'
+						},
+						{
+							label: 'Shopping',
+							value: '17'
+						},
+						{
+							label: 'Spa Hotel',
+							value: '27'
+						},
+						{
+							label: 'Winery/Vineyard',
+							value: '19'
+						}
+					]
+				},
+				price: {
+					label: 'Nightly Price',
+					range: {
+						min: {
+							defaultValue: 0
+						},
+						max: {
+							defaultValue: 500
+						},
+						increments: 5
+					},
+					multiplier: 1
+				},
+				paymentPreference: {
+					items: [
+						{
+							label: 'Pay with Hotels.com gift card',
+							value: 'gc'
+						}
+					]
+				},
+				welcomeRewards: {
+					label: 'Hotels.com® Rewards',
+					items: [
+						{
+							label: 'Collect stamps',
+							value: 'collect'
+						},
+						{
+							label: 'Redeem reward* nights',
+							value: 'redeem'
+						}
+					]
+				}
+			},
+			pointOfSale: {
+				currency: {
+					code: 'USD',
+					symbol: '$',
+					separators: ',.',
+					format: '${0}'
+				}
+			},
+			miscellaneous: {
+				pageViewBeaconUrl:
+					'/taps/v1/PageView?deviceType=App-Phone&sort-order=PRICE&rooms=1&destRegionID=1497539&hotelIds=122381,122380,726468992,228761,379738,135312,2178958528,454705,122465,1138351968,454706,137804,127398,454916,234956,455118,122392,164428,6477696,123917,174009,1248996000,1490570688,1463021792,642237&adults=1&userAgent=Hotels.com/Android%2080.0.1.9.release-80_0%20(80000660)&userGuid=571915da-06cd-4028-b89c-9e1e78622003&pageName=Hotel-Search&slots=HSR_A,HSR_B,HSR_C,HSR_D,HSR_E,HSR_F,HSR_G,HSR_H,HSR_I,HSR_J&children=0&culture=en_US&testVersionOverride=4961.0,904.0,7561.0,7215.0,8218.0,8711.0,8928.1,9008.0,8347.2,9004.0,8952.0,7992.2,8915.0,9729.0,9864.0,10155.0,10185.0,10473.0,10320.0,10361.0&domain=www.hotels.com&userIP=127.0.0.1&action=pageview&publisher=expedia&programId=1',
+				showLegalInfoForStrikethroughPrices: true,
+				legalInfoForStrikethroughPrices:
+					'The struck-out price is based on the property’s standard rate on our app, as determined and supplied by the property.'
+			},
+			pageInfo: {
+				pageType: 'dateless'
+			}
+		},
+		common: {
+			pointOfSale: {
+				numberSeparators: ',.',
+				brandName: 'Hotels.com'
+			},
+			tracking: {
+				omniture: {
+					's.prop33': 'D=v33',
+					's.prop32': 'D=v43',
+					's.prop74': 'search result without dates | ms shown | N',
+					's.products': 'MULTISOURCE;5571,MULTISOURCE;21109,LOCAL;22670906',
+					's.eVar16': 'Mob :: aApp',
+					's.eVar40': 'D=v0',
+					's.eVar41': 'USD',
+					's.eVar63': '79743e2f-bac4-45b4-96ba-8e5e9b1f4164',
+					's.eVar42': 'dateless',
+					's.eVar4':
+						'|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|',
+					's.eVar43': 'en_US|HCOM_US|www.hotels.com',
+					's.eVar2': 'Chicago, Illinois, United States of America',
+					's.eVar24': 'MCTC=20;TU=NA;PDID=NULL;MVT=',
+					's.eVar7': '',
+					's.server': 'www.hotels.com',
+					's.eVar6': '1497539',
+					's.prop29': 'D=v42',
+					's.prop27': '571915da-06cd-4028-b89c-9e1e78622003',
+					's.eVar9': 'Price - low to high',
+					's.eVar69': 'Mob :: aApp',
+					's.currencyCode': 'USD',
+					's.eVar26': 'US:TX:RICHARDSON:623',
+					's.eVar29': 'Mob :: aApp',
+					's.prop9': '650',
+					's.eVar95': 'Unknown',
+					's.prop7': '518',
+					's.eVar31': 'D=v0',
+					's.eVar32': 'D=v0',
+					's.eVar33': 'search result without dates',
+					's.eVar34':
+						'H1871:007.002,M904:000.000,M3736:000.000,M4440.2,M4869:001.000,M4952:050.000,M4961:001.000,M5184:001.000,M5342:000.000,M5663:000.000,M6388:000.000,M6775:000.000,M6779:000.000,M7015.1,M7192:000.000,M7215:000.000,M7296:000.000,M7305:000.000,M7353:000.000,M7362.1,M7552:023.001,M7870:000.000,M8130:000.001,M8336:000.000,M8347:019.002,M8692:000.000,M8698:000.000,M8718:000.000,M8915:000.000,M8928:019.001,M8952:000.000,M8976:000.000,M8992:000.000,M9035:000.000,M9220:000.000,M9297:000.000,M9351:000.000,M9431:000.000,M9434:000.000,M9469:000.000,M9549:000.000,M9729:000.000,M9752:000.000,M9864:000.000,M9924:000.000,M9961:000.000,M9971:000.000,M10001:000.000,M10007:000.000,M10013:002.001,M10121:000.000,M10137:000.000,M10155:000.000,M10185:000.000,M10248:000.000,M10259:000.000,M10268:000.000,M10282:000.000,M10300:000.000,M10320:000.000,M10361:000.000,M10473:000.000,M9215:001.000',
+					's.eVar13': '389367',
+					's.events': 'event324,event320',
+					's.prop18': 'D=v6',
+					's.prop5': '389367',
+					's.prop15': '',
+					's.prop3': 'Chicago, Illinois, United States of America',
+					's.prop14': 'D=v7',
+					's.prop36':
+						'|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|',
+					's.eVar93': 'aws.us-west-2.unknown',
 					's.prop2': 'Price - low to high'
 				}
 			}
