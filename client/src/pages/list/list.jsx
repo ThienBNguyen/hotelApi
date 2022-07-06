@@ -7,6 +7,7 @@ import { DateRange } from "react-date-range";
 import { format } from 'date-fns';
 import SearchItem from '../../components/searchItem/SearchItem';
 import { Austin } from "../../dataSource"
+import useFetch from '../../hooks/useFetch';
 const List = () => {
     const location = useLocation();
     const [destination, setDestination] = useState(location.state.destination);
@@ -15,17 +16,17 @@ const List = () => {
     const [options, setOptions] = useState(location.state.options)
     const [min, setMin] = useState(undefined);
     const [max, setMax] = useState(undefined);
-    let data = Austin.data.body.searchResults.results
-    const itemFunction = () => {
-        data.map((item) => {
-            console.log(item.name)
-            return
-            <div>`${item.name}`</div >
 
-        })
-    }
+    const { data, loading, reFetch } = useFetch(
+        // `http://localhost:5000/api/hotels?location=${destination}`
+    )
 
-    const [loading, setLoading] = useState(false)
+    // let currentData = data.data.body.searchResults.results
+    // console.log(currentData)
+    // console.log(Austin.data.body.searchResults.results)
+
+
+    // const [loading, setLoading] = useState(false)
 
 
     const handleClick = () => {
@@ -41,7 +42,7 @@ const List = () => {
                         <h1 className="lsTitle">Search</h1>
                         <div className="lsItem">
                             <label >Destination</label>
-                            <input type="text" placeholder="destination" value="" />
+                            <input type="text" placeholder={destination} value="" />
                         </div>
                         <div className="lsItem">
                             <label htmlFor="">Check-in Date</label>
@@ -108,12 +109,27 @@ const List = () => {
                         <button onClick={handleClick}>Search</button>
                     </div>
                     <div className="listResult">
-                        {loading ? ("loading") :
-                            <SearchItem />
+                        {loading ? <>
+                            {
+                                Austin.data.body.searchResults.results.map((item, i) => (
+                                    <SearchItem item={item} i={i} key={i} />
 
-                        }
-                        {/* {itemFunction()} */}
+                                ))
+                            }
+
+                        </> : <>
+                                {
+                                    // data.data.body.searchResults.results.map((item, i) => (
+                                    //     <SearchItem item={item} i={i} key={i} />
+
+                                    // ))
+                                }
+
+                            </>}
+
                     </div>
+
+
                 </div>
             </div>
         </div>
