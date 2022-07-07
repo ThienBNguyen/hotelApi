@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import "./list.css"
 import NavBar from '../../components/navbar/NavBar';
 import { useLocation } from 'react-router';
@@ -7,6 +7,7 @@ import { DateRange } from "react-date-range";
 import { format } from 'date-fns';
 import SearchItem from '../../components/searchItem/SearchItem';
 import { Austin } from "../../dataSource"
+import useFetch from '../../hooks/useFetch';
 const List = () => {
     const location = useLocation();
     const [destination, setDestination] = useState(location.state.destination);
@@ -15,21 +16,14 @@ const List = () => {
     const [options, setOptions] = useState(location.state.options)
     const [min, setMin] = useState(undefined);
     const [max, setMax] = useState(undefined);
-    let data = Austin.data.body.searchResults.results
-    const itemFunction = () => {
-        data.map((item) => {
-            console.log(item.name)
-            return
-            <div>`${item.name}`</div >
+    const [currentData, setCurrentData] = useState([])
 
-        })
-    }
-
-    const [loading, setLoading] = useState(false)
-
-
+    const { data, loading, reFetch } = useFetch(
+        //use when complete due to limited call request
+        // `http://localhost:5000/api/hotels?location=${destination}` 
+    )
     const handleClick = () => {
-        console.log("working")
+        reFetch()
     }
     return (
         <div>
@@ -41,7 +35,7 @@ const List = () => {
                         <h1 className="lsTitle">Search</h1>
                         <div className="lsItem">
                             <label >Destination</label>
-                            <input type="text" placeholder="destination" value="" />
+                            <input type="text" placeholder={destination} value="" />
                         </div>
                         <div className="lsItem">
                             <label htmlFor="">Check-in Date</label>
@@ -108,12 +102,29 @@ const List = () => {
                         <button onClick={handleClick}>Search</button>
                     </div>
                     <div className="listResult">
-                        {loading ? ("loading") :
-                            <SearchItem />
+                        {loading ? <>
+                            {
+                                Austin.data.body.searchResults.results.map((item, i) => (
+                                    <SearchItem item={item} i={i} key={i} />
 
-                        }
-                        {/* {itemFunction()} */}
+                                ))
+                            }
+
+                        </> : <>
+                                {/* {data.data.body.searchResults.results.map((item, i) => (
+                                    <SearchItem item={item} i={i} key={i} />
+                                ))} */}
+                                {
+                                    Austin.data.body.searchResults.results.map((item, i) => (
+                                        <SearchItem item={item} i={i} key={i} />
+
+                                    ))
+                                }
+                            </>}
+
                     </div>
+
+
                 </div>
             </div>
         </div>
