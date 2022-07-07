@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import "./list.css"
 import NavBar from '../../components/navbar/NavBar';
 import { useLocation } from 'react-router';
@@ -16,21 +16,14 @@ const List = () => {
     const [options, setOptions] = useState(location.state.options)
     const [min, setMin] = useState(undefined);
     const [max, setMax] = useState(undefined);
+    const [currentData, setCurrentData] = useState([])
 
     const { data, loading, reFetch } = useFetch(
-        // `http://localhost:5000/api/hotels?location=${destination}`
+        //use when complete due to limited call request
+        // `http://localhost:5000/api/hotels?location=${destination}` 
     )
-
-    // let currentData = data.data.body.searchResults.results
-    // console.log(currentData)
-    // console.log(Austin.data.body.searchResults.results)
-
-
-    // const [loading, setLoading] = useState(false)
-
-
     const handleClick = () => {
-        console.log("working")
+        reFetch()
     }
     return (
         <div>
@@ -118,13 +111,15 @@ const List = () => {
                             }
 
                         </> : <>
+                                {/* {data.data.body.searchResults.results.map((item, i) => (
+                                    <SearchItem item={item} i={i} key={i} />
+                                ))} */}
                                 {
-                                    // data.data.body.searchResults.results.map((item, i) => (
-                                    //     <SearchItem item={item} i={i} key={i} />
+                                    Austin.data.body.searchResults.results.map((item, i) => (
+                                        <SearchItem item={item} i={i} key={i} />
 
-                                    // ))
+                                    ))
                                 }
-
                             </>}
 
                     </div>

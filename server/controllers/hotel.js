@@ -1,7 +1,20 @@
 import axios from 'axios';
+//get curret date in ios format yyyy-mm-dd
+const formatDate = (date) => {
+	var d = new Date(date),
+		month = '' + (d.getMonth() + 1),
+		day = '' + d.getDate(),
+		year = d.getFullYear();
+
+	if (month.length < 2) month = '0' + month;
+	if (day.length < 2) day = '0' + day;
+
+	return [ year, month, day ].join('-');
+};
 export const getHotels = async (req, res, next) => {
 	const location = req.query.location;
-	let destinationId, hotelList, searchSuggession;
+	const reqData = req.query;
+	let destinationId, hotelList;
 	const options = {
 		method: 'GET',
 		url: 'https://hotels4.p.rapidapi.com/locations/v2/search',
@@ -15,7 +28,6 @@ export const getHotels = async (req, res, next) => {
 		await axios
 			.request(options)
 			.then(function(response) {
-				// searchSuggession = response.data;
 				destinationId = response.data.suggestions[0].entities[0].destinationId;
 			})
 			.then(() => {
@@ -26,9 +38,9 @@ export const getHotels = async (req, res, next) => {
 						destinationId: destinationId,
 						pageNumber: '1',
 						pageSize: '25',
-						checkIn: '2020-01-08',
-						checkOut: '2020-01-15',
-						adults1: '1',
+						checkIn: reqData.checkIn || formatDate(new Date()),
+						checkOut: reqData.checkOut || formatDate(new Date()),
+						adults1: reqData.adults1 || '1',
 						sortOrder: 'PRICE',
 						locale: 'en_US',
 						currency: 'USD'
@@ -55,12 +67,13 @@ export const getHotels = async (req, res, next) => {
 		next(error);
 	}
 };
-export const getHotelPhoto = (request, response) => {
+export const getHotelPhoto = (req, res) => {
 	//get roomimage from api
+	const hotelId = req.query.id;
 	const options = {
 		method: 'GET',
 		url: 'https://hotels4.p.rapidapi.com/properties/get-hotel-photos',
-		params: { id: '1178275040' },
+		params: { id: hotelId || '1178275040' },
 		headers: {
 			'X-RapidAPI-Key': '43358f40e1msh324fef1919ecce4p132942jsnabebd1a22b1e',
 			'X-RapidAPI-Host': 'hotels4.p.rapidapi.com'
@@ -70,21 +83,22 @@ export const getHotelPhoto = (request, response) => {
 	axios
 		.request(options)
 		.then(function(response) {
-			console.log(response.data);
+			res.status(200).json(response.data);
 		})
 		.catch(function(error) {
 			console.error(error);
 		});
 };
-export const getHotelDetails = (request, response) => {
+export const getHotelDetails = (req, res) => {
+	const hotelReq = req.query;
 	const options = {
 		method: 'GET',
 		url: 'https://hotels4.p.rapidapi.com/properties/get-details',
 		params: {
-			id: '424023',
-			checkIn: '2020-01-08',
-			checkOut: '2020-01-15',
-			adults1: '1',
+			id: hotelReq.id || '424023',
+			checkIn: hotelReq.checkIn || formatDate(new Date()),
+			checkOut: hotelReq.checkOut || formatDate(new Date()),
+			adults1: hotelReq.adults1 || '1',
 			currency: 'USD',
 			locale: 'en_US'
 		},
@@ -98,9 +112,9 @@ export const getHotelDetails = (request, response) => {
 		.request(options)
 		.then(function(response) {
 			console.log(response.data);
+			res.status(200).json(response.data);
 		})
 		.catch(function(error) {
 			console.error(error);
 		});
-	response.json(dataDetail.hotelDetail);
 };

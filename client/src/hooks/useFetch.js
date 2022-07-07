@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import { Austin } from '../dataSource';
 
 const useFetch = (url) => {
-	const [ data, setData ] = useState([]);
+	const [ data, setData ] = useState(Austin);
 	const [ loading, setLoading ] = useState(false);
 	const [ error, setError ] = useState(false);
 
@@ -12,7 +13,6 @@ const useFetch = (url) => {
 			try {
 				const res = await axios.get(url);
 				setData(res.data);
-				console.log(res);
 			} catch (err) {
 				setError(err);
 			}
