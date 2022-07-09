@@ -1,8 +1,16 @@
 import React from 'react';
 import "./SearchItem.css"
-import { Link } from 'react-router-dom';
-const SearchItem = ({ item, i }) => {
-    console.log(item)
+import { useNavigate } from 'react-router-dom';
+const SearchItem = ({ item, i, destination, dates, options }) => {
+
+    const navigate = useNavigate();
+    const handleItem = () => {
+        navigate(`/hotels/${item.id}`, {
+            state: {
+                destination, dates, options
+            }
+        })
+    }
     return (
         <div className="searchItem" key={i}>
             <img src={item.optimizedThumbUrls.srpDesktop} className="siImg" />
@@ -27,9 +35,7 @@ const SearchItem = ({ item, i }) => {
                     <span className="siPrice">{item.ratePlan.price.current}</span>
                     <span className="siTaxOp">incluses taxes and fee</span>
 
-                    <Link to={`/hotels/${item.id}`}>
-                        <button className="siCheckButton">see avaiability</button>
-                    </Link>
+                    <button className="siCheckButton" onClick={handleItem}>see avaiability</button>
                 </div>
             </div>
         </div>

@@ -16,8 +16,6 @@ const List = () => {
     const [options, setOptions] = useState(location.state.options)
     const [min, setMin] = useState(undefined);
     const [max, setMax] = useState(undefined);
-    const [currentData, setCurrentData] = useState([])
-
     const { data, loading, reFetch } = useFetch(
         //use when complete due to limited call request
         // `http://localhost:5000/api/hotels?location=${destination}` 
@@ -105,18 +103,18 @@ const List = () => {
                         {loading ? <>
                             {
                                 Austin.data.body.searchResults.results.map((item, i) => (
-                                    <SearchItem item={item} i={i} key={i} />
+                                    <SearchItem item={item} i={i} key={i} destination={destination} dates={dates} options={options} />
 
                                 ))
                             }
 
                         </> : <>
                                 {/* {data.data.body.searchResults.results.map((item, i) => (
-                                    <SearchItem item={item} i={i} key={i} />
+                                    <SearchItem item={item} i={i} key={i} destination={destination} dates={dates} options={options} />
                                 ))} */}
                                 {
                                     Austin.data.body.searchResults.results.map((item, i) => (
-                                        <SearchItem item={item} i={i} key={i} />
+                                        <SearchItem item={item} i={i} key={i} destination={destination} dates={dates} options={options} />
 
                                     ))
                                 }
