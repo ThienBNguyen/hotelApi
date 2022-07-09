@@ -73,7 +73,7 @@ export const getHotelPhoto = (req, res) => {
 	const options = {
 		method: 'GET',
 		url: 'https://hotels4.p.rapidapi.com/properties/get-hotel-photos',
-		params: { id: hotelId || '1178275040' },
+		params: { id: hotelId || '425948736' },
 		headers: {
 			'X-RapidAPI-Key': '43358f40e1msh324fef1919ecce4p132942jsnabebd1a22b1e',
 			'X-RapidAPI-Host': 'hotels4.p.rapidapi.com'
@@ -111,7 +111,6 @@ export const getHotelDetails = (req, res) => {
 	axios
 		.request(options)
 		.then(function(response) {
-			console.log(response.data);
 			res.status(200).json(response.data);
 		})
 		.catch(function(error) {
