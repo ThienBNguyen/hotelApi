@@ -25,10 +25,9 @@ const SearchItem = ({ item, i, destination, dates, options }) => {
             </div>
             <div className="siDetails">
                 <div className="siRating">
-                    {/* <span>{item.guestReviews.badge}</span> */}
-                    <span>Excellent</span>
-                    {/* <button>{item.guestReviews.rating}</button> */}
-                    <button>9.8</button>
+                    <span>{item.guestReviews.badge == undefined ? "good" : item.guestReviews.badge}</span>
+                    <button>{item.guestReviews.rating == undefined ? "9.8" : item.guestReviews.rating}</button>
+                    {/* <button>9.8</button> */}
 
                 </div>
                 <div className="siDetailTexts">

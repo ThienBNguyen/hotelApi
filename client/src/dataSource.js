@@ -8204,3 +8204,3602 @@ export const Chicago = {
 		}
 	}
 };
+export const hotelDetail = {
+	result: 'OK',
+	data: {
+		body: {
+			pdpHeader: {
+				hotelId: '424023',
+				destinationId: '1506246',
+				pointOfSaleId: 'HCOM_US',
+				currencyCode: 'USD',
+				occupancyKey: 'A1',
+				hotelLocation: {
+					coordinates: {
+						latitude: 40.75211,
+						longitude: -73.98546
+					},
+					resolvedLocation: 'CITY:1506246:PROVIDED:PROVIDED',
+					locationName: 'New York'
+				}
+			},
+			overview: {
+				overviewSections: [
+					{
+						title: 'Main amenities',
+						type: 'HOTEL_FEATURE',
+						content: [
+							'Daily housekeeping',
+							'Restaurant and 2 bars/lounges',
+							'Rooftop terrace',
+							'Breakfast available',
+							'Fitness center',
+							'Self parking',
+							'24-hour front desk',
+							'Air conditioning',
+							'Front desk safe',
+							'ATM/banking services',
+							'Laundry service',
+							'Multilingual staff',
+							'Free WiFi '
+						],
+						contentType: 'LIST'
+					},
+					{
+						title: 'What’s around',
+						type: 'LOCATION_SECTION',
+						content: [
+							'In Manhattan',
+							'5th Avenue - 2 min walk',
+							'Bryant Park - 3 min walk',
+							"Macy's - 4 min walk",
+							'Herald Square - 4 min walk',
+							'Times Square - 5 min walk',
+							'New York Public Library - 5 min walk',
+							'Town Hall - 7 min walk',
+							'Empire State Building - 8 min walk',
+							'Broadway - 9 min walk',
+							'Minskoff Theater - 10 min walk'
+						],
+						contentType: 'LIST'
+					},
+					{
+						type: 'TAGLINE',
+						content: [ '<b>Luxury hotel with 2 bars/lounges, near 5th Avenue </b>' ],
+						contentType: 'LIST'
+					},
+					{
+						type: 'HOTEL_FREEBIES',
+						content: [ 'Free WiFi' ],
+						contentType: 'LIST'
+					}
+				]
+			},
+			hotelWelcomeRewards: {
+				applies: true,
+				info: 'You can collect Hotels.com® Rewards stamps here'
+			},
+			propertyDescription: {
+				clientToken: 'Uwepa94vBePGZeE-CPJxcheJ5rU.',
+				address: {
+					countryName: 'United States of America',
+					addressLine2: 'New York',
+					cityName: 'New York',
+					postalCode: '10018',
+					provinceName: 'NY',
+					addressLine1: '63 W 38th St',
+					countryCode: 'USA',
+					pattern: 'AddressLine1,#AddressLine2,#CityName,#ProvinceName,#PostalCode,#CountryName',
+					fullAddress: '63 W 38th St, New York, New York, NY, 10018, United States of America'
+				},
+				priceMatchEnabled: false,
+				name: 'Refinery Hotel',
+				starRatingTitle: '5 stars',
+				starRating: 5,
+				featuredPrice: {
+					beforePriceText: 'Lowest price',
+					afterPriceText: '',
+					pricingAvailability: 'available on 07/24/22',
+					pricingTooltip: 'Price may be available on other dates',
+					currentPrice: {
+						formatted: '$263',
+						plain: 263
+					},
+					taxInclusiveFormatting: false,
+					bookNowButton: false
+				},
+				mapWidget: {
+					staticMapUrl:
+						'https://maps-api-ssl.google.com/maps/api/staticmap?center=40.75211,-73.98546&format=jpg&sensor=false&key=AIzaSyDaDqDNrxWrxcURixO2l6TbtV68X0Klf4U&zoom=16&size=834x443&scale&signature&signature=UjM9rOt8CZzHgf7zaz_C_Aj7__w='
+				},
+				roomTypeNames: [
+					'Studio, 1 Queen Bed',
+					'Studio, 1 King Bed',
+					'Deluxe Room, 2 Queen Beds',
+					'Atelier Executive Suite'
+				],
+				tagline: [ '<b>Luxury hotel with 2 bars/lounges, near 5th Avenue </b>' ],
+				freebies: [ 'Free WiFi' ]
+			},
+			guestReviews: {
+				brands: {
+					scale: 10,
+					formattedScale: '10',
+					rating: 9,
+					formattedRating: '9.0',
+					lowRating: false,
+					badgeText: 'Superb',
+					total: 1444
+				}
+			},
+			atAGlance: {
+				keyFacts: {
+					hotelSize: [ 'This hotel has 197 rooms', 'This hotel is arranged over 12 floors' ],
+					arrivingLeaving: [ 'Check-in time 3 PM-1 AM', 'Check-out time is  noon', 'Express check-in/out' ],
+					specialCheckInInstructions: [ 'Front desk staff will greet guests on arrival. ' ],
+					requiredAtCheckIn: [
+						'Credit card, debit card, or cash deposit required for incidental charges',
+						'Government-issued photo ID may be required',
+						'Minimum check-in age is 21'
+					]
+				},
+				travellingOrInternet: {
+					travelling: {
+						children: [],
+						pets: [ 'Pets allowed*', 'Service animals welcome', 'Food and water bowls available' ],
+						extraPeople: []
+					},
+					internet: [ 'Free WiFi in public areas', 'Free WiFi in rooms' ]
+				},
+				transportAndOther: {
+					transport: {
+						transfers: [],
+						parking: [ 'Secured onsite self parking (fees apply)' ],
+						offsiteTransfer: []
+					},
+					otherInformation: [ 'Smoke-free property' ],
+					otherInclusions: []
+				}
+			},
+			amenities: [
+				{
+					heading: 'In the hotel',
+					listItems: [
+						{
+							heading: 'Food and drink',
+							listItems: [
+								'Full breakfast daily (surcharge)',
+								'2 bars/lounges',
+								'Restaurant',
+								'Coffee shop/cafe',
+								'Room service (during limited hours)'
+							]
+						},
+						{
+							heading: 'Things to do',
+							listItems: [ 'Fitness facilities' ]
+						},
+						{
+							heading: 'Services',
+							listItems: [
+								'24-hour front desk',
+								'Concierge services',
+								'Tours/ticket assistance',
+								'Dry cleaning/laundry service',
+								'Free newspapers in lobby',
+								'Luggage storage',
+								'Multilingual staff',
+								'Porter/bellhop'
+							]
+						},
+						{
+							heading: 'Facilities',
+							listItems: [
+								'Number of buildings/towers -  1',
+								'Year Built -  1912',
+								'Elevator',
+								'ATM/banking',
+								'Safe-deposit box at front desk',
+								'Rooftop terrace'
+							]
+						},
+						{
+							heading: 'Accessibility',
+							listItems: [
+								'Braille or raised signage',
+								'Accessible bathroom',
+								'In-room accessibility',
+								'Roll-in shower'
+							]
+						},
+						{
+							heading: 'Languages Spoken',
+							listItems: [
+								'Arabic',
+								'English',
+								'French',
+								'Italian',
+								'Polish',
+								'Portuguese',
+								'Russian',
+								'Spanish'
+							]
+						}
+					]
+				},
+				{
+					heading: 'In the room',
+					listItems: [
+						{
+							heading: 'Home comforts',
+							listItems: [ 'Air conditioning', 'Minibar', 'Bathrobes', 'Iron/ironing board' ]
+						},
+						{
+							heading: 'Sleep well',
+							listItems: [
+								'Hypo-allergenic bedding available',
+								'Down comforter',
+								'Soundproofed rooms',
+								'Premium bedding'
+							]
+						},
+						{
+							heading: 'Things to enjoy',
+							listItems: [ 'In-room massage available' ]
+						},
+						{
+							heading: 'Freshen up',
+							listItems: [ 'Private bathroom', 'Designer toiletries', 'Hair dryer' ]
+						},
+						{
+							heading: 'Be entertained',
+							listItems: [ '42-inch LCD TV', 'Pay movies', 'Premium TV channels', 'IPod docking station' ]
+						},
+						{
+							heading: 'Stay connected',
+							listItems: [ 'Desk', 'Free newspaper', 'Free WiFi', 'Phone' ]
+						},
+						{
+							heading: 'Food and drink',
+							listItems: [ 'Refrigerator (on request)' ]
+						},
+						{
+							heading: 'More',
+							listItems: [
+								'Daily housekeeping',
+								'In-room safe (laptop compatible)',
+								'Connecting/adjoining rooms available'
+							]
+						}
+					]
+				}
+			],
+			hygieneAndCleanliness: {
+				title: 'COVID-19: Hygiene and cleanliness',
+				hygieneQualifications: {
+					title: 'Official standards',
+					qualifications: [
+						'This property advises that it adheres to SafeStay (AHLA - USA) cleaning and disinfection practices. '
+					]
+				},
+				healthAndSafetyMeasures: {
+					title: 'Enhanced health and safety measures',
+					description:
+						'This property advises that enhanced cleaning and guest safety measures are currently in place.',
+					measures: [
+						'Property is cleaned with disinfectant',
+						'Staff wears personal protective equipment',
+						'Property confirms they are implementing enhanced cleaning measures',
+						'Shield between guests and staff in main contact areas',
+						'Social distancing measures are in place',
+						'Contactless check-in is available',
+						'Protective clothing is available to guests',
+						'Masks are available to guests',
+						'Gloves are available to guests',
+						'Individually-wrapped food options are available',
+						'Guests are provided with free hand sanitizer'
+					]
+				}
+			},
+			smallPrint: {
+				alternativeNames: [
+					'Hotel Refinery',
+					'Refinery Hotel',
+					'Refinery Hotel New York',
+					'Refinery New York',
+					'Refinery',
+					'Refinery Hotel Hotel',
+					'Refinery Hotel New York',
+					'Refinery Hotel Hotel New York'
+				],
+				mandatoryFees: [
+					'<ul><li>Resort fee: USD 45.90 per accommodation, per night</li></ul><br/>\n<p>Resort fee inclusions: </p><ul><li>Health club access</li><li>Fitness center access</li><li>Internet access (may be limited)</li></ul>'
+				],
+				optionalExtras: [
+					'<p><strong>Secured self parking</strong> is available for an extra charge</p> ',
+					'<p><strong>Rollaway</strong> beds are available for USD 50.0 per night</p>',
+					'<p><strong>Breakfast</strong> costs between USD 20 and USD 30 per person (approximately)</p>',
+					'<p><strong>Pets</strong> are allowed for an extra charge of USD 150 per pet, per stay</p>Service animals exempt from fees'
+				],
+				policies: [
+					'<p>The property has connecting/adjoining rooms, which are subject to availability and can be requested by contacting the property using the number on the booking confirmation. </p><p>This property advises that enhanced cleaning and guest safety measures are currently in place.</p><p>Disinfectant is used to clean the property; commonly-touched surfaces are cleaned with disinfectant between stays; bed sheets and towels are laundered at a temperature of at least 60°C/140°F.</p><p>Personal protective equipment, including masks and gloves, will be available to guests.</p><p>Social distancing measures are in place; staff at the property wear personal protective equipment; a shield is in place between staff and guests in main contact areas; periodic temperature checks are conducted on staff; guests are provided with hand sanitizer.</p><p>Contactless check-in and contactless check-out are available.</p><p>Individually-wrapped food options are available for breakfast, lunch, and dinner, and also through room service.</p><p>This property affirms that it adheres to the cleaning and disinfection practices of SafeStay (AHLA - USA).</p>',
+					'<p>This property accepts credit cards. Cash is not accepted.</p>'
+				],
+				mandatoryTaxesOrFees: true,
+				display: true
+			},
+			specialFeatures: {
+				sections: [
+					{
+						heading: 'Dining',
+						freeText:
+							'<strong>Parker and Quinn</strong> - This restaurant specializes in American cuisine and serves breakfast, lunch, and dinner. Guests can enjoy drinks at the bar. <br/>\n<p></p><strong>Winnies</strong> - Onsite lobby lounge. Open daily. <br/>\n<p></p><strong>Rooftop Bar</strong> - This rooftop bar serves light fare only. Guests can enjoy alfresco dining (weather permitting). Open daily. ',
+						listItems: [],
+						subsections: []
+					},
+					{
+						heading: 'Awards and affiliations',
+						freeText: 'The property is a member of the Small Luxury Hotels of the World. ',
+						listItems: [],
+						subsections: []
+					}
+				]
+			},
+			miscellaneous: {
+				pimmsAttributes: 'DoubleStamps|MESOTESTUS|D13|TESCO',
+				showLegalInfoForStrikethroughPrices: true,
+				legalInfoForStrikethroughPrices:
+					'The struck-out price is based on the property’s standard rate on our app, as determined and supplied by the property.'
+			},
+			pageInfo: {
+				pageType: 'dateless',
+				errors: [
+					{
+						fieldName: 'departureDate',
+						errorMessages: [ 'Arrival and departure dates cannot have the same value.' ]
+					}
+				],
+				errorKeys: [ 'MALFORMED_DATEFUL_REQUEST' ]
+			},
+			hotelBadge: {
+				type: 'vipBasic',
+				label: 'VIP',
+				tooltipTitle: 'VIP properties',
+				tooltipText: 'VIP properties have been recognized for offering exceptional service to our customers.'
+			},
+			unavailable: {}
+		},
+		common: {
+			pointOfSale: {
+				numberSeparators: ',.',
+				brandName: 'Hotels.com'
+			},
+			tracking: {
+				omniture: {
+					's.prop34': '2022.06.948',
+					's.eVar69': 'Mob :: aApp',
+					's.currencyCode': 'USD',
+					's.eVar26': 'US:TX:FRISCO:623',
+					's.eVar16': 'Mob :: aApp',
+					's.products': 'LOCAL;5558022',
+					's.eVar29': 'Mob :: aApp',
+					's.eVar40': 'D=v0',
+					's.eVar95': 'Unknown',
+					's.eVar41': 'USD',
+					's.eVar31': 'D=v0',
+					's.eVar4':
+						'|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|',
+					's.eVar43': 'en_US|HCOM_US|www.hotels.com',
+					's.eVar32': 'D=v0',
+					's.eVar34':
+						'H1068:005.001,H1871:007.002,M4869:001.000,M4953:001.000,M5342:000.000,M5756:001.000,M5758:001.000,M5759:001.000,M5760:001.000,M6271:001.000,M6439:000.000,M6553:000.000,M6946:000.000,M7296:000.000,M7305:000.000,M7308:000.000,M7353:000.000,M7362.0,M7635:000.000,M7844:000.000,M7983:000.000,M7990:000.000,M8033:000.000,M8248:000.000,M8336:000.000,M8400:000.000,M9035:000.000,M9056:000.000,M9167:000.000,M9168:000.000,M9469:000.000,M9475:000.000,M9493:000.000,M9629:000.000,M9733:007.001,M9810:000.000,M9890:000.000,M9924:000.000,M9930:000.000,M9974:000.000,M10013:002.001,M10025:000.000,M10049:000.000,M10057:000.000,M10101:000.000,M10268:000.000,M10291:000.000,M10335:000.000,M10473:000.000,M10517:000.000,M9215:001.000',
+					's.eVar13': '389367',
+					's.server': 'www.hotels.com',
+					's.prop28': '0',
+					's.prop27': 'a58cb426-67b3-41ac-8ff4-827e88259bca',
+					's.prop5': '389367',
+					's.eVar80': '',
+					's.prop48': 'hotel details without dates description tab',
+					's.prop36':
+						'|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|',
+					's.eVar93': 'aws.us-west-2.unknown'
+				},
+				pageViewBeaconUrl:
+					'/taps/v1/PageView?deviceType=App-Phone&rooms=1&destRegionID=1506246&hotelIds=&adults=1&userAgent=PDE.4.1.440&userGuid=a58cb426-67b3-41ac-8ff4-827e88259bca&pageName=Hotel-IS&slots=HIS_Car_A,HIS_Car_B,HIS_Car_C,HIS_Car_D,HIS_Car_E,HIS_Car_F,HIS_Car_G,HIS_Car_H,HIS_Car_I,HIS_Car_J&children=0&culture=en_US&testVersionOverride=4200.0,7983.0,7561.0,7990.0,8434.0,9493.0,10473.0&domain=www.hotels.com&action=pageview&publisher=expedia&userIP=127.0.0.1&programId=1'
+			}
+		}
+	},
+	transportation: {
+		transportLocations: [
+			{
+				category: 'airport',
+				locations: [
+					{
+						name: 'LaGuardia Airport (LGA) -',
+						distance: '',
+						distanceInTime: '29 min drive'
+					},
+					{
+						name: 'John F. Kennedy Intl. Airport (JFK) -',
+						distance: '',
+						distanceInTime: '44 min drive'
+					},
+					{
+						name: 'Newark Liberty Intl. Airport (EWR) -',
+						distance: '',
+						distanceInTime: '36 min drive'
+					},
+					{
+						name: 'New York, NY (NYS-Skyports Seaplane Base) -',
+						distance: '',
+						distanceInTime: '3 min drive'
+					},
+					{
+						name: 'Teterboro, NJ (TEB) -',
+						distance: '',
+						distanceInTime: '15 min drive'
+					},
+					{
+						name: 'Linden, NJ (LDJ) -',
+						distance: '',
+						distanceInTime: '26 min drive'
+					}
+				]
+			},
+			{
+				category: 'train-station',
+				locations: [
+					{
+						name: 'New York W 32nd St. Station -',
+						distance: '',
+						distanceInTime: '7 min walk'
+					},
+					{
+						name: 'Grand Central - 42 St. Station -',
+						distance: '',
+						distanceInTime: '11 min walk'
+					},
+					{
+						name: 'Penn Station -',
+						distance: '',
+						distanceInTime: '13 min walk'
+					}
+				]
+			},
+			{
+				category: 'metro',
+				locations: [
+					{
+						name: '42 St. - Bryant Pk. Station -',
+						distance: '',
+						distanceInTime: '3 min walk'
+					},
+					{
+						name: '34 St. Station (Herald Square) -',
+						distance: '',
+						distanceInTime: '5 min walk'
+					},
+					{
+						name: 'Times Sq. - 42 St. Station -',
+						distance: '',
+						distanceInTime: '6 min walk'
+					}
+				]
+			}
+		]
+	},
+	neighborhood: {
+		neighborhoodName: 'Manhattan'
+	}
+};
+export const hotelPhoto = {
+	hotelId: 425948736,
+	hotelImages: [
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/ae3a61ed_{size}.jpg',
+			imageId: 78490446,
+			mediaGUID: 'ae3a61ed-766b-402c-bddc-78b02a7eadc9',
+			sizes: [
+				{
+					type: 15,
+					suffix: 'z'
+				},
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: '20220503',
+				namespace: 'DataScience',
+				algorithmName: 'herobandit.v20201116-contextual-heroaesthetics.v20200130-hsc.v20190223'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/7ffbaaf1_{size}.jpg',
+			imageId: 78490384,
+			mediaGUID: '7ffbaaf1-a38f-4856-8743-21087ac7cecf',
+			sizes: [
+				{
+					type: 15,
+					suffix: 'z'
+				},
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: '20220503',
+				namespace: 'DataScience',
+				algorithmName: 'heroaesthetics.v20190411-hsc.v20190223'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/4b350d54_{size}.jpg',
+			imageId: 240485930,
+			mediaGUID: '4b350d54-4938-4d21-b4da-1df5a2ad0251',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/b143f871_{size}.jpg',
+			imageId: 80986387,
+			mediaGUID: 'b143f871-ede2-49b8-a786-93222d4d9613',
+			sizes: [
+				{
+					type: 15,
+					suffix: 'z'
+				},
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: '20220503',
+				namespace: 'DataScience',
+				algorithmName: 'heroaesthetics.v20190411-hsc.v20190223'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/91509981_{size}.jpg',
+			imageId: 78490491,
+			mediaGUID: '91509981-1043-4365-9a35-f56f1927de6f',
+			sizes: [
+				{
+					type: 15,
+					suffix: 'z'
+				},
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: '20220503',
+				namespace: 'DataScience',
+				algorithmName: 'heroaesthetics.v20190411-hsc.v20190223'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/12a3b994_{size}.jpg',
+			imageId: 78490461,
+			mediaGUID: '12a3b994-d2a5-45db-a080-bfb3efe6677d',
+			sizes: [
+				{
+					type: 15,
+					suffix: 'z'
+				},
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: '20220503',
+				namespace: 'DataScience',
+				algorithmName: 'heroaesthetics.v20190411-hsc.v20190223'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/b2e8f715_{size}.jpg',
+			imageId: 78490494,
+			mediaGUID: 'b2e8f715-bff6-460e-a390-a3b5a764013c',
+			sizes: [
+				{
+					type: 15,
+					suffix: 'z'
+				},
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: '20220503',
+				namespace: 'DataScience',
+				algorithmName: 'heroaesthetics.v20190411-hsc.v20190223'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/00d678c2_{size}.jpg',
+			imageId: 200449045,
+			mediaGUID: '00d678c2-5ff7-4698-9f28-97a350c6630d',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/0f5dfd54_{size}.jpg',
+			imageId: 635859494,
+			mediaGUID: '0f5dfd54-80b3-47ef-b254-3586956c19e1',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/cb682121_{size}.jpg',
+			imageId: 635859515,
+			mediaGUID: 'cb682121-f5df-40d3-96d4-8f0ca2816e34',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/fc77711e_{size}.jpg',
+			imageId: 635859482,
+			mediaGUID: 'fc77711e-9327-4b1d-af51-204c8de6dda5',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/73ef76f8_{size}.jpg',
+			imageId: 635859484,
+			mediaGUID: '73ef76f8-b359-4678-ae45-ec5ac301d063',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/94669b33_{size}.jpg',
+			imageId: 279888451,
+			mediaGUID: '94669b33-7e9d-44d5-92f8-e9baf7c6f538',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/12acf22b_{size}.jpg',
+			imageId: 635859488,
+			mediaGUID: '12acf22b-ed6b-45cc-bf7e-857bee85115a',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/0d9443b7_{size}.jpg',
+			imageId: 635859518,
+			mediaGUID: '0d9443b7-f180-45da-b41d-5562716032c0',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/07835fc1_{size}.jpg',
+			imageId: 204041334,
+			mediaGUID: '07835fc1-d5c7-40d1-a699-40d9e51c0b1b',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/ee3d0452_{size}.jpg',
+			imageId: 635859487,
+			mediaGUID: 'ee3d0452-9aef-49cd-83b4-28304d96b776',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/0975a319_{size}.jpg',
+			imageId: 635859490,
+			mediaGUID: '0975a319-e326-4edb-baea-ce9940f164cc',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/cf746caa_{size}.jpg',
+			imageId: 635859503,
+			mediaGUID: 'cf746caa-1c50-4fbf-b877-c970b5f5e68a',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/39b89106_{size}.jpg',
+			imageId: 635859496,
+			mediaGUID: '39b89106-cf7d-4fab-8815-4962c63d0e66',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/cf6281b2_{size}.jpg',
+			imageId: 635859498,
+			mediaGUID: 'cf6281b2-8084-498e-a6fc-8b8b005473dd',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/8a8f3b36_{size}.jpg',
+			imageId: 635859509,
+			mediaGUID: '8a8f3b36-bd3e-4841-ace4-86d792dbfe6a',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/e6415312_{size}.jpg',
+			imageId: 635859511,
+			mediaGUID: 'e6415312-3c52-4cac-bcf7-1071d740b513',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/0b6045b0_{size}.jpg',
+			imageId: 635859513,
+			mediaGUID: '0b6045b0-d5a2-4ee3-b12c-0125fb564f8d',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/92ffac83_{size}.jpg',
+			imageId: 635859514,
+			mediaGUID: '92ffac83-051a-4ed1-9564-f80a192026bc',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/8d30930d_{size}.jpg',
+			imageId: 78490383,
+			mediaGUID: '8d30930d-d6cf-443a-918f-895db60b4563',
+			sizes: [
+				{
+					type: 15,
+					suffix: 'z'
+				},
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: '20220503',
+				namespace: 'DataScience',
+				algorithmName: 'heroaesthetics.v20190411-hsc.v20190223'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/d9491698_{size}.jpg',
+			imageId: 78490489,
+			mediaGUID: 'd9491698-0745-486d-8b72-191f66052c82',
+			sizes: [
+				{
+					type: 15,
+					suffix: 'z'
+				},
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: '20220503',
+				namespace: 'DataScience',
+				algorithmName: 'heroaesthetics.v20190411-hsc.v20190223'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/bb682ce4_{size}.jpg',
+			imageId: 78490492,
+			mediaGUID: 'bb682ce4-a6e8-429e-a7b7-ac795b223742',
+			sizes: [
+				{
+					type: 15,
+					suffix: 'z'
+				},
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: '20220503',
+				namespace: 'DataScience',
+				algorithmName: 'heroaesthetics.v20190411-hsc.v20190223'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/bc4d2cc5_{size}.jpg',
+			imageId: 78490387,
+			mediaGUID: 'bc4d2cc5-a670-459a-a0bf-cd2173aebc28',
+			sizes: [
+				{
+					type: 15,
+					suffix: 'z'
+				},
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: '20220503',
+				namespace: 'DataScience',
+				algorithmName: 'heroaesthetics.v20190411-hsc.v20190223'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/00ed89b0_{size}.jpg',
+			imageId: 200497641,
+			mediaGUID: '00ed89b0-3333-45c4-8133-553a67829858',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/10b57ea6_{size}.jpg',
+			imageId: 208995775,
+			mediaGUID: '10b57ea6-d8f6-4a8e-b36c-50d6d258503b',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/31112649_{size}.jpg',
+			imageId: 226418926,
+			mediaGUID: '31112649-44a5-4067-8d62-28640d88829d',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/af3b435d_{size}.jpg',
+			imageId: 294336954,
+			mediaGUID: 'af3b435d-8d19-42dd-a6ea-f982d82703b4',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/fd57491b_{size}.jpg',
+			imageId: 635859477,
+			mediaGUID: 'fd57491b-b473-4ee2-afd9-d0a20c8691d0',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/33bba6ea_{size}.jpg',
+			imageId: 635859478,
+			mediaGUID: '33bba6ea-c385-4e11-8775-2d1d2053a53b',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/02c0fd26_{size}.jpg',
+			imageId: 635859480,
+			mediaGUID: '02c0fd26-0b1e-4e5b-8368-e17e9f1d79ab',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/1085b0b4_{size}.jpg',
+			imageId: 635859481,
+			mediaGUID: '1085b0b4-3065-4dc7-b343-c91bf57ef7a1',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/e532a650_{size}.jpg',
+			imageId: 635859486,
+			mediaGUID: 'e532a650-194e-49ed-9167-884a18766b49',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/9ae53582_{size}.jpg',
+			imageId: 635859491,
+			mediaGUID: '9ae53582-2c68-4ddd-8ec5-9a413fcec455',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/40420baa_{size}.jpg',
+			imageId: 635859492,
+			mediaGUID: '40420baa-7cff-407b-a0cb-941cbe64065e',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/24bf47ca_{size}.jpg',
+			imageId: 635859493,
+			mediaGUID: '24bf47ca-81af-4450-a759-55bb089a09a6',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/3005385d_{size}.jpg',
+			imageId: 635859495,
+			mediaGUID: '3005385d-9770-4460-b9be-ce35fe102bae',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/ae27545e_{size}.jpg',
+			imageId: 635859497,
+			mediaGUID: 'ae27545e-2dcb-4ee6-a149-8659b683572e',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/f85a4e59_{size}.jpg',
+			imageId: 635859500,
+			mediaGUID: 'f85a4e59-443a-4acb-98e0-8b4adc1a9fbd',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/e92e4652_{size}.jpg',
+			imageId: 635859501,
+			mediaGUID: 'e92e4652-8822-4e90-b7b2-99391510aa43',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/39677ce8_{size}.jpg',
+			imageId: 635859504,
+			mediaGUID: '39677ce8-8a47-40ba-8475-f98308b7f5cb',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/a68513cc_{size}.jpg',
+			imageId: 635859505,
+			mediaGUID: 'a68513cc-6cd4-4d28-8d99-d08f003ed826',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/7fa46b17_{size}.jpg',
+			imageId: 635859506,
+			mediaGUID: '7fa46b17-828a-4dc6-a6f3-e478724b056d',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/62a150d9_{size}.jpg',
+			imageId: 635859508,
+			mediaGUID: '62a150d9-8a2f-46af-b4e0-25df30504539',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/0ffdc396_{size}.jpg',
+			imageId: 635859510,
+			mediaGUID: '0ffdc396-3f85-462f-8934-342b564df39d',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/cefa38a6_{size}.jpg',
+			imageId: 635859516,
+			mediaGUID: 'cefa38a6-ca0d-4b67-8cbd-34827299be9f',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		},
+		{
+			baseUrl: 'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/28476ff5_{size}.jpg',
+			imageId: 635859519,
+			mediaGUID: '28476ff5-210c-4a89-b5d4-68d99b3511e5',
+			sizes: [
+				{
+					type: 14,
+					suffix: 'y'
+				},
+				{
+					type: 3,
+					suffix: 'b'
+				},
+				{
+					type: 11,
+					suffix: 'n'
+				},
+				{
+					type: 13,
+					suffix: 'd'
+				},
+				{
+					type: 16,
+					suffix: 'e'
+				},
+				{
+					type: 12,
+					suffix: 'g'
+				},
+				{
+					type: 9,
+					suffix: 'l'
+				},
+				{
+					type: 2,
+					suffix: 's'
+				},
+				{
+					type: 1,
+					suffix: 't'
+				}
+			],
+			trackingDetails: {
+				version: 'not_applicable',
+				namespace: 'not_applicable',
+				algorithmName: 'default_image_selection'
+			}
+		}
+	],
+	roomImages: [
+		{
+			roomId: 216638888,
+			images: [
+				{
+					baseUrl:
+						'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/af3b435d_{size}.jpg',
+					imageId: 294336954,
+					mediaGUID: 'af3b435d-8d19-42dd-a6ea-f982d82703b4',
+					sizes: [
+						{
+							type: 14,
+							suffix: 'y'
+						},
+						{
+							type: 3,
+							suffix: 'b'
+						},
+						{
+							type: 11,
+							suffix: 'n'
+						},
+						{
+							type: 13,
+							suffix: 'd'
+						},
+						{
+							type: 16,
+							suffix: 'e'
+						},
+						{
+							type: 12,
+							suffix: 'g'
+						},
+						{
+							type: 9,
+							suffix: 'l'
+						},
+						{
+							type: 2,
+							suffix: 's'
+						},
+						{
+							type: 1,
+							suffix: 't'
+						}
+					]
+				},
+				{
+					baseUrl:
+						'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/00ed89b0_{size}.jpg',
+					imageId: 200497641,
+					mediaGUID: '00ed89b0-3333-45c4-8133-553a67829858',
+					sizes: [
+						{
+							type: 14,
+							suffix: 'y'
+						},
+						{
+							type: 3,
+							suffix: 'b'
+						},
+						{
+							type: 11,
+							suffix: 'n'
+						},
+						{
+							type: 13,
+							suffix: 'd'
+						},
+						{
+							type: 16,
+							suffix: 'e'
+						},
+						{
+							type: 12,
+							suffix: 'g'
+						},
+						{
+							type: 9,
+							suffix: 'l'
+						},
+						{
+							type: 2,
+							suffix: 's'
+						},
+						{
+							type: 1,
+							suffix: 't'
+						}
+					]
+				},
+				{
+					baseUrl:
+						'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/7ffbaaf1_{size}.jpg',
+					imageId: 78490384,
+					mediaGUID: '7ffbaaf1-a38f-4856-8743-21087ac7cecf',
+					sizes: [
+						{
+							type: 15,
+							suffix: 'z'
+						},
+						{
+							type: 14,
+							suffix: 'y'
+						},
+						{
+							type: 3,
+							suffix: 'b'
+						},
+						{
+							type: 11,
+							suffix: 'n'
+						},
+						{
+							type: 13,
+							suffix: 'd'
+						},
+						{
+							type: 16,
+							suffix: 'e'
+						},
+						{
+							type: 12,
+							suffix: 'g'
+						},
+						{
+							type: 9,
+							suffix: 'l'
+						},
+						{
+							type: 2,
+							suffix: 's'
+						},
+						{
+							type: 1,
+							suffix: 't'
+						}
+					]
+				},
+				{
+					baseUrl:
+						'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/4b350d54_{size}.jpg',
+					imageId: 240485930,
+					mediaGUID: '4b350d54-4938-4d21-b4da-1df5a2ad0251',
+					sizes: [
+						{
+							type: 14,
+							suffix: 'y'
+						},
+						{
+							type: 3,
+							suffix: 'b'
+						},
+						{
+							type: 11,
+							suffix: 'n'
+						},
+						{
+							type: 13,
+							suffix: 'd'
+						},
+						{
+							type: 16,
+							suffix: 'e'
+						},
+						{
+							type: 12,
+							suffix: 'g'
+						},
+						{
+							type: 9,
+							suffix: 'l'
+						},
+						{
+							type: 2,
+							suffix: 's'
+						},
+						{
+							type: 1,
+							suffix: 't'
+						}
+					]
+				}
+			]
+		},
+		{
+			roomId: 216638887,
+			images: [
+				{
+					baseUrl:
+						'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/31112649_{size}.jpg',
+					imageId: 226418926,
+					mediaGUID: '31112649-44a5-4067-8d62-28640d88829d',
+					sizes: [
+						{
+							type: 14,
+							suffix: 'y'
+						},
+						{
+							type: 3,
+							suffix: 'b'
+						},
+						{
+							type: 11,
+							suffix: 'n'
+						},
+						{
+							type: 13,
+							suffix: 'd'
+						},
+						{
+							type: 16,
+							suffix: 'e'
+						},
+						{
+							type: 12,
+							suffix: 'g'
+						},
+						{
+							type: 9,
+							suffix: 'l'
+						},
+						{
+							type: 2,
+							suffix: 's'
+						},
+						{
+							type: 1,
+							suffix: 't'
+						}
+					]
+				},
+				{
+					baseUrl:
+						'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/8d30930d_{size}.jpg',
+					imageId: 78490383,
+					mediaGUID: '8d30930d-d6cf-443a-918f-895db60b4563',
+					sizes: [
+						{
+							type: 15,
+							suffix: 'z'
+						},
+						{
+							type: 14,
+							suffix: 'y'
+						},
+						{
+							type: 3,
+							suffix: 'b'
+						},
+						{
+							type: 11,
+							suffix: 'n'
+						},
+						{
+							type: 13,
+							suffix: 'd'
+						},
+						{
+							type: 16,
+							suffix: 'e'
+						},
+						{
+							type: 12,
+							suffix: 'g'
+						},
+						{
+							type: 9,
+							suffix: 'l'
+						},
+						{
+							type: 2,
+							suffix: 's'
+						},
+						{
+							type: 1,
+							suffix: 't'
+						}
+					]
+				},
+				{
+					baseUrl:
+						'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/d9491698_{size}.jpg',
+					imageId: 78490489,
+					mediaGUID: 'd9491698-0745-486d-8b72-191f66052c82',
+					sizes: [
+						{
+							type: 15,
+							suffix: 'z'
+						},
+						{
+							type: 14,
+							suffix: 'y'
+						},
+						{
+							type: 3,
+							suffix: 'b'
+						},
+						{
+							type: 11,
+							suffix: 'n'
+						},
+						{
+							type: 13,
+							suffix: 'd'
+						},
+						{
+							type: 16,
+							suffix: 'e'
+						},
+						{
+							type: 12,
+							suffix: 'g'
+						},
+						{
+							type: 9,
+							suffix: 'l'
+						},
+						{
+							type: 2,
+							suffix: 's'
+						},
+						{
+							type: 1,
+							suffix: 't'
+						}
+					]
+				},
+				{
+					baseUrl:
+						'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/bb682ce4_{size}.jpg',
+					imageId: 78490492,
+					mediaGUID: 'bb682ce4-a6e8-429e-a7b7-ac795b223742',
+					sizes: [
+						{
+							type: 15,
+							suffix: 'z'
+						},
+						{
+							type: 14,
+							suffix: 'y'
+						},
+						{
+							type: 3,
+							suffix: 'b'
+						},
+						{
+							type: 11,
+							suffix: 'n'
+						},
+						{
+							type: 13,
+							suffix: 'd'
+						},
+						{
+							type: 16,
+							suffix: 'e'
+						},
+						{
+							type: 12,
+							suffix: 'g'
+						},
+						{
+							type: 9,
+							suffix: 'l'
+						},
+						{
+							type: 2,
+							suffix: 's'
+						},
+						{
+							type: 1,
+							suffix: 't'
+						}
+					]
+				},
+				{
+					baseUrl:
+						'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/00ed89b0_{size}.jpg',
+					imageId: 200497641,
+					mediaGUID: '00ed89b0-3333-45c4-8133-553a67829858',
+					sizes: [
+						{
+							type: 14,
+							suffix: 'y'
+						},
+						{
+							type: 3,
+							suffix: 'b'
+						},
+						{
+							type: 11,
+							suffix: 'n'
+						},
+						{
+							type: 13,
+							suffix: 'd'
+						},
+						{
+							type: 16,
+							suffix: 'e'
+						},
+						{
+							type: 12,
+							suffix: 'g'
+						},
+						{
+							type: 9,
+							suffix: 'l'
+						},
+						{
+							type: 2,
+							suffix: 's'
+						},
+						{
+							type: 1,
+							suffix: 't'
+						}
+					]
+				},
+				{
+					baseUrl:
+						'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/10b57ea6_{size}.jpg',
+					imageId: 208995775,
+					mediaGUID: '10b57ea6-d8f6-4a8e-b36c-50d6d258503b',
+					sizes: [
+						{
+							type: 14,
+							suffix: 'y'
+						},
+						{
+							type: 3,
+							suffix: 'b'
+						},
+						{
+							type: 11,
+							suffix: 'n'
+						},
+						{
+							type: 13,
+							suffix: 'd'
+						},
+						{
+							type: 16,
+							suffix: 'e'
+						},
+						{
+							type: 12,
+							suffix: 'g'
+						},
+						{
+							type: 9,
+							suffix: 'l'
+						},
+						{
+							type: 2,
+							suffix: 's'
+						},
+						{
+							type: 1,
+							suffix: 't'
+						}
+					]
+				},
+				{
+					baseUrl:
+						'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/7ffbaaf1_{size}.jpg',
+					imageId: 78490384,
+					mediaGUID: '7ffbaaf1-a38f-4856-8743-21087ac7cecf',
+					sizes: [
+						{
+							type: 15,
+							suffix: 'z'
+						},
+						{
+							type: 14,
+							suffix: 'y'
+						},
+						{
+							type: 3,
+							suffix: 'b'
+						},
+						{
+							type: 11,
+							suffix: 'n'
+						},
+						{
+							type: 13,
+							suffix: 'd'
+						},
+						{
+							type: 16,
+							suffix: 'e'
+						},
+						{
+							type: 12,
+							suffix: 'g'
+						},
+						{
+							type: 9,
+							suffix: 'l'
+						},
+						{
+							type: 2,
+							suffix: 's'
+						},
+						{
+							type: 1,
+							suffix: 't'
+						}
+					]
+				},
+				{
+					baseUrl:
+						'https://exp.cdn-hotels.com/hotels/14000000/13280000/13279700/13279648/4b350d54_{size}.jpg',
+					imageId: 240485930,
+					mediaGUID: '4b350d54-4938-4d21-b4da-1df5a2ad0251',
+					sizes: [
+						{
+							type: 14,
+							suffix: 'y'
+						},
+						{
+							type: 3,
+							suffix: 'b'
+						},
+						{
+							type: 11,
+							suffix: 'n'
+						},
+						{
+							type: 13,
+							suffix: 'd'
+						},
+						{
+							type: 16,
+							suffix: 'e'
+						},
+						{
+							type: 12,
+							suffix: 'g'
+						},
+						{
+							type: 9,
+							suffix: 'l'
+						},
+						{
+							type: 2,
+							suffix: 's'
+						},
+						{
+							type: 1,
+							suffix: 't'
+						}
+					]
+				}
+			]
+		}
+	],
+	featuredImageTrackingDetails: {
+		version: '20220503',
+		namespace: 'DataScience',
+		algorithmName: 'herobandit.v20201116-contextual-heroaesthetics.v20200130-hsc.v20190223'
+	},
+	propertyImageTrackingDetails: {
+		version: '20220503',
+		namespace: 'DataScience',
+		algorithmName: 'heroaesthetics.v20190411-hsc.v20190223'
+	}
+};
