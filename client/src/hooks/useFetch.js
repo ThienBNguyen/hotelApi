@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Austin } from '../dataSource';
 
-const useFetch = (url) => {
+const useFetch = (uri) => {
 	const [ data, setData ] = useState(Austin);
 	const [ loading, setLoading ] = useState(false);
 	const [ error, setError ] = useState(false);
@@ -11,7 +11,7 @@ const useFetch = (url) => {
 		const fetchData = async () => {
 			setLoading(true);
 			try {
-				const res = await axios.get(url);
+				const res = await axios.get(uri);
 				setData(res.data);
 			} catch (err) {
 				setError(err);
@@ -23,9 +23,8 @@ const useFetch = (url) => {
 	const reFetch = async () => {
 		setLoading(true);
 		try {
-			const res = await axios.get(url);
+			const res = await axios.get(uri);
 			setData(res.data);
-			console.log(res);
 		} catch (err) {
 			setError(err);
 		}
