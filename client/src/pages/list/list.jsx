@@ -109,6 +109,7 @@ const List = () => {
                             }
 
                         </> : <>
+                                {/* read data render to component */}
                                 {/* {data.data.body.searchResults.results.map((item, i) => (
                                     <SearchItem item={item} i={i} key={i} destination={destination} dates={dates} options={options} />
                                 ))} */}

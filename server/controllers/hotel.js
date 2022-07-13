@@ -57,10 +57,12 @@ export const getHotels = async (req, res, next) => {
 						res.status(200).json(hotelList);
 					})
 					.catch(function(error) {
-						console.error(error);
+						console.error(error.data);
 					});
 			})
 			.catch(function(error) {
+				res.send('You have exceeded the MONTHLY quota for Requests on your current plan.');
+
 				console.log(error);
 			});
 	} catch (error) {
@@ -83,18 +85,21 @@ export const getHotelPhoto = (req, res) => {
 	axios
 		.request(options)
 		.then(function(response) {
-			res.status(200).json(response.data);
+			res.status(200).json(response.data, '');
 		})
-		.catch(function(error) {
-			console.error(error);
+		.catch((error) => {
+			// res.status(429).send(error);
+			res.send('You have exceeded the MONTHLY quota for Requests on your current plan.');
 		});
 };
 export const getHotelDetails = async (req, res) => {
 	const hotelReq = req.query;
+
 	// console.log(hotelReq);
 	let datas = [];
 	let photoData = [];
 	let hotelData = [];
+	let err;
 	const optionsPhotos = {
 		method: 'GET',
 		url: 'https://hotels4.p.rapidapi.com/properties/get-hotel-photos',
@@ -127,17 +132,22 @@ export const getHotelDetails = async (req, res) => {
 			photoData = response.data;
 		})
 		.catch(function(error) {
-			console.error(error);
+			err = error;
 		});
 	await axios
 		.request(options)
 		.then(function(response) {
 			// res.status(200).json(response.data);
 			hotelData = response.data;
+			console.log(hotelData);
 		})
 		.catch(function(error) {
-			console.error(error);
+			err = error;
 		});
 	datas = { ...photoData, ...hotelData };
-	res.status(200).json(datas);
+	if (err) {
+		res.send('You have exceeded the MONTHLY quota for Requests on your current plan.');
+	} else {
+		res.status(200).json(datas);
+	}
 };
