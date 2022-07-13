@@ -6,11 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleXmark, faCircleArrowLeft, faCircleArrowRight, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import MailList from '../../components/mailList/MailList';
 import Footer from '../../components/footer/Footer';
-import { useLocation, useNavigate } from 'react-router';
-import { hotelDetail, hotelPhoto } from '../../dataSource';
-import useDetail from '../../hooks/useDetail';
-import { Axios } from 'axios';
-const StaticHotel = ({ staticDetail, photoRendered }) => {
+const StaticHotel = ({ staticDetail, photoRendered, errorMsg }) => {
     const [slideNumber, setSlideNumber] = useState(0);
     const [open, setOpen] = useState(false)
     const [openModal, setOpenModal] = useState(false)
@@ -45,7 +41,7 @@ const StaticHotel = ({ staticDetail, photoRendered }) => {
 
             <NavBar />
             <Header type="list" />
-
+            <p>{errorMsg}</p>
             <div className="hotelContainer">
                 {open && (
                     <div className="slider">
