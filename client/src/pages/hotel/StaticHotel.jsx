@@ -41,7 +41,7 @@ const StaticHotel = ({ staticDetail, photoRendered, errorMsg }) => {
 
             <NavBar />
             <Header type="list" />
-            <p>{errorMsg}</p>
+            {/* <p>{errorMsg}</p> */}
             <div className="hotelContainer">
                 {open && (
                     <div className="slider">

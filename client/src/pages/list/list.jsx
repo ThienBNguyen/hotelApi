@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import "./list.css"
 import NavBar from '../../components/navbar/NavBar';
 import { useLocation } from 'react-router';
@@ -16,10 +16,17 @@ const List = () => {
     const [options, setOptions] = useState(location.state.options)
     const [min, setMin] = useState(undefined);
     const [max, setMax] = useState(undefined);
+    let curData;
     const { data, loading, reFetch } = useFetch(
         //use when complete due to limited call request
-        // `http://localhost:5000/api/hotels?location=${destination}` 
+        `http://localhost:5000/api/hotels?location=${destination}`
     )
+    console.log(data)
+    if (data === "You have exceeded the MONTHLY quota for Requests on your current plan.") {
+        curData = Austin;
+    } else {
+        curData = data;
+    }
     const handleClick = () => {
         reFetch()
     }
@@ -100,25 +107,15 @@ const List = () => {
                         <button onClick={handleClick}>Search</button>
                     </div>
                     <div className="listResult">
-                        {loading ? <>
-                            {
-                                Austin.data.body.searchResults.results.map((item, i) => (
-                                    <SearchItem item={item} i={i} key={i} destination={destination} dates={dates} options={options} />
+                        {loading ?
+                            "loading"
 
-                                ))
-                            }
-
-                        </> : <>
+                            : <>
                                 {/* read data render to component */}
-                                {/* {data.data.body.searchResults.results.map((item, i) => (
+                                {curData.data.body.searchResults.results.map((item, i) => (
                                     <SearchItem item={item} i={i} key={i} destination={destination} dates={dates} options={options} />
-                                ))} */}
-                                {
-                                    Austin.data.body.searchResults.results.map((item, i) => (
-                                        <SearchItem item={item} i={i} key={i} destination={destination} dates={dates} options={options} />
+                                ))}
 
-                                    ))
-                                }
                             </>}
 
                     </div>
