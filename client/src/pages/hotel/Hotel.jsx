@@ -12,8 +12,8 @@ const Hotel = () => {
     let error = "";
     const { data, loading } = useDetail(
         //use when complete due to limited call request
-        `http://localhost:5000/api/hotels/details?id=${id}`,
-
+        // `http://localhost:5000/api/hotels/details?id=${id}`,
+        `https://tnbhotelapi.herokuapp.com/api/hotels/details?id=${id}`
     )
     if (data == "You have exceeded the MONTHLY quota for Requests on your current plan.") {
         for (let photo of hotelPhoto.hotelImages) {
