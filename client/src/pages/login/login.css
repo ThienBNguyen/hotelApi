@@ -1,0 +1,110 @@
+.loginContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 48px;
+}
+
+.loginWrapper {
+	width: 100%;
+	max-width: 1024px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.loginTitle {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 32px;
+}
+
+.loginForm {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.loginForm label {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.loginForm input {
+	width: 360px;
+	height: 36px;
+	margin-bottom: 10px;
+}
+
+.loginForm button {
+	padding: 8px 16px;
+	min-height: 48px;
+	min-width: 48px;
+	background-color: #0071c2;
+	border-color: #0071c2;
+	color: white;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.loginSocial {
+	margin-top: 18px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.loginSocialDevider {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	margin: 16px 0;
+}
+
+.socialOptionText {
+	white-space: nowrap;
+	margin: 0 8px 2px;
+}
+
+.dash {
+	height: 1px;
+	width: 100%;
+	background-color: #dedede;
+}
+
+.loginSocialButton {
+	display: flex;
+	justify-content: center;
+}
+
+.fa {
+	border: 1px solid #e6e6e6 !important;
+	margin: auto 8px;
+	width: 72px;
+	height: 72px;
+	text-align: center;
+	line-height: 70px;
+	font-size: 20px;
+}
+
+.fa-facebook {
+	color: #0071c2;
+}
+
+.fa-google {
+	color: rgb(206, 42, 42);
+}
+
+.fa-phone {
+	color: rgb(31, 189, 31);
+}
+
+.loginOtherOptions button {
+	margin: 20px;
+	color: #0071c2;
+	background-color: transparent;
+	border: none;
+	font-weight: 700;
+	font-size: 14px;
+}
