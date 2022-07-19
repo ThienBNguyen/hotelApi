@@ -1,0 +1,57 @@
+.registerContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 48px;
+}
+
+/* .registerWrapper {
+	width: 100%;
+	max-width: 1024px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+} */
+
+.registerForm {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	width: 360px;
+}
+
+.registerTitle {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 32px;
+}
+
+.registerForm h1 {
+	margin: 0;
+}
+
+.registerForm p {
+	font-size: 14px;
+	margin-top: 0;
+}
+
+.registerForm label {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.registerForm input {
+	height: 36px;
+	margin-bottom: 10px;
+}
+
+.registerForm button {
+	padding: 8px 16px;
+	min-height: 48px;
+	min-width: 48px;
+	background-color: #0071c2;
+	border-color: #0071c2;
+	color: white;
+	font-size: 16px;
+	font-weight: 500;
+}

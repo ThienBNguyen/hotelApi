@@ -5,33 +5,32 @@
 	margin-top: 48px;
 }
 
-.loginWrapper {
-	width: 100%;
-	max-width: 1024px;
+.loginForm {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	gap: 5px;
+	width: 360px;
 }
 
 .loginTitle {
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 32px;
+	margin: 0;
 }
 
-.loginForm {
-	display: flex;
-	flex-direction: column;
-	gap: 5px;
+.loginForm p {
+	font-size: 14px;
+	margin: 0;
 }
 
 .loginForm label {
 	font-size: 14px;
 	font-weight: 500;
+	margin-top: 20px;
 }
 
 .loginForm input {
-	width: 360px;
 	height: 36px;
 	margin-bottom: 10px;
 }
@@ -48,7 +47,8 @@
 }
 
 .loginSocial {
-	margin-top: 18px;
+	margin: 0px;
+	/* margin-top: 18px; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -100,11 +100,24 @@
 	color: rgb(31, 189, 31);
 }
 
+.loginOtherOptions {
+	text-align: center;
+	font-weight: 200;
+}
+
 .loginOtherOptions button {
+	/* font-weight: 500; */
 	margin: 20px;
 	color: #0071c2;
 	background-color: transparent;
 	border: none;
 	font-weight: 700;
 	font-size: 14px;
+}
+
+.signInALink button {
+	color: #0071c2;
+	background-color: transparent;
+	width: 360px;
+	border: 1px solid #0071c2;
 }

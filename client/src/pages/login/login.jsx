@@ -2,7 +2,7 @@ import React from 'react';
 import "./login.css"
 import NavBar from '../../components/navbar/NavBar';
 
-
+import AccountPrivacy from "../../components/accountPrivacy/AccountPrivacy"
 const Login = () => {
     return (
         <div>
@@ -34,9 +34,13 @@ const Login = () => {
                             <div className="loginOtherOptions">
                                 <button>More ways to sign in</button>
                             </div>
+
                         </div>
+
                     </form>
                 </div>
+                <AccountPrivacy/>
+
             </div>
         </div>
 

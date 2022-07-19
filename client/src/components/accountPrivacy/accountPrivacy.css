@@ -1,0 +1,29 @@
+.accountPrivacyContainer {
+	width: 360px;
+	text-align: center;
+	font-size: 12px;
+	color: rgb(74, 83, 97);
+}
+
+p {
+	margin-top: 15px;
+}
+
+.line {
+	height: 1px;
+	width: 100%;
+	background-color: #dedede;
+}
+
+.accountInfo a {
+	color: #0071c2;
+}
+
+.accountWarning {
+	color: #0071c2;
+}
+
+.aText {
+	line-height: 5px;
+	margin-top: 20px;
+}
