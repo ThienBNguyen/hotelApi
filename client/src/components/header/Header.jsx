@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 import "./Header.css"
 import { format } from "date-fns";
-import { useNavigate, Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { DateRange } from "react-date-range";
 import "react-date-range/dist/styles.css"; // main css file
 import "react-date-range/dist/theme/default.css"; // t
@@ -98,7 +98,6 @@ const Header = ({ type }) => {
                             </div>
                             <div className="headerSearchItem"
                                 onClick={() => setOpenDate(!openDate)}
-
                             >
                                 <FontAwesomeIcon icon={faCalendarDays} className="headerIcon" />
                                 <span className="headerSearchText">

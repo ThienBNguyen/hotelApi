@@ -2,7 +2,12 @@ import React from 'react';
 import "./register.css"
 import NavBar from '../../components/navbar/NavBar';
 import AccountPrivacy from '../../components/accountPrivacy/AccountPrivacy';
+import { useLocation } from 'react-router';
 const Register = () => {
+    const locationState = useLocation();
+    const userEmail = locationState.state.email
+
+    console.log(userEmail)
     return (
         <div>
             <NavBar />
