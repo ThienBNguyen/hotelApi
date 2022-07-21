@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
-const userSchema = mongoose.Schema({
-	_id: mongoose.Schema.Types.ObjectId,
+const userSchema = new mongoose.Schema({
+	// _id: mongoose.Schema.Types.ObjectId,
 	firstname: {
 		type: String,
 		required: true
@@ -16,6 +16,10 @@ const userSchema = mongoose.Schema({
 		unique: true,
 		match: /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/
 	},
-	password: { type: String, required: true }
+	password: { type: String, required: true },
+	isAdmin: {
+		type: Boolean,
+		default: false
+	}
 });
 export default mongoose.model('User', userSchema);

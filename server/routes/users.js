@@ -1,10 +1,10 @@
 import express from 'express';
-import { signUp, logIn, userDelete, getUsers, getUser } from '../controllers/user.js';
+import { logIn, userDelete, getUsers, getUser, register } from '../controllers/user.js';
 const router = express.Router();
 
 // const checkAuth = require('../middleware/check-auth');
 
-router.post('/register', signUp);
+router.post('/register', register);
 router.post('/login', logIn);
 router.delete('/:userId', userDelete);
 router.get('/', getUsers);

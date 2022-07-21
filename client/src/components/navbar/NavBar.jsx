@@ -6,7 +6,7 @@ const NavBar = () => {
         <div className="navbar">
             <div className="navContainer">
                 <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>
-                    <span className="logo">Travel Planer</span>
+                    <span className="logo">Travel Planner</span>
                 </Link>
                 {/* {user ? user.username : ( */}
                 <div className="navItems">

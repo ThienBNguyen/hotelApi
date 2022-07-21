@@ -15,27 +15,20 @@ app.use(morgan('tiny'));
 app.use(cors());
 app.use(cookieParser());
 app.use(express.json());
-// set CORS headers avoid CORS error cross platform
-app.use(cors());
-// import HttpError model
-// import HttpError from './models/http-error';
-
-app.use((req, res, next) => {
-	res.setHeader('Access-Control-Allow-Origin', '*');
-	res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
-	res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PATCH, DELETE');
-
-	next();
-});
 //api route
 app.use('/api/hotels', hotelsRoute);
 app.use('/api/user', userRoutes);
 // Handle unsupported routes erro
-app.use((req, res, next) => {
-	const error = new HttpError('Could not find this route', 404);
-	throw error;
+app.use((err, req, res, next) => {
+	const errorStatus = err.status || 500;
+	const errorMessage = err.message || 'something went wrong';
+	return res.status(500).json({
+		success: false,
+		status: errorStatus,
+		message: errorMessage,
+		stack: err.stack
+	});
 });
-// Listen to our 5000 port
 let port = process.env.PORT || 5000;
 // Connect to database
 // Get username and password from .env file
@@ -51,8 +44,8 @@ mongoose
 		console.log('mongoDB connected');
 	})
 	.catch((err) => {
-		console.log(err);
+		throw err;
 	});
-app.listen(port, function(res) {
+app.listen(port, (res) => {
 	console.log('server running on port 5000');
 });
