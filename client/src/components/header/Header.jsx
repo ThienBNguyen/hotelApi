@@ -89,7 +89,7 @@ const Header = ({ type }) => {
                     <>
                         <h1 className="headerTitle">
                             Find Deals For any season</h1>
-                        <p className="headerTitle">
+                        <p className="headerIntro">
                             From cozy bed & breakfasts to luxery hotels</p>
                         <div className="headerSearch">
                             <div className="headerSearchItem">

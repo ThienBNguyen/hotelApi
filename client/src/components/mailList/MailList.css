@@ -7,8 +7,9 @@
 	flex-direction: column;
 	align-items: center;
 	gap: 20px;
-	padding: 50px;
+	padding: 50px 0;
 }
+
 .mailTitle {
 	margin: 0;
 	padding: 0;
@@ -16,10 +17,12 @@
 	font-weight: inherit;
 	color: inherit;
 }
+
 .mailDesc {
 	padding: 0;
 	margin: 0;
 }
+
 .mailInputContainer > input {
 	width: 350px;
 	height: 30px;
@@ -31,6 +34,7 @@
 	color: lightgray;
 	font-weight: inherit;
 }
+
 .mailInputContainer > button {
 	height: 50px;
 	background-color: #0071c2;
@@ -43,6 +47,32 @@
 	font-size: 20px;
 	width: 150px;
 }
+
 .mailCheckBoxContainer {
 	padding-top: 10px;
+}
+
+@media (max-width: 800px) {
+	.mail {
+		display: flex;
+		flex-direction: column;
+		padding: 30px 0px;
+		margin: 30px 0 0 0;
+	}
+
+	.mailInputContainer {
+		display: flex;
+		flex-direction: column;
+
+		align-items: center;
+	}
+
+	.mailInputContainer input {
+		margin: 10px;
+		padding-bottom: 10px;
+	}
+
+	.mailCheckBoxContainer {
+		font-size: 12px;
+	}
 }

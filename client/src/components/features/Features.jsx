@@ -12,21 +12,21 @@ const Features = () => {
     return (
         <div className="featured">
             <div className="featuredItem">
-                <img src={images[0]} />
+                <img className="featuredImg" src={images[0]} />
                 <div className="featuredTitles">
                     <h1>{firstLocation}</h1>
                     <h2>{firstTotalCount}</h2>
                 </div>
             </div>
             <div className="featuredItem">
-                <img src={images[1]} />
+                <img className="featuredImg" src={images[1]} />
                 <div className="featuredTitles">
                     <h1>{secondLocation}</h1>
                     <h2>{secondTotalCount}</h2>
                 </div>
             </div>
             <div className="featuredItem">
-                <img src={images[2]} />
+                <img className="featuredImg" src={images[2]} />
                 <div className="featuredTitles">
                     <h1>{thirdLocation}</h1>
                     <h2>{thirdTotalCount}</h2>

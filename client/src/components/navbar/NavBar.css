@@ -3,7 +3,9 @@
 	background-color: #003580;
 	display: flex;
 	justify-content: center;
+	padding: 10px;
 }
+
 .navContainer {
 	width: 100%;
 	max-width: 1024px;
@@ -12,11 +14,13 @@
 	align-items: center;
 	justify-content: space-between;
 }
+
 .logo {
 	font-weight: 500;
 	text-decoration: none;
 	color: inherit;
 }
+
 .navButton {
 	margin-left: 20px;
 	border: none;
@@ -24,4 +28,10 @@
 	cursor: pointer;
 	color: #003580;
 	background-color: white;
+}
+
+@media (max-width: 800px) {
+	.navContainer {
+		padding: 10px;
+	}
 }
