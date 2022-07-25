@@ -15,7 +15,8 @@ const SearchItem = ({ item, i, destination, dates, options }) => {
         <div className="searchItem" key={i}>
             <img src={item.optimizedThumbUrls.srpDesktop} className="siImg" alt={item.optimizedThumbUrls.srpDesktop} />
             <div className="siDesc">
-                <h1 className="siTitle">{item.name}</h1>
+                <h1 className="siTitle">{item.name.split('/')[0]}</h1>
+
                 <span className="siDistance">{item.landmarks[1].distance}</span>
                 <span className="siTaxiOp">airport</span>
                 <span className="siSubtitle">air conditioning</span>
@@ -25,8 +26,8 @@ const SearchItem = ({ item, i, destination, dates, options }) => {
             </div>
             <div className="siDetails">
                 <div className="siRating">
-                    <span>{item.guestReviews.badge === undefined ? "good" : item.guestReviews.badge}</span>
-                    <button>{item.guestReviews.rating === undefined ? "9.8" : item.guestReviews.rating}</button>
+                    {/* <span>{item.guestReviews.badge === undefined ? "good" : item.guestReviews.badge}</span>
+                    <button>{item.guestReviews.rating === undefined ? "9.8" : item.guestReviews.rating}</button> */}
                     {/* <button>9.8</button> */}
 
                 </div>

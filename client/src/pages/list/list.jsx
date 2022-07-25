@@ -20,7 +20,7 @@ const List = () => {
     const { data, loading, reFetch } = useFetch(
         //use when complete due to limited call request
         // `http://localhost:5000/api/hotels?location=${destination}`
-        `https://tnbhotelapi.herokuapp.com/api/hotels?location=${destination}`
+        // `https://tnbhotelapi.herokuapp.com/api/hotels?location=${destination}`
     )
     console.log(data)
     if (data === "You have exceeded the MONTHLY quota for Requests on your current plan.") {
@@ -37,6 +37,19 @@ const List = () => {
             <Header type="list" />
             <div className="listContainer">
                 <div className="listWrapper">
+                    <div className="listSearchInfo">
+                        <input type="text" placeholder={destination} value="" />
+                        <div className="listUserOption">
+                            <span>{`${format(dates[0].startDate, "MM/dd/yyyy")} to ${format(dates[0].endDate, "MM/dd/yyyy")}`}</span>
+                            {openDate && (
+                                <DateRange onChange={(item) => setDates([item.selection])}
+                                    minDate={new Date()}
+                                    ranges={dates}
+                                />
+                            )}
+                            <span className="lsOptionText">Adult</span>
+                        </div>
+                    </div>
                     <div className="listSearch">
                         <h1 className="lsTitle">Search</h1>
                         <div className="lsItem">
@@ -52,6 +65,7 @@ const List = () => {
                                     ranges={dates}
                                 />
                             )}
+
                         </div>
                         <div className="lsItem">
                             <label>Options</label>
