@@ -83,23 +83,87 @@
 	flex: 3;
 }
 
+.listSearchInfo {
+	display: none;
+}
+
+.removeListSearch {
+	display: none;
+}
+
 @media (max-width: 800px) {
 	.listWrapper {
 		flex-direction: column;
 	}
 
 	.listSearch {
-		display: none;
+		position: relative;
+		top: 0;
+	}
+	.removeListSearch {
+		display: block;
+		position: absolute;
+		top: 15px;
+		right: 15px;
 	}
 
 	.listSearchInfo {
+		display: block;
 		background-color: #febb02;
-		padding: 15px;
-		margin: 0;
 	}
 
-	.listSearchInfo input {
-		padding: 0;
+	.listSearchHeader {
+		height: 40px;
+		background-color: white;
+	}
+
+	.listSearchInfo h1 {
+		font-size: 16px;
+		display: table-cell;
+		vertical-align: middle;
+		border-radius: 3px 3px 0 0;
+		padding: 10px 5px;
+		text-transform: capitalize;
+	}
+
+	.listSearchWraper {
+		background-color: #f4f4f4;
+		margin: 15px;
+	}
+
+	.listUserOption {
+		font-size: 14px;
 		width: 100%;
+		height: 30px;
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.listUserOption:nth-child(n + 1) {
+		padding: 5px;
+		margin-left: 5px;
+	}
+
+	.listSearchWraper {
+		background-color: #f4f4f4;
+		margin: 15px;
+		box-shadow: 0 1px 3px -1px rgb(0 0 0 / 30%);
+		border: solid 1px #cd8900;
+	}
+
+	.listIcon {
+		margin: 0 5px;
+	}
+
+	.listContainer {
+		margin-top: 0;
+	}
+
+	.listWrapper {
+		gap: 0;
+	}
+
+	.listIconSearch {
+		display: inline;
 	}
 }
