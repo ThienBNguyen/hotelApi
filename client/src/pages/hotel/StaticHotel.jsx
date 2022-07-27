@@ -26,6 +26,7 @@ const StaticHotel = ({ staticDetail, photoRendered, errorMsg }) => {
         }
         setSlideNumber(newSlideNumber)
     }
+    // console.log(staticDetail.data.body.hygieneAndCleanliness.healthAndSafetyMeasures.measures === undefined)
     const handleClick = () => {
         setOpenModal(true)
 
@@ -87,15 +88,29 @@ const StaticHotel = ({ staticDetail, photoRendered, errorMsg }) => {
                                 <img src={photo} alt="" className="hotelImg" key={i} onClick={() => handleOpen(i)} /></div>
                         ))}
                     </div>
+                    <div className="hotelSmallerImages">
+                        <span>  <FontAwesomeIcon
+                            icon={faCircleArrowLeft}
+                            className="smallArrowleft smallArrow"
+                            onClick={() => handleMove("l")}
+                        /></span>
+                        <span>    <FontAwesomeIcon
+                            icon={faCircleArrowRight}
+                            className="smallArrowRight smallArrow"
+                            onClick={() => handleMove("r")}
+                        /></span>
+                        <div className="hotelImgWrapper" >
+                            <img src={photoRendered[slideNumber]} alt="" className="hotelSmallerImg" /></div>
+                    </div>
                     <div className="hotelDetails">
                         <div className="hotelDetailsTexts">
-                            <p>{staticDetail.data.body.hygieneAndCleanliness.healthAndSafetyMeasures === undefined ? "not available" : staticDetail.data.body.hygieneAndCleanliness.healthAndSafetyMeasures.measures.map((highlight, index) => (
+                            {/* <p>{staticDetail.data.body.hygieneAndCleanliness.healthAndSafetyMeasures.measures === undefined ? "not available" : staticDetail.data.body.hygieneAndCleanliness.healthAndSafetyMeasures.measures.map((highlight, index) => (
 
                                 <span key={index}>{highlight}   </span>
 
                             ))
                             }
-                            </p>
+                            </p> */}
                             <h3>Most popular amenities</h3>
                             <span className="hotelPriceHighlight">
                                 {staticDetail.data.body.overview.overviewSections[0].content.map((highlight, index) => (
@@ -119,7 +134,7 @@ const StaticHotel = ({ staticDetail, photoRendered, errorMsg }) => {
                         <div className="hotelDetailsPrice">
                             <h1>perfect for a 9 night stay!</h1>
                             <span>location in the real heaert of krakow, this property has an excellent ocation score of 9.8</span>
-                            <h2>{staticDetail.data.body.propertyDescription.featuredPrice.currentPrice.formatted}  nights</h2>
+                            {/* <h2>{staticDetail.data.body.propertyDescription.featuredPrice.currentPrice.formatted}  nights</h2> */}
                             <button onClick={handleClick}>reserve or book now</button>
                         </div>
                     </div>

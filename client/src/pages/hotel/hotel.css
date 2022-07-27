@@ -152,3 +152,46 @@
 	color: lightgray;
 	cursor: pointer;
 }
+
+.hotelSmallerImages {
+	display: none;
+}
+
+@media (max-width: 800px) {
+	.hotelDetails {
+		flex-direction: column;
+	}
+	.hotelImages {
+		display: none;
+	}
+
+	.hotelSmallerImages {
+		display: block;
+		height: 25vh;
+	}
+
+	.hotelSmallerImg {
+		width: 100%;
+		height: 25vh;
+		position: absolute;
+	}
+
+	.smallArrow {
+		position: absolute;
+		z-index: 1;
+		color: rgba(34, 32, 32, 0.8);
+		font-size: 25px;
+		/* border: 5px solid rgba(255, 255, 255, 0.6); */
+		/* box-shadow:  */
+	}
+
+	.smallArrowRight {
+		right: 0;
+		top: 24%;
+	}
+
+	.smallArrowleft {
+		left: 0;
+		top: 24%;
+	}
+}
