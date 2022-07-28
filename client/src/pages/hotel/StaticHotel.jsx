@@ -26,7 +26,7 @@ const StaticHotel = ({ staticDetail, photoRendered, errorMsg }) => {
         }
         setSlideNumber(newSlideNumber)
     }
-    // console.log(staticDetail.data.body.hygieneAndCleanliness.healthAndSafetyMeasures.measures === undefined)
+    // console.log(staticDetail.data.body.hygieneAndCleanliness.healthAndSafetyMeasures.measures)
     const handleClick = () => {
         setOpenModal(true)
 
@@ -134,7 +134,7 @@ const StaticHotel = ({ staticDetail, photoRendered, errorMsg }) => {
                         <div className="hotelDetailsPrice">
                             <h1>perfect for a 9 night stay!</h1>
                             <span>location in the real heaert of krakow, this property has an excellent ocation score of 9.8</span>
-                            {/* <h2>{staticDetail.data.body.propertyDescription.featuredPrice.currentPrice.formatted}  nights</h2> */}
+                            <h2>{staticDetail.data.body.propertyDescription.featuredPrice.currentPrice.formatted}  nights</h2>
                             <button onClick={handleClick}>reserve or book now</button>
                         </div>
                     </div>

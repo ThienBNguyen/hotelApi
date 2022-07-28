@@ -11,6 +11,7 @@ const SearchItem = ({ item, i, destination, dates, options }) => {
             }
         })
     }
+    // console.log(item.guestReviews)
     return (
         <div className="searchItem" key={i}>
             <img src={item.optimizedThumbUrls.srpDesktop} className="siImg" alt={item.optimizedThumbUrls.srpDesktop} />
@@ -26,9 +27,10 @@ const SearchItem = ({ item, i, destination, dates, options }) => {
             </div>
             <div className="siDetails">
                 <div className="siRating">
+                    {/* <span>{item.guestReviews.badge}</span> */}
                     {/* <span>{item.guestReviews.badge === undefined ? "good" : item.guestReviews.badge}</span>
-                    <button>{item.guestReviews.rating === undefined ? "9.8" : item.guestReviews.rating}</button> */}
-                    {/* <button>9.8</button> */}
+                    <button>{item.guestReviews.rating === "undefined" ? "9.8" : item.guestReviews.rating}</button> */}
+                    <button>9.8</button>
 
                 </div>
                 <div className="siDetailTexts">

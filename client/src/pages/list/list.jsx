@@ -25,7 +25,7 @@ const List = () => {
     const { data, loading, reFetch } = useFetch(
         //use when complete due to limited call request
         // `http://localhost:5000/api/hotels?location=${destination}`
-        // `https://tnbhotelapi.herokuapp.com/api/hotels?location=${destination}`
+        `https://tnbhotelapi.herokuapp.com/api/hotels?location=${destination}`
     )
     if (data === "You have exceeded the MONTHLY quota for Requests on your current plan.") {
         curData = Austin;
