@@ -67,7 +67,19 @@ export const getUsers = async (req, res, next) => {
 export const getUser = async (req, res, next) => {
 	try {
 		const user = await User.findById(req.params.userId);
-		res, status(200).json(user);
+		res.status(200).json(user);
+	} catch (err) {
+		next(err);
+	}
+};
+export const verifyUserEmail = async (req, res, next) => {
+	try {
+		const userEmail = await User.findOne({ email: req.params.email });
+		if (userEmail === null) {
+			res.status(400).send('user email has not been register.');
+		} else {
+			res.status(200).send('user email is valid.');
+		}
 	} catch (err) {
 		next(err);
 	}

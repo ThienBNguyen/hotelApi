@@ -1,10 +1,12 @@
+import { useReducer, useEffect, createContext } from 'react';
+
 const INITIAL_STATE = {
 	user: JSON.parse(localStorage.getItem('user')) || null,
 	loading: false,
 	error: null
 };
 export const AuthContext = createContext(INITIAL_STATE);
-const authReducer = (state, action) => {
+const AuthReducer = (state, action) => {
 	switch (action.type) {
 		case 'LOGIN_START':
 			return {
@@ -33,26 +35,26 @@ const authReducer = (state, action) => {
 		default:
 			return state;
 	}
-	export const AuthContextProvider = ({ children }) => {
-		const [ state, dispatch ] = useReducer(AuthReducer, INITIAL_STATE);
-		//user staty login when user refresh page
-		useEffect(
-			() => {
-				localStorage.setItem('user', JSON.stringify(state.user));
-			},
-			[ state.user ]
-		);
-		return (
-			<AuthContext.Provider
-				value={{
-					user: state.user,
-					loading: state.loading,
-					error: state.error,
-					dispatch
-				}}
-			>
-				{children}
-			</AuthContext.Provider>
-		);
-	};
+};
+export const AuthContextProvider = ({ children }) => {
+	const [ state, dispatch ] = useReducer(AuthReducer, INITIAL_STATE);
+	//user staty login when user refresh page
+	useEffect(
+		() => {
+			localStorage.setItem('user', JSON.stringify(state.user));
+		},
+		[ state.user ]
+	);
+	return (
+		<AuthContext.Provider
+			value={{
+				user: state.user,
+				loading: state.loading,
+				error: state.error,
+				dispatch
+			}}
+		>
+			{children}
+		</AuthContext.Provider>
+	);
 };

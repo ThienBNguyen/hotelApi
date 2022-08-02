@@ -2,7 +2,13 @@ import React from 'react';
 import "./login.css"
 import NavBar from '../../components/navbar/NavBar';
 import AccountPrivacy from '../../components/accountPrivacy/AccountPrivacy';
+import { useLocation } from 'react-router';
 const SignIn = () => {
+    const locationState = useLocation();
+    const userEmail = locationState.state.userEmail
+    const handleClick = async (e) => {
+        e.preventDefault()
+    }
     return (
         <div>
             <NavBar />
@@ -11,11 +17,11 @@ const SignIn = () => {
                     <div className="loginForm">
                         <h1 className="loginTitle">Enter your password</h1>
                         <p>Enter your Booking.com password for
-                            <strong> admin@gmail.com.</strong>
+                            <strong> {userEmail}</strong>
                         </p>
                         <label htmlFor="">password</label>
                         <input type="password" name="" id="" />
-                        <button>Sign in</button>
+                        <button onClick={handleClick}>Sign in</button>
 
                         <div className="loginSocialDevider">
                             <div className="dash"></div>

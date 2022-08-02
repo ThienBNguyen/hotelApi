@@ -4,30 +4,31 @@ import NavBar from '../../components/navbar/NavBar';
 
 import AccountPrivacy from "../../components/accountPrivacy/AccountPrivacy"
 import { useNavigate, useLocation } from 'react-router';
+import axios from 'axios';
 const Login = () => {
-    const [email, setEmail] = useState("")
+    const [user, setUser] = useState({
+        email: undefined
+    })
     const navigate = useNavigate();
-
-    const handleLogin = () => {
-        navigate("/login/password", {
-            state: {
-                email
-            }
-        })
-        //check email from database and redirect use to specific page
-        // if (email == null) {
-        //     navigate("/register", {
-        //         state: {
-        //             email
-        //         }
-        //     })
-        // } else {
-        //     navigate("/signin", {
-        //         state: {
-        //             email
-        //         }
-        //     })
-        // }
+    const handleChange = (e) => {
+        setUser(() => ({ [e.target.id]: e.target.value }))
+    }
+    const handleLogin = async (e) => {
+        e.preventDefault();
+        try {
+            await axios.get(`http://localhost:5000/api/user/verifyemail/${user.email}`)
+            navigate("/login/password", {
+                state: {
+                    user
+                }
+            })
+        } catch (err) {
+            navigate("/register/password", {
+                state: {
+                    user
+                }
+            })
+        }
 
     }
     return (
@@ -41,7 +42,7 @@ const Login = () => {
                                 Sign in or create an account
                             </h1>
                             <label >Email Address</label>
-                            <input type="text" onChange={(e) => setEmail(e.target.value)} />
+                            <input type="text" onChange={handleChange} id="email" placeholder="email" />
                             <button onClick={handleLogin}>Continue with email</button>
                         </div>
                         <div className="loginSocial">
