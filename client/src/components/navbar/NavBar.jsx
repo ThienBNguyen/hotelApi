@@ -13,7 +13,8 @@ const NavBar = () => {
                 {user ? (
                     <div>
                         <span className="userTrip">
-                            List your trip</span>
+                            <Link to="/plans" style={{ color: "inherit", textDecoration: "none" }}> List your trip</Link>
+                        </span>
                         <span className="firstName userName " >{user.firstname} </span>
                         <span className="userName lastName">{user.lastname}</span>
 
