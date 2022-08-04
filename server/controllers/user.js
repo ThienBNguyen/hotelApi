@@ -40,7 +40,10 @@ export const logIn = async (req, res, next) => {
 		res.header('auth-token', token).status(200).json({
 			message: 'Auth successful',
 			token: token,
-			id: user._id
+			id: user._id,
+			firstname: user.firstname,
+			lastname: user.lastname,
+			email: user.email
 		});
 	} catch (err) {
 		next(err);

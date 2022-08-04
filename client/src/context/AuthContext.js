@@ -1,7 +1,7 @@
-import { useReducer, useEffect, createContext } from 'react';
+import { useReducer, createContext, useEffect } from 'react';
 
 const INITIAL_STATE = {
-	user: JSON.parse(localStorage.getItem('user')) || null,
+	user: JSON.parse(localStorage.getItem('travelPlaner')) || null,
 	loading: false,
 	error: null
 };
@@ -38,10 +38,10 @@ const AuthReducer = (state, action) => {
 };
 export const AuthContextProvider = ({ children }) => {
 	const [ state, dispatch ] = useReducer(AuthReducer, INITIAL_STATE);
-	//user staty login when user refresh page
+	//user status login when user refresh page
 	useEffect(
 		() => {
-			localStorage.setItem('user', JSON.stringify(state.user));
+			localStorage.setItem('travelPlaner', JSON.stringify(state.user));
 		},
 		[ state.user ]
 	);

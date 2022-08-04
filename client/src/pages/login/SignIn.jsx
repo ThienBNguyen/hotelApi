@@ -1,13 +1,33 @@
-import React from 'react';
+import React, { useState, useContext } from 'react';
 import "./login.css"
 import NavBar from '../../components/navbar/NavBar';
 import AccountPrivacy from '../../components/accountPrivacy/AccountPrivacy';
-import { useLocation } from 'react-router';
+import { useLocation, useNavigate } from 'react-router';
+import axios from 'axios';
+import { AuthContext } from '../../context/AuthContext';
 const SignIn = () => {
     const locationState = useLocation();
     const userEmail = locationState.state.userEmail
+    const [userLogin, setUserLogin] = useState({
+        email: userEmail,
+        password: undefined
+    })
+    const { loading, error, dispatch } = useContext(AuthContext);
+    const navigate = useNavigate()
+    const handleChange = (e) => {
+        setUserLogin(() => ({ [e.target.id]: e.target.value, email: userEmail }))
+
+    }
     const handleClick = async (e) => {
         e.preventDefault()
+        dispatch({ type: "LOGIN_START" });
+        try {
+            const res = await axios.post("http://localhost:5000/api/user/login", userLogin);
+            dispatch({ type: "LOGIN_SUCCESS", payload: res.data })
+            navigate("/")
+        } catch (err) {
+            dispatch({ type: "LOGIN_FAILURE", payload: err.response.data })
+        }
     }
     return (
         <div>
@@ -20,7 +40,7 @@ const SignIn = () => {
                             <strong> {userEmail}</strong>
                         </p>
                         <label htmlFor="">password</label>
-                        <input type="password" name="" id="" />
+                        <input type="password" placeholder="Password" id="password" onChange={handleChange} />
                         <button onClick={handleClick}>Sign in</button>
 
                         <div className="loginSocialDevider">

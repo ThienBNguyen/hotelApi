@@ -16,7 +16,8 @@
 }
 
 .logo {
-	font-weight: 500;
+	font-weight: bolder;
+	font-size: 18px;
 	text-decoration: none;
 	color: inherit;
 }
@@ -28,6 +29,28 @@
 	cursor: pointer;
 	color: #003580;
 	background-color: white;
+}
+
+.userTrip {
+	border: 1px solid white;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+.userName {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.firstName {
+	text-transform: capitalize !important;
+	padding-right: 2px;
+}
+
+.lastName {
+	text-transform: capitalize;
 }
 
 @media (max-width: 800px) {
