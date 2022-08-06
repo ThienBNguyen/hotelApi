@@ -30,7 +30,7 @@ const Hotel = () => {
     return (
 
         <div>
-            {loading ? "loading" : <StaticHotel errorMsg={error} staticDetail={staticDetail} photoRendered={photoRendered}></StaticHotel>}
+            <StaticHotel errorMsg={error} staticDetail={staticDetail} photoRendered={photoRendered} loadingData={loading}></StaticHotel>
 
 
 
