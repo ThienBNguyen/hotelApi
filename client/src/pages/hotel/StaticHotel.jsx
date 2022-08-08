@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import "./hotel.css"
 import NavBar from '../../components/navbar/NavBar';
 import Header from '../../components/header/Header';
@@ -6,16 +6,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleXmark, faCircleArrowLeft, faCircleArrowRight, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import MailList from '../../components/mailList/MailList';
 import Footer from '../../components/footer/Footer';
+import axios from 'axios';
+import { useNavigate } from 'react-router';
 const StaticHotel = ({ staticDetail, photoRendered, errorMsg, loadingData }) => {
     const [slideNumber, setSlideNumber] = useState(0);
     const [open, setOpen] = useState(false)
     const [openModal, setOpenModal] = useState(false)
+    const userId = JSON.parse(localStorage.getItem('travelPlaner')).id
 
-    console.log(staticDetail)
     const handleOpen = (i) => {
         setSlideNumber(i);
         setOpen(true);
     }
+    let navigate = useNavigate();
     const handleMove = (direction) => {
         let newSlideNumber;
         if (direction === 'l') {
@@ -37,12 +40,19 @@ const StaticHotel = ({ staticDetail, photoRendered, errorMsg, loadingData }) => 
         // }
 
     }
+    const saveTrip = async () => {
+        let response = await axios.post(`http://localhost:5000/api/plan/user/${userId}`, { staticDetail })
+        if (response.data === "plan created") {
+            navigate("/plans")
+        }
+        return response
+    }
     return (
         <div>
 
             <NavBar />
             <Header type="list" />
-            {/* <p>{errorMsg}</p> */}
+            <p>{errorMsg}</p>
 
 
             <div className="hotelContainer">
@@ -75,8 +85,8 @@ const StaticHotel = ({ staticDetail, photoRendered, errorMsg, loadingData }) => 
                 )}
                 {loadingData ? "loading" :
                     <div className="hotelWrapper">
-                        <button className="bookNow">
-                            reserve or book now</button>
+                        <button className="bookNow" onClick={saveTrip}>
+                            Save your trip</button>
                         <h1 className="hotelTitle">
                             {staticDetail.data.body.propertyDescription.name}
                         </h1>
@@ -138,7 +148,7 @@ const StaticHotel = ({ staticDetail, photoRendered, errorMsg, loadingData }) => 
                                 <h1>perfect for a 9 night stay!</h1>
                                 <span>location in the real heaert of krakow, this property has an excellent ocation score of 9.8</span>
                                 <h2>{staticDetail.data.body.propertyDescription.featuredPrice.currentPrice.formatted}  nights</h2>
-                                <button onClick={handleClick}>reserve or book now</button>
+                                <button onClick={saveTrip}>reserve or book now</button>
                             </div>
                         </div>
 

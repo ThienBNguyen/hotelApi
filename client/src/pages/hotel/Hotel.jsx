@@ -7,6 +7,7 @@ import StaticHotel from './StaticHotel';
 const Hotel = () => {
     const location = useLocation();
     const id = location.pathname.split("/")[2]
+    const userDates = location.state.dates
     let staticDetail;
     const photoRendered = []
     let error = "";
@@ -19,22 +20,18 @@ const Hotel = () => {
         for (let photo of hotelPhoto.hotelImages) {
             photoRendered.push(photo.baseUrl.replace("{size}", "z"))
         }
-        staticDetail = hotelDetail
+        staticDetail = { hotelDetail, userDates }
         error = data;
     } else {
         for (let photo of data.hotelImages) {
             photoRendered.push(photo.baseUrl.replace("{size}", "z"))
         }
-        staticDetail = data
+        staticDetail = { ...data, ...userDates }
     }
     return (
 
         <div>
-            <StaticHotel errorMsg={error} staticDetail={staticDetail} photoRendered={photoRendered} loadingData={loading}></StaticHotel>
-
-
-
-
+            <StaticHotel errorMsg={error} staticDetail={staticDetail} photoRendered={photoRendered} loadingData={loading} ></StaticHotel>
         </div>
     );
 }

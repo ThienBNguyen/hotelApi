@@ -3,7 +3,11 @@ import User from '../models/User.js';
 
 export const getPlans = async (req, res, next) => {
 	try {
+		console.log(req.params.userId);
+		// const plans = await Plan.find({ 'user.id': req.params.userId });
 		const plans = await Plan.find({ 'user.id': req.params.userId });
+
+		console.log(plans);
 		if (plans.length === 0) {
 			res.status(400).send('please create a plan');
 		} else {
@@ -23,7 +27,7 @@ export const getPlan = async (req, res, next) => {
 };
 export const createPlans = async (req, res, next) => {
 	const planObject = req.body;
-	delete planObject.data.common.tracking;
+	delete planObject.staticDetail.data.common.tracking;
 	const useId = { id: req.params.id };
 	const newPlan = { any: planObject, user: useId };
 
@@ -33,7 +37,7 @@ export const createPlans = async (req, res, next) => {
 			res.status(500).send('user not fould');
 		} else {
 			await new Plan(newPlan).save();
-			res.status(200).send('plan create');
+			res.status(200).send('plan created');
 		}
 	} catch (err) {
 		next(err);

@@ -36,15 +36,15 @@
 	position: absolute;
 	bottom: 25px;
 	color: white;
-	font-size: 24px;
+	font-size: 20px;
 	left: 30px;
 }
 
 .planDate {
 	position: absolute;
-	bottom: -5px;
+	bottom: 0px;
 	color: white;
-	font-size: 24px;
+	font-size: 16px;
 	left: 30px;
 }
 
