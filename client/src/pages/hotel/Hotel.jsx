@@ -28,6 +28,7 @@ const Hotel = () => {
         }
         staticDetail = { ...data, ...userDates }
     }
+
     return (
 
         <div>

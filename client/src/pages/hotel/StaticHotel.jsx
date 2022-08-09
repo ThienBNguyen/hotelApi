@@ -8,7 +8,8 @@ import MailList from '../../components/mailList/MailList';
 import Footer from '../../components/footer/Footer';
 import axios from 'axios';
 import { useNavigate } from 'react-router';
-const StaticHotel = ({ staticDetail, photoRendered, errorMsg, loadingData }) => {
+const StaticHotel = ({ staticDetail, photoRendered, errorMsg, loadingData, type }) => {
+
     const [slideNumber, setSlideNumber] = useState(0);
     const [open, setOpen] = useState(false)
     const [openModal, setOpenModal] = useState(false)
@@ -29,7 +30,6 @@ const StaticHotel = ({ staticDetail, photoRendered, errorMsg, loadingData }) => 
         }
         setSlideNumber(newSlideNumber)
     }
-    // console.log(staticDetail.data.body.hygieneAndCleanliness.healthAndSafetyMeasures.measures)
     const handleClick = () => {
         setOpenModal(true)
 
@@ -41,12 +41,30 @@ const StaticHotel = ({ staticDetail, photoRendered, errorMsg, loadingData }) => 
 
     }
     const saveTrip = async () => {
-        let response = await axios.post(`http://localhost:5000/api/plan/user/${userId}`, { staticDetail })
+        // let response = await axios.post(`http://localhost:5000/api/plan/user/${userId}`, { staticDetail })
+        let response = await axios.post(`https://tnbhotelapi.herokuapp.com/api/plan/user/${userId}`, { staticDetail })
         if (response.data === "plan created") {
             navigate("/plans")
         }
         return response
     }
+    let userDateConvert;
+    const dateConvert = () => {
+
+        var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+        let weekday = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+
+        var startDate = new Date(staticDetail[0].startDate)
+        var startDateOfWeek = startDate.getDay();
+        var endDate = new Date(staticDetail[0].endDate)
+        var endDateOfWeek = endDate.getDay();
+        return (
+            <span className="planDetailDate">{weekday[startDateOfWeek] + " " + months[startDate.getMonth() + 1] + " " + startDate.getDate()} - {weekday[endDateOfWeek] + " " + months[endDate.getMonth() + 1] + " " + endDate.getDate()}</span>
+
+
+        )
+    }
+
     return (
         <div>
 
@@ -85,11 +103,18 @@ const StaticHotel = ({ staticDetail, photoRendered, errorMsg, loadingData }) => 
                 )}
                 {loadingData ? "loading" :
                     <div className="hotelWrapper">
-                        <button className="bookNow" onClick={saveTrip}>
-                            Save your trip</button>
-                        <h1 className="hotelTitle">
-                            {staticDetail.data.body.propertyDescription.name}
-                        </h1>
+                        <div className="hotelIntro">
+                            <h1 className="hotelTitle">
+                                {staticDetail.data.body.propertyDescription.name}
+                            </h1>
+                            {type === "plan" ? <>
+                                {dateConvert()}</> : <>  <button className="bookNow" onClick={saveTrip}>
+                                    Save your trip</button></>}
+
+
+
+                        </div>
+
                         <div className="hotelAddress">
                             <FontAwesomeIcon icon={faLocationDot} />
                             <span>{staticDetail.data.body.propertyDescription.address.addressLine1},  {staticDetail.data.body.propertyDescription.address.addressLine2},                    {staticDetail.data.body.propertyDescription.address.provinceName} {staticDetail.data.body.propertyDescription.address.postalCode}, {staticDetail.data.body.propertyDescription.address.countryCode} </span>
@@ -148,7 +173,9 @@ const StaticHotel = ({ staticDetail, photoRendered, errorMsg, loadingData }) => 
                                 <h1>perfect for a 9 night stay!</h1>
                                 <span>location in the real heaert of krakow, this property has an excellent ocation score of 9.8</span>
                                 <h2>{staticDetail.data.body.propertyDescription.featuredPrice.currentPrice.formatted}  nights</h2>
-                                <button onClick={saveTrip}>reserve or book now</button>
+                                {type === "plan" ? <>
+                                    Trip Date: {dateConvert()}</> : <>  <button className="bookNow" onClick={saveTrip}>
+                                        Save your trip</button></>}
                             </div>
                         </div>
 

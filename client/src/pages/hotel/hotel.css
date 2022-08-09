@@ -157,6 +157,18 @@
 	display: none;
 }
 
+.hotelIntro {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.planDetailDate {
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
+
 @media (max-width: 800px) {
 	.hotelDetails {
 		flex-direction: column;

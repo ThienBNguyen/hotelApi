@@ -3,11 +3,9 @@ import User from '../models/User.js';
 
 export const getPlans = async (req, res, next) => {
 	try {
-		console.log(req.params.userId);
 		// const plans = await Plan.find({ 'user.id': req.params.userId });
 		const plans = await Plan.find({ 'user.id': req.params.userId });
 
-		console.log(plans);
 		if (plans.length === 0) {
 			res.status(400).send('please create a plan');
 		} else {

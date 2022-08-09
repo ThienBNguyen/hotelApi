@@ -7,6 +7,7 @@ import Login from './pages/login/Login';
 import Register from './pages/register/Register';
 import SignIn from './pages/login/SignIn';
 import Plans from './pages/plan/Plans';
+import FeaturedProperties from './components/featuredProperties/FeaturedProperties';
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 				<Route path="/" element={<Home />} />
 				<Route path="hotels" element={<List />} />
 				<Route path="plans" element={<Plans />} />
+				<Route path="plans/:planId" element={<FeaturedProperties />} />
 				<Route path="/hotels/:id" element={<Hotel />} />
 				<Route path="/login" element={<Login />} />
 				<Route path="/login/password" element={<SignIn />} />
