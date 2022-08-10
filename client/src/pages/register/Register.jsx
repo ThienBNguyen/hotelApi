@@ -33,7 +33,7 @@ const Register = () => {
         delete registerUser.password2
         const newUser = registerUser
         try {
-            await axios.post(`http://localhost:5000/api/user/register`, newUser)
+            await axios.post(`https://tnbhotelapi.herokuapp.com/api/user/register`, newUser)
             navigate("/login/password", {
                 state: {
                     userEmail
