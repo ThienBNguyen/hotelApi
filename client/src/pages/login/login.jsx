@@ -21,7 +21,7 @@ const Login = () => {
                     user
                 }
             })
-           const userRegister =  await axios.get(`http://localhost:5000/api/user/verifyemail/${user.email}`)
+           const userRegister =  await axios.get(`https://tnbhotelapi.herokuapp.com/api/user/verifyemail/${user.email}`)
            
         } catch (err) {
             navigate("/register/password", {
