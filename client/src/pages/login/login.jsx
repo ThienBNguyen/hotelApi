@@ -11,20 +11,18 @@ const Login = () => {
     })
     const navigate = useNavigate();
     const handleChange = (e) => {
-        console.log(e.target.id)
         setUser(() => ({ [e.target.id]: e.target.value }))
     }
-    console.log(user.email)
     const handleLogin = async (e) => {
         e.preventDefault();
         try {
-           const user =  await axios.get(`http://localhost:5000/api/user/verifyemail/${user.email}`)
-           console.log(user)
-            navigate("/login/password", {
+            await navigate("/login/password", {
                 state: {
                     user
                 }
             })
+           const userRegister =  await axios.get(`http://localhost:5000/api/user/verifyemail/${user.email}`)
+           
         } catch (err) {
             navigate("/register/password", {
                 state: {

@@ -7,7 +7,8 @@ import axios from 'axios';
 import { AuthContext } from '../../context/AuthContext';
 const SignIn = () => {
     const locationState = useLocation();
-    const userEmail = locationState.state.userEmail
+    const userEmail = locationState.state.user.email
+    console.log(userEmail)
     const [userLogin, setUserLogin] = useState({
         email: userEmail,
         password: undefined
