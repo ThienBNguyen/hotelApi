@@ -12,7 +12,6 @@ const Plans = () => {
     const getPlansData = async () => {
         // const data = await axios.get(`http://localhost:5000/api/plan/user/${userId}`)
         const data = await axios.get(`https://tnbhotelapi.herokuapp.com/api/plan/user/${userId}`)
-
         localStorage.setItem('plans', JSON.stringify(data));
         // setPlans(data.data)
         setPlans(JSON.parse(localStorage.getItem('plans')).data)
@@ -27,11 +26,16 @@ const Plans = () => {
 
         var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
         let weekday = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+        var startDate, startDateOfWeek,endDate,endDateOfWeek
         for (let i = 0; i < plans.length; i++) {
-            var startDate = new Date(plans[i].any.staticDetail[0].startDate)
-            var startDateOfWeek = startDate.getDay();
-            var endDate = new Date(plans[i].any.staticDetail[0].endDate)
-            var endDateOfWeek = endDate.getDay();
+     
+                    startDate = new Date(plans[i].any.staticDetail[0].startDate)
+                           endDate = new Date(plans[i].any.staticDetail[0].endDate)
+            
+         
+             startDateOfWeek = startDate.getDay();
+      
+             endDateOfWeek = endDate.getDay();
             let planJSX = <><div className="imgWrapper" key={i}>
                 <Link to={plans[i]._id} key={i}>
                     <img src={plans[i].any.staticDetail.hotelImages[0].baseUrl.replace("{size}", "z")} alt="" key={i} />

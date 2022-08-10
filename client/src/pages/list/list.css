@@ -78,20 +78,38 @@
 	font-weight: 500;
 	cursor: pointer;
 }
-
+.listSearchWideScreen{
+	flex: 1;
+	background-color: #febb02;
+	padding: 10px;
+	border-radius: 10px;
+	position: sticky;
+	top: 10px;
+	height: max-content;
+}
+.listSearchWideScreen > button {
+	padding: 10px;
+	background-color: #0071c2;
+	color: white;
+	border: none;
+	width: 100%;
+	font-weight: 500;
+	cursor: pointer;
+}
 .listResult {
 	flex: 3;
-}
-
-.listSearchInfo {
-	display: none;
 }
 
 .removeListSearch {
 	display: none;
 }
-
+	.listSearchInfo {
+	display: none;
+}
 @media (max-width: 800px) {
+
+.listSearchWideScreen{display:none}
+
 	.listWrapper {
 		flex-direction: column;
 	}

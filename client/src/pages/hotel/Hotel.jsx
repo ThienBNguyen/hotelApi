@@ -20,7 +20,7 @@ const Hotel = () => {
         for (let photo of hotelPhoto.hotelImages) {
             photoRendered.push(photo.baseUrl.replace("{size}", "z"))
         }
-        staticDetail = { hotelDetail, userDates }
+        staticDetail = { ...hotelDetail, ...userDates, photoRendered }
         error = data;
     } else {
         for (let photo of data.hotelImages) {
@@ -28,7 +28,6 @@ const Hotel = () => {
         }
         staticDetail = { ...data, ...userDates }
     }
-
     return (
 
         <div>

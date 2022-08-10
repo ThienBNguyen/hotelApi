@@ -7,14 +7,19 @@ import { faCircleXmark, faCircleArrowLeft, faCircleArrowRight, faLocationDot } f
 import MailList from '../../components/mailList/MailList';
 import Footer from '../../components/footer/Footer';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router';
 const StaticHotel = ({ staticDetail, photoRendered, errorMsg, loadingData, type }) => {
-
     const [slideNumber, setSlideNumber] = useState(0);
     const [open, setOpen] = useState(false)
     const [openModal, setOpenModal] = useState(false)
-    const userId = JSON.parse(localStorage.getItem('travelPlaner')).id
-
+    let userId = JSON.parse(localStorage.getItem('travelPlaner')) ;
+    if(userId === null){
+        userId = "not available"
+    }else{
+userId = JSON.parse(localStorage.getItem('travelPlaner')).id
+    }
+    
     const handleOpen = (i) => {
         setSlideNumber(i);
         setOpen(true);
@@ -40,6 +45,7 @@ const StaticHotel = ({ staticDetail, photoRendered, errorMsg, loadingData, type 
         // }
 
     }
+    console.log(staticDetail)
     const saveTrip = async () => {
         // let response = await axios.post(`http://localhost:5000/api/plan/user/${userId}`, { staticDetail })
         let response = await axios.post(`https://tnbhotelapi.herokuapp.com/api/plan/user/${userId}`, { staticDetail })
@@ -48,7 +54,6 @@ const StaticHotel = ({ staticDetail, photoRendered, errorMsg, loadingData, type 
         }
         return response
     }
-    let userDateConvert;
     const dateConvert = () => {
 
         var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -64,7 +69,21 @@ const StaticHotel = ({ staticDetail, photoRendered, errorMsg, loadingData, type 
 
         )
     }
-
+    const saveButton = () => {
+        let options;
+        if(userId == "not available"){
+            options = <Link to = "/login"><button className="bookNow">
+                                    Please log in</button></Link>
+        }else{
+            if(type === "plan"){
+                options = dateConvert()
+            }else{
+                options = <>  <button className="bookNow" onClick={saveTrip}>
+                                    Save your trip</button></>
+            }
+        }
+        return options
+    }
     return (
         <div>
 
@@ -107,12 +126,7 @@ const StaticHotel = ({ staticDetail, photoRendered, errorMsg, loadingData, type 
                             <h1 className="hotelTitle">
                                 {staticDetail.data.body.propertyDescription.name}
                             </h1>
-                            {type === "plan" ? <>
-                                {dateConvert()}</> : <>  <button className="bookNow" onClick={saveTrip}>
-                                    Save your trip</button></>}
-
-
-
+                           {saveButton()}
                         </div>
 
                         <div className="hotelAddress">
@@ -173,9 +187,7 @@ const StaticHotel = ({ staticDetail, photoRendered, errorMsg, loadingData, type 
                                 <h1>perfect for a 9 night stay!</h1>
                                 <span>location in the real heaert of krakow, this property has an excellent ocation score of 9.8</span>
                                 <h2>{staticDetail.data.body.propertyDescription.featuredPrice.currentPrice.formatted}  nights</h2>
-                                {type === "plan" ? <>
-                                    Trip Date: {dateConvert()}</> : <>  <button className="bookNow" onClick={saveTrip}>
-                                        Save your trip</button></>}
+                                {saveButton()}
                             </div>
                         </div>
 

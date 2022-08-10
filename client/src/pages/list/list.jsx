@@ -44,6 +44,79 @@ const List = () => {
             <Header type="list" />
             <div className="listContainer">
                 <div className="listWrapper">
+               <div className="listSearchWideScreen">
+
+                            <h1 className="lsTitle">Search</h1>
+                            <span className="removeListSearch" onClick={() => setOpenModal(true)}> X</span>
+                            <div className="lsItem">
+                                <label >Destination</label>
+                                <input type="text" placeholder={destination} value="" />
+                            </div>
+                            <div className="lsItem">
+                                <label htmlFor="">Check-in Date</label>
+                                <span>{`${format(dates[0].startDate, "MM/dd/yyyy")} to ${format(dates[0].endDate, "MM/dd/yyyy")}`}</span>
+                                {openDate && (
+                                    <DateRange onChange={(item) => setDates([item.selection])}
+                                        minDate={new Date()}
+                                        ranges={dates}
+                                    />
+                                )}
+
+                            </div>
+                            <div className="lsItem">
+                                <label>Options</label>
+                                <div className="lsOptions">
+                                    <div className="lsOptionItem">
+                                        <span className="lsOptionText">
+                                            Min price <small>per night</small>
+                                        </span>
+                                        <input
+                                            type="number"
+                                            onChange={(e) => setMin(e.target.value)}
+                                            className="lsOptionInput"
+                                        />
+                                    </div>
+                                    <div className="lsOptionItem">
+                                        <span className="lsOptionText">
+                                            Max price <small>per night</small>
+                                        </span>
+                                        <input
+                                            type="number"
+                                            onChange={(e) => setMax(e.target.value)}
+                                            className="lsOptionInput"
+                                        />
+                                    </div>
+                                    <div className="lsOptionItem">
+                                        <span className="lsOptionText">Adult</span>
+                                        <input
+                                            type="number"
+                                            min={1}
+                                            className="lsOptionInput"
+                                            placeholder={options.adult}
+                                        />
+                                    </div>
+                                    <div className="lsOptionItem">
+                                        <span className="lsOptionText">Children</span>
+                                        <input
+                                            type="number"
+                                            min={0}
+                                            className="lsOptionInput"
+                                            placeholder={options.children}
+                                        />
+                                    </div>
+                                    <div className="lsOptionItem">
+                                        <span className="lsOptionText">Room</span>
+                                        <input
+                                            type="number"
+                                            min={1}
+                                            className="lsOptionInput"
+                                            placeholder={options.room}
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <button onClick={handleClick}>Search</button>
+                        </div>
                     {openModal ?
                         <div onClick={searchInfo} className="listSearchInfo">
                             <div className="listSearchWraper">
@@ -66,6 +139,7 @@ const List = () => {
 
                         </div> :
                         <div className="listSearch">
+
                             <h1 className="lsTitle">Search</h1>
                             <span className="removeListSearch" onClick={() => setOpenModal(true)}> X</span>
                             <div className="lsItem">
@@ -139,6 +213,8 @@ const List = () => {
                         </div>
                     }
                     <div className="listResult">
+            {/* <p>{data}</p> */}
+
                         {loading ?
                             "loading"
 
