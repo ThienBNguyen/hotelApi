@@ -45,7 +45,6 @@ userId = JSON.parse(localStorage.getItem('travelPlaner')).id
         // }
 
     }
-    console.log(staticDetail)
     const saveTrip = async () => {
         // let response = await axios.post(`http://localhost:5000/api/plan/user/${userId}`, { staticDetail })
         let response = await axios.post(`https://tnbhotelapi.herokuapp.com/api/plan/user/${userId}`, { staticDetail })
