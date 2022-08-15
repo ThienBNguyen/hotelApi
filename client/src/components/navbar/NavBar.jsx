@@ -2,8 +2,17 @@ import React, { useContext } from 'react';
 import "./NavBar.css"
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthContext';
+import { useNavigate } from "react-router-dom";
 const NavBar = () => {
     const { user } = useContext(AuthContext)
+    let navigate = useNavigate();
+    const signOutUser = () => {
+        localStorage.removeItem('travelPlaner');
+        localStorage.removeItem('plans');
+        window.location.reload(false);
+        let path = `/`;
+        navigate(path);
+    }
     return (
         <div className="navbar">
             <div className="navContainer">
@@ -11,12 +20,17 @@ const NavBar = () => {
                     <span className="logo">Travel Planner</span>
                 </Link>
                 {user ? (
-                    <div>
+                    <div className="navUserContainer">
                         <span className="userTrip">
                             <Link to="/plans" style={{ color: "inherit", textDecoration: "none" }}> List your trip</Link>
                         </span>
-                        <span className="firstName userName " >{user.firstname} </span>
-                        <span className="userName lastName">{user.lastname}</span>
+                        <div className="navUserName">
+                            <span className="firstName userName " >{user.firstname} </span>
+                            <span className="userName lastName">{user.lastname}</span>
+
+                            <span className="signOut"><button className="navButton" onClick={signOutUser}>sign out</button></span>
+
+                        </div>
 
                     </div >
 

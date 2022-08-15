@@ -53,8 +53,21 @@
 	text-transform: capitalize;
 }
 
+.navUserName {
+	display: inline;
+}
+
 @media (max-width: 800px) {
 	.navContainer {
 		padding: 10px;
+	}
+
+	.navUserContainer {
+		display: flex;
+	}
+
+	.navUserName {
+		width: 150px;
+		padding-left: 20px;
 	}
 }
