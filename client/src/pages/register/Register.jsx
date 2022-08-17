@@ -7,11 +7,11 @@ import axios from 'axios';
 const Register = () => {
     const locationState = useLocation();
     const navigate = useNavigate();
-    const userEmail = locationState.state.user.email
+    const email = locationState.state.email
     const [registerUser, setRegisterUser] = useState({
         firstname: undefined,
         lastname: undefined,
-        email: userEmail,
+        email: email,
         password: undefined,
     })
     const [password2, setPassword2] = useState(
@@ -36,7 +36,7 @@ const Register = () => {
             await axios.post(`https://tnbhotelapi.herokuapp.com/api/user/register`, newUser)
             navigate("/login/password", {
                 state: {
-                    userEmail
+                    email
                 }
             })
         } catch (err) {

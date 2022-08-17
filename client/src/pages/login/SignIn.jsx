@@ -7,8 +7,8 @@ import axios from 'axios';
 import { AuthContext } from '../../context/AuthContext';
 const SignIn = () => {
     const locationState = useLocation();
-    const userEmail = locationState.state.user.email
-   
+    let userEmail = locationState.state.email
+
     const [userLogin, setUserLogin] = useState({
         email: userEmail,
         password: undefined
@@ -22,12 +22,15 @@ const SignIn = () => {
 
     const handleClick = async (e) => {
         e.preventDefault()
+        console.log(userLogin)
         dispatch({ type: "LOGIN_START" });
         try {
             const res = await axios.post("https://tnbhotelapi.herokuapp.com/api/user/login", userLogin);
+            // const res = await axios.post("http://localhost:5000/api/user/login", userLogin);
             dispatch({ type: "LOGIN_SUCCESS", payload: res.data })
             navigate("/")
         } catch (err) {
+
             dispatch({ type: "LOGIN_FAILURE", payload: err.response.data })
         }
     }

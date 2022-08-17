@@ -6,27 +6,27 @@ import AccountPrivacy from "../../components/accountPrivacy/AccountPrivacy"
 import { useNavigate, useLocation } from 'react-router';
 import axios from 'axios';
 const Login = () => {
-    const [user, setUser] = useState({
-        email: undefined
-    })
+    const [email, setEmail] = useState(
+
+    )
     const navigate = useNavigate();
     const handleChange = (e) => {
-        setUser(() => ({ [e.target.id]: e.target.value }))
+        setEmail(e.target.value)
     }
     const handleLogin = async (e) => {
         e.preventDefault();
         try {
             await navigate("/login/password", {
                 state: {
-                    user
+                    email
                 }
             })
-           const userRegister =  await axios.get(`https://tnbhotelapi.herokuapp.com/api/user/verifyemail/${user.email}`)
-           
+            const userRegister = await axios.get(`https://tnbhotelapi.herokuapp.com/api/user/verifyemail/${email}`)
+
         } catch (err) {
             navigate("/register/password", {
                 state: {
-                    user
+                    email
                 }
             })
         }
