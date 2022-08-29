@@ -97,10 +97,10 @@ const Header = ({ type }) => {
                                 <input type="text" placeholder="where are you going?" onChange={(e) => setDestination(e.target.value)} className="headerSearchInput" />
                             </div>
                             <div className="headerSearchItem"
-                                onClick={() => setOpenDate(!openDate)}
+
                             >
                                 <FontAwesomeIcon icon={faCalendarDays} className="headerIcon" />
-                                <span className="headerSearchText">
+                                <span className="headerSearchText" onClick={() => setOpenDate(!openDate)}>
                                     {`${format(dates[0].startDate, "MM/dd/yyyy")} to ${format(dates[0].endDate, "MM/dd/yyyy")}`}
                                 </span>
                                 {openDate && (<DateRange
