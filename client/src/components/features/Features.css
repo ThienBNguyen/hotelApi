@@ -28,4 +28,20 @@
 }
 
 @media (max-width: 800px) {
+	.featured {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+		grid-template-areas: "mainFeature mainFeature""main aside";
+		/* width: 100%; */
+		/* max-width: 1024px; */
+		/* display: block; */
+		/* justify-content: space-between; */
+		gap: 10px;
+		/* z-index: 1; */
+	}
+
+	.featuredItem:first-child {
+		grid-area: mainFeature;
+	}
 }
