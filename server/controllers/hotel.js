@@ -17,7 +17,7 @@ export const getHotels = async (req, res, next) => {
 	let destinationId, hotelList;
 	const options = {
 		method: 'GET',
-		url: 'https://hotels4.p.rapidapi.com/locations/v2/search',
+		url: 'https://hotels4.p.rapidapi.com/locations/v3/search',
 		params: { query: location, locale: 'en_US', currency: 'USD' },
 		headers: {
 			'X-RapidAPI-Key': '43358f40e1msh324fef1919ecce4p132942jsnabebd1a22b1e',
@@ -33,7 +33,7 @@ export const getHotels = async (req, res, next) => {
 			.then(() => {
 				const options = {
 					method: 'GET',
-					url: 'https://hotels4.p.rapidapi.com/properties/list',
+					url: 'https://hotels4.p.rapidapi.com/properties/v2/resolve-url',
 					params: {
 						destinationId: destinationId,
 						pageNumber: '1',

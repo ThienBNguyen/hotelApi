@@ -49,6 +49,7 @@ let port = process.env.PORT || 5000;
 // Connect to database
 // Get username and password from .env file
 const dbPass = process.env.DBPASSWORD;
+// mongodb link with vuip email
 const dbConnect = `mongodb+srv://admin:${dbPass}@cluster0.plkkx.mongodb.net/?retryWrites=true&w=majority`;
 mongoose
 	.connect(dbConnect, {
